@@ -368,4 +368,4 @@ Explain every action aloud in English.
 Congratulations.
 
 You completed **Excel Sprint 1**.
-{{< include ../../../templates/practice-callout.md >}}
+{{< include ../templates/practice-callout.md >}}

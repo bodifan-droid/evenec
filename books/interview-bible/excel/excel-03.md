@@ -71,6 +71,30 @@ Keep this mental picture while building.
 
 ---
 
+# Download the Real Dashboard
+
+The dashboard in this chapter isn't just an illustration.
+
+Open the real workbook from the Evenec Retail Playground.
+
+> [!TIP]
+> **Evenec Retail Executive Dashboard**
+>
+> Includes:
+>
+> - KPI Cards
+> - Revenue Dashboard
+> - Pivot Charts
+> - Executive Layout
+>
+> ![](../assets/qr/github-playground.svg){width=90px}
+>
+> File:
+>
+> `playground/evenec-retail/evenec_retail_dashboard.xlsx`
+
+---
+
 # Step 1 — Import Data with Power Query
 
 ## Recruiter Psychology
@@ -486,4 +510,4 @@ Explain every decision aloud in English.
 Congratulations.
 
 You completed **Excel Sprint 3**.
-{{< include ../../../templates/practice-callout.md >}}
+{{< include ../templates/practice-callout.md >}}

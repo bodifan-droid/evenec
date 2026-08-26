@@ -423,6 +423,29 @@ Exactly how professionals work.
 
 ---
 
+# Rebuild the Dashboard Yourself
+
+Now open:
+
+`playground/evenec-retail/evenec_retail_dashboard.xlsx`
+
+Don't just inspect it.
+
+Recreate it from scratch.
+
+### Your Mission
+
+- [ ] Rebuild KPI cards.
+- [ ] Recreate both charts.
+- [ ] Add Pivot Tables.
+- [ ] Add Slicers.
+- [ ] Add Timeline.
+- [ ] Present your dashboard in English within 60 seconds.
+
+This mirrors a real UK Excel assessment.
+
+---
+
 # Assessment Rubric
 
 Score yourself.
@@ -546,4 +569,4 @@ Remember.
 Companies don't hire analysts because they know Excel.
 
 They hire analysts because they turn spreadsheets into business decisions.
-{{< include ../../../templates/practice-callout.md >}}
+{{< include ../templates/practice-callout.md >}}
