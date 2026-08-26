@@ -1,0 +1,31 @@
+project:
+  type: book
+
+book:
+  title: "Data Analyst Interview Bible (UK 2026)"
+  subtitle: "Part 1 — HR Interview Mastery"
+  author:
+    - "Bohdan Shevchuk"
+    - "ChatGPT (OpenAI)"
+  date: "First Edition"
+
+  chapters:
+    - index.qmd
+    - copyright.md
+    - foreword.md
+    - hr/hr-01.md
+    - hr/hr-02.md
+    - hr/hr-03.md
+    - hr/hr-04.md
+    - cheatsheets.md
+    - changelog.md
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+
+  typst:
+    toc: true
+    number-sections: true
