@@ -546,4 +546,4 @@ Remember.
 Companies don't hire analysts because they know Excel.
 
 They hire analysts because they turn spreadsheets into business decisions.
-{{< include /templates/practice-callout.md >}}
+{{< include ../../../templates/practice-callout.md >}}

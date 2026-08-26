@@ -578,4 +578,4 @@ They hire people because they can quickly turn messy data into useful informatio
 Congratulations.
 
 You completed **Excel Sprint 2**.
-{{< include /templates/practice-callout.md >}}
+{{< include ../../../templates/practice-callout.md >}}

@@ -756,4 +756,4 @@ Remember.
 Companies don't hire analysts because they know SQL.
 
 They hire analysts because they solve business problems with SQL.
-{{< include /templates/practice-callout.md >}}
+{{< include ../../../templates/practice-callout.md >}}

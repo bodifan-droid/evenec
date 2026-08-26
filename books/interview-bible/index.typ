@@ -1308,7 +1308,7 @@ Listen to your recording afterwards.
 
 Improve #strong[one sentence], not the whole answer.
 
-Small improvements repeated consistently create confident interviews.
+Small improvements repeated consistently create confident interviews. \> \[!TIP\] \> #strong[Practice Before Your Interview] \> \> Before moving to the next chapter: \> \> - Answer these questions aloud in English. \> - Keep each answer between #strong[60--90 seconds]. \> - Use the STAR framework whenever possible. \> - Record yourself and listen for clarity and confidence. \> \> The goal is not to memorise answers, but to communicate naturally.
 
 = HR Interview Mastery
 <hr-interview-mastery-1>
@@ -1897,7 +1897,7 @@ Answer these questions without looking at your notes.
 )
 Focus on speaking naturally rather than memorising every word.
 
-Your goal is confidence, not perfection.
+Your goal is confidence, not perfection. \> \[!TIP\] \> #strong[Practice Before Your Interview] \> \> Before moving to the next chapter: \> \> - Answer these questions aloud in English. \> - Keep each answer between #strong[60--90 seconds]. \> - Use the STAR framework whenever possible. \> - Record yourself and listen for clarity and confidence. \> \> The goal is not to memorise answers, but to communicate naturally.
 
 = HR Interview Mastery
 <hr-interview-mastery-2>
@@ -2434,7 +2434,7 @@ Ask yourself these questions.
 
 Your goal is not perfect English.
 
-Your goal is sounding like a confident future colleague.
+Your goal is sounding like a confident future colleague. \> \[!TIP\] \> #strong[Practice Before Your Interview] \> \> Before moving to the next chapter: \> \> - Answer these questions aloud in English. \> - Keep each answer between #strong[60--90 seconds]. \> - Use the STAR framework whenever possible. \> - Record yourself and listen for clarity and confidence. \> \> The goal is not to memorise answers, but to communicate naturally.
 
 = HR Interview Mastery
 <hr-interview-mastery-3>
@@ -3098,7 +3098,7 @@ You have now completed #strong[HR Interview Mastery].
 
 Before moving to the SQL Bible, make sure you can confidently answer all #strong[50 questions] without memorising every word.
 
-The goal is sounding like a future colleague---not sounding like you've memorised a script.
+The goal is sounding like a future colleague---not sounding like you've memorised a script. \> \[!TIP\] \> #strong[Practice Before Your Interview] \> \> Before moving to the next chapter: \> \> - Answer these questions aloud in English. \> - Keep each answer between #strong[60--90 seconds]. \> - Use the STAR framework whenever possible. \> - Record yourself and listen for clarity and confidence. \> \> The goal is not to memorise answers, but to communicate naturally.
 
 #part[Part II — SQL Bible]
 = SQL Bible
@@ -3701,7 +3701,7 @@ Target:
 
 Congratulations.
 
-You have completed #strong[SQL Sprint 1]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
+You have completed #strong[SQL Sprint 1]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = SQL Bible
 <sql-bible-1>
@@ -4281,7 +4281,7 @@ Target.
 
 Congratulations.
 
-You have completed #strong[SQL Sprint 2]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
+You have completed #strong[SQL Sprint 2]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = SQL Bible
 <sql-bible-2>
@@ -4817,7 +4817,7 @@ Target.
 
 Congratulations.
 
-You have completed #strong[SQL Sprint 3]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
+You have completed #strong[SQL Sprint 3]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = SQL Bible
 <sql-bible-3>
@@ -5597,7 +5597,7 @@ Remember.
 
 Companies don't hire analysts because they know SQL.
 
-They hire analysts because they solve business problems with SQL. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
+They hire analysts because they solve business problems with SQL. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("sql/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 #part[Part III — Excel Interview Bible]
 = Excel Interview Bible
@@ -5982,7 +5982,7 @@ Explain every action aloud in English.
 )
 Congratulations.
 
-You completed #strong[Excel Sprint 1].
+You completed #strong[Excel Sprint 1]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("excel/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = Excel Interview Bible
 <excel-interview-bible-1>
@@ -6545,7 +6545,7 @@ They hire people because they can quickly turn messy data into useful informatio
 
 Congratulations.
 
-You completed #strong[Excel Sprint 2].
+You completed #strong[Excel Sprint 2]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("excel/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = Excel Interview Bible
 <excel-interview-bible-2>
@@ -7037,7 +7037,7 @@ Explain every decision aloud in English.
 
 Congratulations.
 
-You completed #strong[Excel Sprint 3].
+You completed #strong[Excel Sprint 3]. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("excel/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = Excel Interview Bible
 <excel-interview-bible-3>
@@ -7614,7 +7614,7 @@ Remember.
 
 Companies don't hire analysts because they know Excel.
 
-They hire analysts because they turn spreadsheets into business decisions.
+They hire analysts because they turn spreadsheets into business decisions. \> \[!TIP\] \> #strong[Practice with Real Data] \> \> Open the #strong[Evenec Retail Playground] and run every query from this chapter on a real SQLite database. \> \> #box(image("excel/../../../assets/qr/github-playground.svg", width: 0.9375in)) \> \> #strong[Open on GitHub] \> \> #NormalTok("playground/evenec-retail");
 
 = 
 <section-2>

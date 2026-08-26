@@ -486,4 +486,4 @@ Explain every decision aloud in English.
 Congratulations.
 
 You completed **Excel Sprint 3**.
-{{< include /templates/practice-callout.md >}}
+{{< include ../../../templates/practice-callout.md >}}
