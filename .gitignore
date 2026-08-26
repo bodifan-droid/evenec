@@ -1,2 +1,17 @@
+# Quarto
+.quarto/
+
+# Temporary files
+*.log
+*.aux
+*.toc
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/settings.json
 /.quarto/
 **/*.quarto_ipynb

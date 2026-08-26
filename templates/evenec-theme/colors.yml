@@ -1,0 +1,10 @@
+primary: "#0F4C81"
+secondary: "#00A6A6"
+accent: "#E67E22"
+
+text: "#1F2937"
+background: "#FFFFFF"
+
+success: "#2E8B57"
+warning: "#D97706"
+danger: "#B91C1C"

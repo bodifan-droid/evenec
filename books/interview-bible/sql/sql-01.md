@@ -592,3 +592,4 @@ Target:
 Congratulations.
 
 You have completed **SQL Sprint 1**.
+{{< include /templates/practice-callout.md >}}

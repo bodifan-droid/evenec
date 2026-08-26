@@ -1,5 +1,9 @@
 project:
   type: book
+  output-dir: ../../releases
+  resources:
+    - ../../assets/**
+    - ../../templates/**
 
 book:
   title: "Data Analyst Interview Bible (UK 2026)"
@@ -27,6 +31,13 @@ book:
         - sql/sql-02.md
         - sql/sql-03.md
         - sql/sql-04.md
+  
+    - part: "Part III — Excel Interview Bible"
+      chapters:
+        - excel/excel-01.md
+        - excel/excel-02.md
+        - excel/excel-03.md
+        - excel/excel-04.md
 
     - cheatsheets.md
     - changelog.md

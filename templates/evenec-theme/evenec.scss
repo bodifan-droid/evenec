@@ -1,0 +1,53 @@
+/* Evenec Theme v1.0 */
+
+body {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color: #1F2937;
+    line-height: 1.7;
+}
+
+h1 {
+    color: #0F4C81;
+    font-weight: 700;
+}
+
+h2 {
+    color: #0F4C81;
+    margin-top: 2rem;
+}
+
+h3 {
+    color: #00A6A6;
+}
+
+blockquote {
+    border-left: 5px solid #E67E22;
+    padding-left: 1rem;
+    color: #374151;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background: #0F4C81;
+    color: white;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #D1D5DB;
+}
+
+code {
+    background: #F3F4F6;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+pre {
+    border-left: 4px solid #00A6A6;
+}
