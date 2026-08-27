@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>13&nbsp; Excel Interview Bible – Data Analyst Interview Bible (UK 2026)</title>
+<title>18&nbsp; Power BI Interview Bible – Data Analyst Interview Bible (UK 2026)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../excel/excel-03.html" rel="next">
-<link href="../excel/excel-01.html" rel="prev">
+<link href="../powerbi/powerbi-04.html" rel="next">
+<link href="../powerbi/powerbi-02.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../excel/excel-01.html">Part III — Excel Interview Bible</a></li><li class="breadcrumb-item"><a href="../excel/excel-02.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Excel Interview Bible</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../powerbi/powerbi-01.html">Part IV — Power BI Interview Bible</a></li><li class="breadcrumb-item"><a href="../powerbi/powerbi-03.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Power BI Interview Bible</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../excel/excel-02.html" class="sidebar-item-text sidebar-link active">
+  <a href="../excel/excel-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Excel Interview Bible</span></span></a>
   </div>
 </li>
@@ -259,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../powerbi/powerbi-03.html" class="sidebar-item-text sidebar-link">
+  <a href="../powerbi/powerbi-03.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Power BI Interview Bible</span></span></a>
   </div>
 </li>
@@ -293,62 +293,43 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sprint-2-xlookup-indexmatch-text-functions" id="toc-sprint-2-xlookup-indexmatch-text-functions" class="nav-link active" data-scroll-target="#sprint-2-xlookup-indexmatch-text-functions"><span class="header-section-number">14</span> Sprint 2 — XLOOKUP, INDEX/MATCH &amp; Text Functions</a>
+  <li><a href="#sprint-3-executive-dashboard" id="toc-sprint-3-executive-dashboard" class="nav-link active" data-scroll-target="#sprint-3-executive-dashboard"><span class="header-section-number">19</span> Sprint 3 — Executive Dashboard</a>
   <ul class="collapse">
-  <li><a href="#find-clean-combine-validate" id="toc-find-clean-combine-validate" class="nav-link" data-scroll-target="#find-clean-combine-validate"><span class="header-section-number">14.1</span> Find • Clean • Combine • Validate</a></li>
+  <li><a href="#kpi-cards-slicers-drill-through-tooltips-bookmarks" id="toc-kpi-cards-slicers-drill-through-tooltips-bookmarks" class="nav-link" data-scroll-target="#kpi-cards-slicers-drill-through-tooltips-bookmarks"><span class="header-section-number">19.1</span> KPI Cards • Slicers • Drill-through • Tooltips • Bookmarks</a></li>
   </ul></li>
-  <li><a href="#why-lookup-functions-matter" id="toc-why-lookup-functions-matter" class="nav-link" data-scroll-target="#why-lookup-functions-matter"><span class="header-section-number">15</span> Why Lookup Functions Matter</a></li>
-  <li><a href="#interview-question-6" id="toc-interview-question-6" class="nav-link" data-scroll-target="#interview-question-6"><span class="header-section-number">16</span> Interview Question 6</a>
-  <ul class="collapse">
-  <li><a href="#xlookup-basics" id="toc-xlookup-basics" class="nav-link" data-scroll-target="#xlookup-basics"><span class="header-section-number">16.1</span> XLOOKUP Basics</a>
-  <ul class="collapse">
-  <li><a href="#recruiter-psychology" id="toc-recruiter-psychology" class="nav-link" data-scroll-target="#recruiter-psychology"><span class="header-section-number">16.1.1</span> Recruiter Psychology</a></li>
-  <li><a href="#business-task" id="toc-business-task" class="nav-link" data-scroll-target="#business-task"><span class="header-section-number">16.1.2</span> Business Task</a></li>
-  <li><a href="#formula" id="toc-formula" class="nav-link" data-scroll-target="#formula"><span class="header-section-number">16.1.3</span> Formula</a></li>
-  <li><a href="#explain-it-b2" id="toc-explain-it-b2" class="nav-link" data-scroll-target="#explain-it-b2"><span class="header-section-number">16.1.4</span> Explain It (B2)</a></li>
-  <li><a href="#memory-hook" id="toc-memory-hook" class="nav-link" data-scroll-target="#memory-hook"><span class="header-section-number">16.1.5</span> Memory Hook</a></li>
-  <li><a href="#common-mistake" id="toc-common-mistake" class="nav-link" data-scroll-target="#common-mistake"><span class="header-section-number">16.1.6</span> Common Mistake</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#visual" id="toc-visual" class="nav-link" data-scroll-target="#visual"><span class="header-section-number">17</span> Visual</a></li>
-  <li><a href="#why-xlookup-replaced-vlookup" id="toc-why-xlookup-replaced-vlookup" class="nav-link" data-scroll-target="#why-xlookup-replaced-vlookup"><span class="header-section-number">18</span> Why XLOOKUP Replaced VLOOKUP</a></li>
-  <li><a href="#interview-question-7" id="toc-interview-question-7" class="nav-link" data-scroll-target="#interview-question-7"><span class="header-section-number">19</span> Interview Question 7</a>
-  <ul class="collapse">
-  <li><a href="#product-price-lookup" id="toc-product-price-lookup" class="nav-link" data-scroll-target="#product-price-lookup"><span class="header-section-number">19.1</span> Product Price Lookup</a></li>
-  </ul></li>
-  <li><a href="#missing-matches" id="toc-missing-matches" class="nav-link" data-scroll-target="#missing-matches"><span class="header-section-number">20</span> Missing Matches</a></li>
-  <li><a href="#index-match" id="toc-index-match" class="nav-link" data-scroll-target="#index-match"><span class="header-section-number">21</span> INDEX + MATCH</a></li>
-  <li><a href="#xlookup-vs-indexmatch" id="toc-xlookup-vs-indexmatch" class="nav-link" data-scroll-target="#xlookup-vs-indexmatch"><span class="header-section-number">22</span> XLOOKUP vs INDEX/MATCH</a></li>
-  <li><a href="#interview-question-8" id="toc-interview-question-8" class="nav-link" data-scroll-target="#interview-question-8"><span class="header-section-number">23</span> Interview Question 8</a>
-  <ul class="collapse">
-  <li><a href="#left" id="toc-left" class="nav-link" data-scroll-target="#left"><span class="header-section-number">23.1</span> LEFT()</a></li>
-  </ul></li>
-  <li><a href="#right" id="toc-right" class="nav-link" data-scroll-target="#right"><span class="header-section-number">24</span> RIGHT()</a></li>
-  <li><a href="#mid" id="toc-mid" class="nav-link" data-scroll-target="#mid"><span class="header-section-number">25</span> MID()</a></li>
-  <li><a href="#len" id="toc-len" class="nav-link" data-scroll-target="#len"><span class="header-section-number">26</span> LEN()</a></li>
-  <li><a href="#trim" id="toc-trim" class="nav-link" data-scroll-target="#trim"><span class="header-section-number">27</span> TRIM()</a></li>
-  <li><a href="#upper-lower-proper" id="toc-upper-lower-proper" class="nav-link" data-scroll-target="#upper-lower-proper"><span class="header-section-number">28</span> UPPER, LOWER, PROPER</a></li>
-  <li><a href="#text" id="toc-text" class="nav-link" data-scroll-target="#text"><span class="header-section-number">29</span> TEXT()</a></li>
-  <li><a href="#concat" id="toc-concat" class="nav-link" data-scroll-target="#concat"><span class="header-section-number">30</span> CONCAT()</a></li>
-  <li><a href="#textjoin" id="toc-textjoin" class="nav-link" data-scroll-target="#textjoin"><span class="header-section-number">31</span> TEXTJOIN()</a></li>
-  <li><a href="#cleaning-imported-data" id="toc-cleaning-imported-data" class="nav-link" data-scroll-target="#cleaning-imported-data"><span class="header-section-number">32</span> Cleaning Imported Data</a></li>
-  <li><a href="#interview-question-9" id="toc-interview-question-9" class="nav-link" data-scroll-target="#interview-question-9"><span class="header-section-number">33</span> Interview Question 9</a></li>
-  <li><a href="#interview-question-10" id="toc-interview-question-10" class="nav-link" data-scroll-target="#interview-question-10"><span class="header-section-number">34</span> Interview Question 10</a></li>
-  <li><a href="#error-handling" id="toc-error-handling" class="nav-link" data-scroll-target="#error-handling"><span class="header-section-number">35</span> Error Handling</a></li>
-  <li><a href="#mini-business-case" id="toc-mini-business-case" class="nav-link" data-scroll-target="#mini-business-case"><span class="header-section-number">36</span> Mini Business Case</a></li>
-  <li><a href="#mini-mock-interview" id="toc-mini-mock-interview" class="nav-link" data-scroll-target="#mini-mock-interview"><span class="header-section-number">37</span> Mini Mock Interview</a></li>
-  <li><a href="#formula-cheat-sheet" id="toc-formula-cheat-sheet" class="nav-link" data-scroll-target="#formula-cheat-sheet"><span class="header-section-number">38</span> Formula Cheat Sheet</a></li>
-  <li><a href="#memory-hooks" id="toc-memory-hooks" class="nav-link" data-scroll-target="#memory-hooks"><span class="header-section-number">39</span> Memory Hooks</a></li>
-  <li><a href="#end-of-sprint-challenge" id="toc-end-of-sprint-challenge" class="nav-link" data-scroll-target="#end-of-sprint-challenge"><span class="header-section-number">40</span> End-of-Sprint Challenge</a></li>
+  <li><a href="#what-well-build" id="toc-what-well-build" class="nav-link" data-scroll-target="#what-well-build"><span class="header-section-number">20</span> What We’ll Build</a></li>
+  <li><a href="#dashboard-preview" id="toc-dashboard-preview" class="nav-link" data-scroll-target="#dashboard-preview"><span class="header-section-number">21</span> Dashboard Preview</a></li>
+  <li><a href="#dashboard-design-principles" id="toc-dashboard-design-principles" class="nav-link" data-scroll-target="#dashboard-design-principles"><span class="header-section-number">22</span> Dashboard Design Principles</a></li>
+  <li><a href="#step-1-build-kpi-cards" id="toc-step-1-build-kpi-cards" class="nav-link" data-scroll-target="#step-1-build-kpi-cards"><span class="header-section-number">23</span> Step 1 — Build KPI Cards</a></li>
+  <li><a href="#top-city-measure" id="toc-top-city-measure" class="nav-link" data-scroll-target="#top-city-measure"><span class="header-section-number">24</span> Top City Measure</a></li>
+  <li><a href="#interview-question-6" id="toc-interview-question-6" class="nav-link" data-scroll-target="#interview-question-6"><span class="header-section-number">25</span> Interview Question 6</a></li>
+  <li><a href="#step-2-revenue-by-city" id="toc-step-2-revenue-by-city" class="nav-link" data-scroll-target="#step-2-revenue-by-city"><span class="header-section-number">26</span> Step 2 — Revenue by City</a></li>
+  <li><a href="#step-3-revenue-by-category" id="toc-step-3-revenue-by-category" class="nav-link" data-scroll-target="#step-3-revenue-by-category"><span class="header-section-number">27</span> Step 3 — Revenue by Category</a></li>
+  <li><a href="#step-4-date-trend" id="toc-step-4-date-trend" class="nav-link" data-scroll-target="#step-4-date-trend"><span class="header-section-number">28</span> Step 4 — Date Trend</a></li>
+  <li><a href="#step-5-slicers" id="toc-step-5-slicers" class="nav-link" data-scroll-target="#step-5-slicers"><span class="header-section-number">29</span> Step 5 — Slicers</a></li>
+  <li><a href="#step-6-sync-slicers" id="toc-step-6-sync-slicers" class="nav-link" data-scroll-target="#step-6-sync-slicers"><span class="header-section-number">30</span> Step 6 — Sync Slicers</a></li>
+  <li><a href="#step-7-drill-through" id="toc-step-7-drill-through" class="nav-link" data-scroll-target="#step-7-drill-through"><span class="header-section-number">31</span> Step 7 — Drill-through</a></li>
+  <li><a href="#step-8-custom-tooltips" id="toc-step-8-custom-tooltips" class="nav-link" data-scroll-target="#step-8-custom-tooltips"><span class="header-section-number">32</span> Step 8 — Custom Tooltips</a></li>
+  <li><a href="#step-9-bookmarks" id="toc-step-9-bookmarks" class="nav-link" data-scroll-target="#step-9-bookmarks"><span class="header-section-number">33</span> Step 9 — Bookmarks</a></li>
+  <li><a href="#navigation-buttons" id="toc-navigation-buttons" class="nav-link" data-scroll-target="#navigation-buttons"><span class="header-section-number">34</span> Navigation Buttons</a></li>
+  <li><a href="#conditional-formatting" id="toc-conditional-formatting" class="nav-link" data-scroll-target="#conditional-formatting"><span class="header-section-number">35</span> Conditional Formatting</a></li>
+  <li><a href="#business-case" id="toc-business-case" class="nav-link" data-scroll-target="#business-case"><span class="header-section-number">36</span> Business Case</a></li>
+  <li><a href="#storytelling-with-data" id="toc-storytelling-with-data" class="nav-link" data-scroll-target="#storytelling-with-data"><span class="header-section-number">37</span> Storytelling with Data</a></li>
+  <li><a href="#mini-mock-interview" id="toc-mini-mock-interview" class="nav-link" data-scroll-target="#mini-mock-interview"><span class="header-section-number">38</span> Mini Mock Interview</a></li>
+  <li><a href="#executive-dashboard-checklist" id="toc-executive-dashboard-checklist" class="nav-link" data-scroll-target="#executive-dashboard-checklist"><span class="header-section-number">39</span> Executive Dashboard Checklist</a></li>
+  <li><a href="#power-bi-dashboard-cheat-sheet" id="toc-power-bi-dashboard-cheat-sheet" class="nav-link" data-scroll-target="#power-bi-dashboard-cheat-sheet"><span class="header-section-number">40</span> Power BI Dashboard Cheat Sheet</a></li>
+  <li><a href="#end-of-sprint-challenge" id="toc-end-of-sprint-challenge" class="nav-link" data-scroll-target="#end-of-sprint-challenge"><span class="header-section-number">41</span> End-of-Sprint Challenge</a></li>
+  <li><a href="#presentation-script-b2" id="toc-presentation-script-b2" class="nav-link" data-scroll-target="#presentation-script-b2"><span class="header-section-number">42</span> Presentation Script (B2)</a></li>
+  <li><a href="#memory-hooks" id="toc-memory-hooks" class="nav-link" data-scroll-target="#memory-hooks"><span class="header-section-number">43</span> Memory Hooks</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../excel/excel-01.html">Part III — Excel Interview Bible</a></li><li class="breadcrumb-item"><a href="../excel/excel-02.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Excel Interview Bible</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../powerbi/powerbi-01.html">Part IV — Power BI Interview Bible</a></li><li class="breadcrumb-item"><a href="../powerbi/powerbi-03.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Power BI Interview Bible</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Excel Interview Bible</span></h1>
+<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Power BI Interview Bible</span></h1>
 </div>
 
 
@@ -365,540 +346,471 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sprint-2-xlookup-indexmatch-text-functions" class="level1" data-number="14">
-<h1 data-number="14"><span class="header-section-number">14</span> Sprint 2 — XLOOKUP, INDEX/MATCH &amp; Text Functions</h1>
-<section id="find-clean-combine-validate" class="level2" data-number="14.1">
-<h2 data-number="14.1" class="anchored" data-anchor-id="find-clean-combine-validate"><span class="header-section-number">14.1</span> Find • Clean • Combine • Validate</h2>
-<p>Welcome to Sprint 2.</p>
-<p>This chapter teaches the Excel functions that recruiters most often expect Junior Data Analysts to know.</p>
-<p>We’ll continue using the <strong>Evenec Retail Playground</strong>.</p>
+<section id="sprint-3-executive-dashboard" class="level1" data-number="19">
+<h1 data-number="19"><span class="header-section-number">19</span> Sprint 3 — Executive Dashboard</h1>
+<section id="kpi-cards-slicers-drill-through-tooltips-bookmarks" class="level2" data-number="19.1">
+<h2 data-number="19.1" class="anchored" data-anchor-id="kpi-cards-slicers-drill-through-tooltips-bookmarks"><span class="header-section-number">19.1</span> KPI Cards • Slicers • Drill-through • Tooltips • Bookmarks</h2>
+<p>Monday.</p>
+<p>09:00.</p>
+<p>The Sales Director opens your dashboard.</p>
+<p>Within ten seconds they should understand:</p>
+<ul>
+<li>How much revenue we generated.</li>
+<li>Which city performs best.</li>
+<li>Which category needs attention.</li>
+<li>What changed this month.</li>
+</ul>
+<p>That’s the purpose of executive dashboards.</p>
+<p>We’ll build this report using the <strong>Evenec Retail Playground</strong>.</p>
 <p>Main files:</p>
 <ul>
-<li><code>customers.csv</code></li>
-<li><code>orders.csv</code></li>
-<li><code>products.csv</code></li>
+<li>customers.csv</li>
+<li>orders.csv</li>
+<li>products.csv</li>
+<li>payments.csv</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="why-lookup-functions-matter" class="level1" data-number="15">
-<h1 data-number="15"><span class="header-section-number">15</span> Why Lookup Functions Matter</h1>
-<p>Imagine this business question.</p>
-<blockquote class="blockquote">
-<p>“Find the customer’s city using only their Customer ID.”</p>
-</blockquote>
-<p>This is exactly what lookup functions solve.</p>
-<p>Memory Hook.</p>
-<blockquote class="blockquote">
-<p>IDs connect stories.</p>
-</blockquote>
-<p>Just like SQL JOIN.</p>
-<hr>
-</section>
-<section id="interview-question-6" class="level1" data-number="16">
-<h1 data-number="16"><span class="header-section-number">16</span> Interview Question 6</h1>
-<section id="xlookup-basics" class="level2" data-number="16.1">
-<h2 data-number="16.1" class="anchored" data-anchor-id="xlookup-basics"><span class="header-section-number">16.1</span> XLOOKUP Basics</h2>
-<section id="recruiter-psychology" class="level3" data-number="16.1.1">
-<h3 data-number="16.1.1" class="anchored" data-anchor-id="recruiter-psychology"><span class="header-section-number">16.1.1</span> Recruiter Psychology</h3>
-<p>This is currently one of the most valuable Excel functions.</p>
-</section>
-<section id="business-task" class="level3" data-number="16.1.2">
-<h3 data-number="16.1.2" class="anchored" data-anchor-id="business-task"><span class="header-section-number">16.1.2</span> Business Task</h3>
-<p>Return the customer’s city using <code>customer_id</code>.</p>
-</section>
-<section id="formula" class="level3" data-number="16.1.3">
-<h3 data-number="16.1.3" class="anchored" data-anchor-id="formula"><span class="header-section-number">16.1.3</span> Formula</h3>
-<pre class="excel"><code>=XLOOKUP(A2,Customers[customer_id],Customers[city])</code></pre>
-</section>
-<section id="explain-it-b2" class="level3" data-number="16.1.4">
-<h3 data-number="16.1.4" class="anchored" data-anchor-id="explain-it-b2"><span class="header-section-number">16.1.4</span> Explain It (B2)</h3>
-<blockquote class="blockquote">
-<p>XLOOKUP searches for the customer ID and returns the matching city.</p>
-</blockquote>
-</section>
-<section id="memory-hook" class="level3" data-number="16.1.5">
-<h3 data-number="16.1.5" class="anchored" data-anchor-id="memory-hook"><span class="header-section-number">16.1.5</span> Memory Hook</h3>
-<p>Search.</p>
-<p>Match.</p>
-<p>Return.</p>
-</section>
-<section id="common-mistake" class="level3" data-number="16.1.6">
-<h3 data-number="16.1.6" class="anchored" data-anchor-id="common-mistake"><span class="header-section-number">16.1.6</span> Common Mistake</h3>
-<p>Mixing lookup and return columns.</p>
-<hr>
-</section>
-</section>
-</section>
-<section id="visual" class="level1" data-number="17">
-<h1 data-number="17"><span class="header-section-number">17</span> Visual</h1>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Customer ID</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>101</td>
-<td>London</td>
-</tr>
-<tr class="even">
-<td>205</td>
-<td>Leeds</td>
-</tr>
-<tr class="odd">
-<td>412</td>
-<td>Bristol</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="why-xlookup-replaced-vlookup" class="level1" data-number="18">
-<h1 data-number="18"><span class="header-section-number">18</span> Why XLOOKUP Replaced VLOOKUP</h1>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>VLOOKUP</th>
-<th>XLOOKUP</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Left-to-right only</td>
-<td>Any direction</td>
-</tr>
-<tr class="even">
-<td>Column numbers</td>
-<td>Column names</td>
-</tr>
-<tr class="odd">
-<td>Less flexible</td>
-<td>More flexible</td>
-</tr>
-</tbody>
-</table>
-<p>Interview Tip.</p>
-<p>If asked which you prefer,</p>
-<p>choose XLOOKUP.</p>
-<hr>
-</section>
-<section id="interview-question-7" class="level1" data-number="19">
-<h1 data-number="19"><span class="header-section-number">19</span> Interview Question 7</h1>
-<section id="product-price-lookup" class="level2" data-number="19.1">
-<h2 data-number="19.1" class="anchored" data-anchor-id="product-price-lookup"><span class="header-section-number">19.1</span> Product Price Lookup</h2>
-<p>Business Task.</p>
-<p>Find product prices from <code>products.csv</code>.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=XLOOKUP(B2,Products[product_id],Products[price])</code></pre>
-<p>Explain.</p>
-<blockquote class="blockquote">
-<p>The product ID becomes the search key.</p>
-</blockquote>
-<hr>
-</section>
-</section>
-<section id="missing-matches" class="level1" data-number="20">
-<h1 data-number="20"><span class="header-section-number">20</span> Missing Matches</h1>
-<p>Business Task.</p>
-<p>Display “Not Found” instead of an error.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=XLOOKUP(A2,Customers[customer_id],Customers[city],"Not Found")</code></pre>
-<p>Memory Hook.</p>
-<p>Friendly errors improve reports.</p>
-<hr>
-</section>
-<section id="index-match" class="level1" data-number="21">
-<h1 data-number="21"><span class="header-section-number">21</span> INDEX + MATCH</h1>
-<p>Some companies still ask this.</p>
-<p>Understand it.</p>
-<p>Don’t fear it.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=INDEX(Customers[city],MATCH(A2,Customers[customer_id],0))</code></pre>
-<p>Explain.</p>
-<blockquote class="blockquote">
-<p>MATCH finds the row.</p>
-</blockquote>
-<p>INDEX returns the value.</p>
-<p>Memory Hook.</p>
-<p>MATCH finds.</p>
-<p>INDEX retrieves.</p>
-<hr>
-</section>
-<section id="xlookup-vs-indexmatch" class="level1" data-number="22">
-<h1 data-number="22"><span class="header-section-number">22</span> XLOOKUP vs INDEX/MATCH</h1>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>XLOOKUP</th>
-<th>INDEX/MATCH</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Modern</td>
-<td>Classic</td>
-</tr>
-<tr class="even">
-<td>Simpler</td>
-<td>More technical</td>
-</tr>
-<tr class="odd">
-<td>Preferred</td>
-<td>Still common</td>
-</tr>
-</tbody>
-</table>
-<p>Interview Advice.</p>
-<p>Know both.</p>
-<p>Use XLOOKUP when available.</p>
-<hr>
-</section>
-<section id="interview-question-8" class="level1" data-number="23">
-<h1 data-number="23"><span class="header-section-number">23</span> Interview Question 8</h1>
-<section id="left" class="level2" data-number="23.1">
-<h2 data-number="23.1" class="anchored" data-anchor-id="left"><span class="header-section-number">23.1</span> LEFT()</h2>
-<p>Business Task.</p>
-<p>Extract the first three letters.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=LEFT(B2,3)</code></pre>
-<p>Example.</p>
-<p>London</p>
-<p>↓</p>
-<p>Lon</p>
-<hr>
-</section>
-</section>
-<section id="right" class="level1" data-number="24">
-<h1 data-number="24"><span class="header-section-number">24</span> RIGHT()</h1>
-<p>Business Task.</p>
-<p>Extract the last two characters.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=RIGHT(B2,2)</code></pre>
-<p>Useful for codes.</p>
-<hr>
-</section>
-<section id="mid" class="level1" data-number="25">
-<h1 data-number="25"><span class="header-section-number">25</span> MID()</h1>
-<p>Business Task.</p>
-<p>Extract characters from the middle.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=MID(B2,4,5)</code></pre>
-<p>Memory Hook.</p>
-<p>Start.</p>
-<p>Length.</p>
-<p>Extract.</p>
-<hr>
-</section>
-<section id="len" class="level1" data-number="26">
-<h1 data-number="26"><span class="header-section-number">26</span> LEN()</h1>
-<p>Business Task.</p>
-<p>Count characters.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=LEN(B2)</code></pre>
-<p>Interview Example.</p>
-<p>Find unusually short names.</p>
-<hr>
-</section>
-<section id="trim" class="level1" data-number="27">
-<h1 data-number="27"><span class="header-section-number">27</span> TRIM()</h1>
-<p>One of the most practical functions.</p>
-<p>Business Task.</p>
-<p>Remove extra spaces.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=TRIM(B2)</code></pre>
-<p>Why Recruiters Like This</p>
-<p>Imported data often contains hidden spaces.</p>
-<hr>
-</section>
-<section id="upper-lower-proper" class="level1" data-number="28">
-<h1 data-number="28"><span class="header-section-number">28</span> UPPER, LOWER, PROPER</h1>
-<p>Standardise text.</p>
-<p>Upper.</p>
-<pre class="excel"><code>=UPPER(B2)</code></pre>
-<p>Lower.</p>
-<pre class="excel"><code>=LOWER(B2)</code></pre>
-<p>Proper.</p>
-<pre class="excel"><code>=PROPER(B2)</code></pre>
-<p>Business Example.</p>
-<p>Convert</p>
-<p>john SMITH</p>
-<p>into</p>
-<p>John Smith.</p>
-<hr>
-</section>
-<section id="text" class="level1" data-number="29">
-<h1 data-number="29"><span class="header-section-number">29</span> TEXT()</h1>
-<p>Business Task.</p>
-<p>Format dates.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=TEXT(A2,"dd mmm yyyy")</code></pre>
-<p>Example.</p>
-<p>2025-01-15</p>
-<p>↓</p>
-<p>15 Jan 2025</p>
-<p>Interview Tip.</p>
-<p>Formatting with TEXT doesn’t change the original value.</p>
-<hr>
-</section>
-<section id="concat" class="level1" data-number="30">
-<h1 data-number="30"><span class="header-section-number">30</span> CONCAT()</h1>
-<p>Business Task.</p>
-<p>Build a full name.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=CONCAT(B2," ",C2)</code></pre>
-<p>Alternative.</p>
-<pre class="excel"><code>=B2&amp;" "&amp;C2</code></pre>
-<p>Memory Hook.</p>
-<p>Join words.</p>
-<hr>
-</section>
-<section id="textjoin" class="level1" data-number="31">
-<h1 data-number="31"><span class="header-section-number">31</span> TEXTJOIN()</h1>
-<p>Business Task.</p>
-<p>Combine multiple values.</p>
-<p>Formula.</p>
-<pre class="excel"><code>=TEXTJOIN(", ",TRUE,A2:A5)</code></pre>
-<p>Very useful for reports.</p>
-<hr>
-</section>
-<section id="cleaning-imported-data" class="level1" data-number="32">
-<h1 data-number="32"><span class="header-section-number">32</span> Cleaning Imported Data</h1>
-<p>Real companies rarely receive perfect spreadsheets.</p>
-<p>Check:</p>
+<section id="what-well-build" class="level1" data-number="20">
+<h1 data-number="20"><span class="header-section-number">20</span> What We’ll Build</h1>
+<p>By the end of this sprint you’ll have:</p>
 <ul>
-<li>Extra spaces</li>
-<li>Wrong capitalisation</li>
-<li>Duplicate IDs</li>
-<li>Blank cells</li>
+<li>Executive KPI Cards</li>
+<li>Revenue Dashboard</li>
+<li>Category Analysis</li>
+<li>Interactive Slicers</li>
+<li>Drill-through Pages</li>
+<li>Custom Tooltips</li>
+<li>Navigation Buttons</li>
+<li>Professional Layout</li>
 </ul>
-<p>Always clean before analysing.</p>
+<p>This is much closer to a real company dashboard than a classroom exercise.</p>
 <hr>
 </section>
-<section id="interview-question-9" class="level1" data-number="33">
-<h1 data-number="33"><span class="header-section-number">33</span> Interview Question 9</h1>
-<p>Customer Full Name</p>
-<p>Using <code>customers.csv</code>.</p>
-<p>Create.</p>
-<p>John Smith</p>
-<p>from:</p>
-<p>John</p>
+<section id="dashboard-preview" class="level1" data-number="21">
+<h1 data-number="21"><span class="header-section-number">21</span> Dashboard Preview</h1>
+<svg viewbox="0 0 760 430" width="100%" height="430">
+</svg><p><rect x="20" y="20" width="720" height="390" rx="18" fill="none" stroke="currentColor" stroke-width="2"></rect></p>
+<p><text x="40" y="45" font-size="20">Evenec Retail Executive Dashboard</text></p>
+<p><rect x="40" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"> <rect x="210" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"> <rect x="380" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"> <rect x="550" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"></rect></rect></rect></rect></p>
+<p><text x="115" y="98" text-anchor="middle" font-size="13">Revenue</text> <text x="285" y="98" text-anchor="middle" font-size="13">Orders</text> <text x="455" y="98" text-anchor="middle" font-size="13">Average</text> <text x="625" y="98" text-anchor="middle" font-size="13">Top City</text></p>
+<p><rect x="40" y="170" width="320" height="170" rx="10" fill="none" stroke="currentColor"> <rect x="400" y="170" width="300" height="170" rx="10" fill="none" stroke="currentColor"></rect></rect></p>
+<p><text x="200" y="192" text-anchor="middle" font-size="14">Revenue by City</text> <text x="550" y="192" text-anchor="middle" font-size="14">Revenue by Category</text></p>
+<rect x="40" y="360" width="660" height="28" rx="8" fill="none" stroke="currentColor"> <text x="370" y="378" text-anchor="middle" font-size="13">Interactive Slicers</text>
+
+<p>Keep this layout in mind while building.</p>
+<hr>
+</rect></section>
+<section id="dashboard-design-principles" class="level1" data-number="22">
+<h1 data-number="22"><span class="header-section-number">22</span> Dashboard Design Principles</h1>
+<p>Good dashboards answer questions.</p>
+<p>Bad dashboards display everything.</p>
+<p>Follow these rules.</p>
 <ul>
-<li></li>
+<li>White background.</li>
+<li>Dark text.</li>
+<li>Consistent spacing.</li>
+<li>Four KPI cards.</li>
+<li>Two main charts.</li>
+<li>Interactive filters.</li>
 </ul>
-<p>Smith</p>
-<p>Expected Formula.</p>
-<pre class="excel"><code>=CONCAT([@first_name]," ",[@last_name])</code></pre>
+<p>Memory Hook.</p>
+<p>One screen.</p>
+<p>One story.</p>
 <hr>
 </section>
-<section id="interview-question-10" class="level1" data-number="34">
-<h1 data-number="34"><span class="header-section-number">34</span> Interview Question 10</h1>
-<p>Product Label</p>
+<section id="step-1-build-kpi-cards" class="level1" data-number="23">
+<h1 data-number="23"><span class="header-section-number">23</span> Step 1 — Build KPI Cards</h1>
+<p>Create these measures if they don’t already exist.</p>
+<pre class="dax"><code>Total Revenue =
+SUM(Orders[amount])
+
+Total Orders =
+COUNTROWS(Orders)
+
+Average Order =
+AVERAGE(Orders[amount])</code></pre>
+<p>Create four Card visuals.</p>
+<ul>
+<li>Revenue</li>
+<li>Orders</li>
+<li>Average Order</li>
+<li>Top City</li>
+</ul>
+<p>Arrange them across the top.</p>
+<p>Exactly like executive dashboards.</p>
+<hr>
+</section>
+<section id="top-city-measure" class="level1" data-number="24">
+<h1 data-number="24"><span class="header-section-number">24</span> Top City Measure</h1>
 <p>Create.</p>
-<p>Electronics - £249.99</p>
-<p>Formula.</p>
-<pre class="excel"><code>=CONCAT([@category]," - £",[@price])</code></pre>
-<p>Business Purpose.</p>
-<p>More readable reports.</p>
+<pre class="dax"><code>Top City =
+VAR CityTable =
+    SUMMARIZE(
+        Customers,
+        Customers[city],
+        "Revenue",[Total Revenue]
+    )
+
+RETURN
+MAXX(
+    TOPN(1,CityTable,[Revenue]),
+    Customers[city]
+)</code></pre>
+<p>Business Meaning.</p>
+<p>The dashboard always displays the strongest city.</p>
 <hr>
 </section>
-<section id="error-handling" class="level1" data-number="35">
-<h1 data-number="35"><span class="header-section-number">35</span> Error Handling</h1>
-<p>Instead of showing</p>
-<p><code>#N/A</code></p>
-<p>use</p>
-<pre class="excel"><code>=IFERROR(formula,"Missing")</code></pre>
+<section id="interview-question-6" class="level1" data-number="25">
+<h1 data-number="25"><span class="header-section-number">25</span> Interview Question 6</h1>
+<p>Why use Cards?</p>
+<p>Good Answer.</p>
+<blockquote class="blockquote">
+<p>Cards allow executives to understand key metrics immediately.</p>
+</blockquote>
+<p>Notice.</p>
+<p>Business language.</p>
+<p>Not technical language.</p>
+<hr>
+</section>
+<section id="step-2-revenue-by-city" class="level1" data-number="26">
+<h1 data-number="26"><span class="header-section-number">26</span> Step 2 — Revenue by City</h1>
+<p>Create.</p>
+<p>Bar Chart.</p>
+<p>Fields.</p>
+<ul>
+<li>City</li>
+<li>Total Revenue</li>
+</ul>
+<p>Sort.</p>
+<p>Highest first.</p>
+<p>Now your manager instantly sees priorities.</p>
+<hr>
+</section>
+<section id="step-3-revenue-by-category" class="level1" data-number="27">
+<h1 data-number="27"><span class="header-section-number">27</span> Step 3 — Revenue by Category</h1>
+<p>Create another visual.</p>
+<p>Rows.</p>
+<p>Category.</p>
+<p>Values.</p>
+<p>Revenue.</p>
+<p>Business Question.</p>
+<p>Which product category deserves more investment?</p>
+<p>Exactly the kind of question hiring managers ask.</p>
+<hr>
+</section>
+<section id="step-4-date-trend" class="level1" data-number="28">
+<h1 data-number="28"><span class="header-section-number">28</span> Step 4 — Date Trend</h1>
+<p>Create.</p>
+<p>Line Chart.</p>
+<p>Axis.</p>
+<p>Order Date.</p>
+<p>Values.</p>
+<p>Total Revenue.</p>
+<p>Now trends become visible.</p>
+<p>Memory Hook.</p>
+<p>Bars compare.</p>
+<p>Lines reveal change.</p>
+<hr>
+</section>
+<section id="step-5-slicers" class="level1" data-number="29">
+<h1 data-number="29"><span class="header-section-number">29</span> Step 5 — Slicers</h1>
+<p>Add.</p>
+<ul>
+<li>City</li>
+<li>Category</li>
+<li>Date</li>
+</ul>
+<p>Now one click changes the entire dashboard.</p>
+<p>Exactly what executives expect.</p>
 <p>Interview English.</p>
 <blockquote class="blockquote">
-<p>IFERROR makes reports easier to understand.</p>
+<p>Slicers allow users to explore the data without changing the report itself.</p>
 </blockquote>
+<hr>
+</section>
+<section id="step-6-sync-slicers" class="level1" data-number="30">
+<h1 data-number="30"><span class="header-section-number">30</span> Step 6 — Sync Slicers</h1>
+<p>Imagine multiple pages.</p>
+<p>Users shouldn’t repeat filters.</p>
+<p>Open.</p>
+<p>View.</p>
+<p>Sync Slicers.</p>
+<p>Now filters stay connected.</p>
+<p>Professional reports use this constantly.</p>
+<hr>
+</section>
+<section id="step-7-drill-through" class="level1" data-number="31">
+<h1 data-number="31"><span class="header-section-number">31</span> Step 7 — Drill-through</h1>
+<p>This is one of the strongest interview features.</p>
+<p>Business Task.</p>
+<p>Right-click London.</p>
+<p>Open.</p>
+<p>City Details.</p>
+<p>Create a new page.</p>
+<p>Name.</p>
+<p><code>City Details</code></p>
+<p>Add.</p>
+<ul>
+<li>Revenue</li>
+<li>Orders</li>
+<li>Category breakdown</li>
+</ul>
+<p>Now users can investigate deeper.</p>
 <p>Memory Hook.</p>
-<p>Hide technical errors.</p>
+<p>Overview.</p>
+<p>Then detail.</p>
 <hr>
 </section>
-<section id="mini-business-case" class="level1" data-number="36">
-<h1 data-number="36"><span class="header-section-number">36</span> Mini Business Case</h1>
-<p>Imagine you’re working at Deliveroo.</p>
-<p>The manager asks.</p>
+<section id="step-8-custom-tooltips" class="level1" data-number="32">
+<h1 data-number="32"><span class="header-section-number">32</span> Step 8 — Custom Tooltips</h1>
+<p>Instead of tiny tooltips.</p>
+<p>Create.</p>
+<p>Tooltip Page.</p>
+<p>Add.</p>
+<ul>
+<li>Revenue</li>
+<li>Orders</li>
+<li>Average Order</li>
+</ul>
+<p>Now hovering over London reveals extra insights.</p>
+<p>This feels premium.</p>
+<hr>
+</section>
+<section id="step-9-bookmarks" class="level1" data-number="33">
+<h1 data-number="33"><span class="header-section-number">33</span> Step 9 — Bookmarks</h1>
+<p>Bookmarks create interactive experiences.</p>
+<p>Example.</p>
+<p>Buttons.</p>
+<ul>
+<li>Overview</li>
+<li>Sales</li>
+<li>Categories</li>
+</ul>
+<p>Each button switches views.</p>
+<p>Business dashboards often use this technique.</p>
+<hr>
+</section>
+<section id="navigation-buttons" class="level1" data-number="34">
+<h1 data-number="34"><span class="header-section-number">34</span> Navigation Buttons</h1>
+<p>Insert.</p>
+<p>Buttons.</p>
+<p>Connect them to Bookmarks.</p>
+<p>Now the report behaves like an application.</p>
+<p>Interview Tip.</p>
+<p>Navigation makes reports feel polished.</p>
+<hr>
+</section>
+<section id="conditional-formatting" class="level1" data-number="35">
+<h1 data-number="35"><span class="header-section-number">35</span> Conditional Formatting</h1>
+<p>Highlight.</p>
+<p>Top performers.</p>
+<p>Example.</p>
+<p>Green.</p>
+<p>High revenue.</p>
+<p>Business Purpose.</p>
+<p>Direct attention.</p>
+<p>Don’t make users search.</p>
+<hr>
+</section>
+<section id="business-case" class="level1" data-number="36">
+<h1 data-number="36"><span class="header-section-number">36</span> Business Case</h1>
+<p>The CEO asks.</p>
 <blockquote class="blockquote">
-<p>Build a clean customer list.</p>
+<p>Why did revenue fall?</p>
 </blockquote>
-<p>Expected Workflow.</p>
+<p>Workflow.</p>
 <ol type="1">
-<li>TRIM.</li>
-<li>PROPER.</li>
-<li>Remove duplicates.</li>
-<li>Create Full Name.</li>
-<li>Format dates.</li>
+<li>Filter month.</li>
+<li>Compare categories.</li>
+<li>Drill through.</li>
+<li>Explain findings.</li>
 </ol>
+<p>Good Answer.</p>
+<blockquote class="blockquote">
+<p>Revenue declined because one category underperformed while London remained stable.</p>
+</blockquote>
 <p>Notice.</p>
-<p>This is exactly how analysts think.</p>
+<p>Insight.</p>
+<p>Not description.</p>
 <hr>
 </section>
-<section id="mini-mock-interview" class="level1" data-number="37">
-<h1 data-number="37"><span class="header-section-number">37</span> Mini Mock Interview</h1>
+<section id="storytelling-with-data" class="level1" data-number="37">
+<h1 data-number="37"><span class="header-section-number">37</span> Storytelling with Data</h1>
+<p>Don’t present.</p>
+<p>Five charts.</p>
+<p>Present.</p>
+<p>One story.</p>
+<p>Example.</p>
+<p>Revenue grew.</p>
+<p>Electronics led.</p>
+<p>London remained strongest.</p>
+<p>Three sentences.</p>
+<p>Executive ready.</p>
+<hr>
+</section>
+<section id="mini-mock-interview" class="level1" data-number="38">
+<h1 data-number="38"><span class="header-section-number">38</span> Mini Mock Interview</h1>
 <p>Interviewer.</p>
 <blockquote class="blockquote">
-<p>Find a customer’s city.</p>
+<p>Why use Drill-through?</p>
 </blockquote>
 <p>Pause.</p>
 <p>Answer.</p>
 <hr>
 <p>Interviewer.</p>
 <blockquote class="blockquote">
-<p>Clean imported names.</p>
+<p>Why create Tooltips?</p>
 </blockquote>
 <p>Pause.</p>
 <p>Answer.</p>
 <hr>
 <p>Interviewer.</p>
 <blockquote class="blockquote">
-<p>Explain XLOOKUP.</p>
+<p>Why sync slicers?</p>
 </blockquote>
 <p>Pause.</p>
 <p>Answer.</p>
 <hr>
 </section>
-<section id="formula-cheat-sheet" class="level1" data-number="38">
-<h1 data-number="38"><span class="header-section-number">38</span> Formula Cheat Sheet</h1>
+<section id="executive-dashboard-checklist" class="level1" data-number="39">
+<h1 data-number="39"><span class="header-section-number">39</span> Executive Dashboard Checklist</h1>
+<p>Before presenting.</p>
+<ul class="task-list">
+<li><label><input type="checkbox">KPI cards updated.</label></li>
+<li><label><input type="checkbox">Charts sorted.</label></li>
+<li><label><input type="checkbox">Slicers working.</label></li>
+<li><label><input type="checkbox">Drill-through tested.</label></li>
+<li><label><input type="checkbox">Tooltips working.</label></li>
+<li><label><input type="checkbox">Navigation buttons working.</label></li>
+<li><label><input type="checkbox">White space preserved.</label></li>
+</ul>
+<p>Use this checklist before every interview assignment.</p>
+<hr>
+</section>
+<section id="power-bi-dashboard-cheat-sheet" class="level1" data-number="40">
+<h1 data-number="40"><span class="header-section-number">40</span> Power BI Dashboard Cheat Sheet</h1>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Task</th>
-<th>Formula</th>
+<th>Feature</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lookup</td>
-<td>XLOOKUP</td>
+<td>Card</td>
+<td>Executive KPI</td>
 </tr>
 <tr class="even">
-<td>Alternative</td>
-<td>INDEX/MATCH</td>
+<td>Bar Chart</td>
+<td>Compare</td>
 </tr>
 <tr class="odd">
-<td>First letters</td>
-<td>LEFT</td>
+<td>Line Chart</td>
+<td>Trend</td>
 </tr>
 <tr class="even">
-<td>Last letters</td>
-<td>RIGHT</td>
+<td>Slicer</td>
+<td>Filter</td>
 </tr>
 <tr class="odd">
-<td>Middle</td>
-<td>MID</td>
+<td>Sync Slicers</td>
+<td>Cross-page filtering</td>
 </tr>
 <tr class="even">
-<td>Length</td>
-<td>LEN</td>
+<td>Tooltip</td>
+<td>Extra insight</td>
 </tr>
 <tr class="odd">
-<td>Clean spaces</td>
-<td>TRIM</td>
+<td>Bookmark</td>
+<td>Interactive navigation</td>
 </tr>
 <tr class="even">
-<td>Uppercase</td>
-<td>UPPER</td>
-</tr>
-<tr class="odd">
-<td>Lowercase</td>
-<td>LOWER</td>
-</tr>
-<tr class="even">
-<td>Proper Case</td>
-<td>PROPER</td>
-</tr>
-<tr class="odd">
-<td>Format</td>
-<td>TEXT</td>
-</tr>
-<tr class="even">
-<td>Join</td>
-<td>CONCAT</td>
-</tr>
-<tr class="odd">
-<td>Many values</td>
-<td>TEXTJOIN</td>
+<td>Drill-through</td>
+<td>Detailed analysis</td>
 </tr>
 </tbody>
 </table>
+<p>Memory Hook.</p>
+<p>Filter.</p>
+<p>Explore.</p>
+<p>Explain.</p>
 <hr>
 </section>
-<section id="memory-hooks" class="level1" data-number="39">
-<h1 data-number="39"><span class="header-section-number">39</span> Memory Hooks</h1>
+<section id="end-of-sprint-challenge" class="level1" data-number="41">
+<h1 data-number="41"><span class="header-section-number">41</span> End-of-Sprint Challenge</h1>
+<p>Build a complete Executive Dashboard.</p>
+<p>Requirements.</p>
+<ul>
+<li>Revenue KPI</li>
+<li>Orders KPI</li>
+<li>Average Order KPI</li>
+<li>Top City KPI</li>
+<li>Revenue by City chart</li>
+<li>Revenue by Category chart</li>
+<li>Monthly Revenue trend</li>
+<li>City slicer</li>
+<li>Category slicer</li>
+<li>Date slicer</li>
+<li>Drill-through page</li>
+<li>Tooltip page</li>
+<li>Navigation buttons</li>
+</ul>
+<p>Target.</p>
+<p><strong>25 minutes</strong></p>
+<p>Then present your dashboard in English within <strong>60 seconds</strong>.</p>
+<hr>
+</section>
+<section id="presentation-script-b2" class="level1" data-number="42">
+<h1 data-number="42"><span class="header-section-number">42</span> Presentation Script (B2)</h1>
+<p>Imagine you’ve just finished.</p>
+<p>Say.</p>
+<blockquote class="blockquote">
+<p>I created an executive dashboard that shows revenue, order volume and customer performance. The KPI cards provide an immediate overview, while the slicers allow users to explore different cities and categories. I also added drill-through pages and custom tooltips to help managers investigate specific business questions without creating additional reports.</p>
+</blockquote>
+<p>This sounds natural for a B2-level interview.</p>
+<hr>
+</section>
+<section id="memory-hooks" class="level1" data-number="43">
+<h1 data-number="43"><span class="header-section-number">43</span> Memory Hooks</h1>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Function</th>
+<th>Concept</th>
 <th>Hook</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>XLOOKUP</td>
-<td>Find &amp; Return</td>
+<td>Card</td>
+<td>Immediate insight</td>
 </tr>
 <tr class="even">
-<td>MATCH</td>
-<td>Find Position</td>
+<td>Slicer</td>
+<td>Remote control</td>
 </tr>
 <tr class="odd">
-<td>INDEX</td>
-<td>Bring Value</td>
+<td>Drill-through</td>
+<td>Go deeper</td>
 </tr>
 <tr class="even">
-<td>LEFT</td>
-<td>Beginning</td>
+<td>Tooltip</td>
+<td>Hidden insight</td>
 </tr>
 <tr class="odd">
-<td>RIGHT</td>
-<td>Ending</td>
+<td>Bookmark</td>
+<td>Interactive app</td>
 </tr>
 <tr class="even">
-<td>MID</td>
-<td>Middle</td>
-</tr>
-<tr class="odd">
-<td>TRIM</td>
-<td>Clean Spaces</td>
-</tr>
-<tr class="even">
-<td>TEXT</td>
-<td>Pretty Format</td>
+<td>White Space</td>
+<td>Professional look</td>
 </tr>
 </tbody>
 </table>
-<hr>
-</section>
-<section id="end-of-sprint-challenge" class="level1" data-number="40">
-<h1 data-number="40"><span class="header-section-number">40</span> End-of-Sprint Challenge</h1>
-<p>Using the Evenec Retail CSV files, complete these tasks without copying the answers.</p>
-<ol type="1">
-<li>Lookup customer city.</li>
-<li>Lookup product price.</li>
-<li>Replace missing values with “Not Found”.</li>
-<li>Build a full name.</li>
-<li>Extract the first three letters.</li>
-<li>Clean extra spaces.</li>
-<li>Convert names to Proper Case.</li>
-<li>Format dates.</li>
-<li>Build a product label.</li>
-<li>Explain XLOOKUP in English.</li>
-</ol>
-<p>Target.</p>
-<p><strong>15 minutes</strong></p>
-<p>Remember.</p>
-<p>Companies don’t hire people because they know formulas.</p>
-<p>They hire people because they can quickly turn messy data into useful information.</p>
 <p>Congratulations.</p>
-<p>You completed <strong>Excel Sprint 2</strong>. {.callout-tip title=“Practice with Real Data”}</p>
-<p>Open the <strong>Evenec Retail Playground</strong> and run every query from this chapter on a real SQLite database.</p>
-<p><box gap="2" align="center"> <asyncimage src="sandbox:/mnt/data/51eeb9f9-8b66-4fb9-b2b5-734e9608a02e.png" alt="QR placeholder" width="90" maxheight="90/"></asyncimage></box></p>
-<p><strong>Open on GitHub</strong></p>
-<p><code>playground/evenec-retail</code> </p>
+<p>You completed <strong>Power BI Sprint 3</strong>.</p>
 
 
 </section>
@@ -1306,13 +1218,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../excel/excel-01.html" class="pagination-link" aria-label="Excel Interview Bible">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Excel Interview Bible</span></span>
+      <a href="../powerbi/powerbi-02.html" class="pagination-link" aria-label="Power BI Interview Bible">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Power BI Interview Bible</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../excel/excel-03.html" class="pagination-link" aria-label="Excel Interview Bible">
-        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Excel Interview Bible</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../powerbi/powerbi-04.html" class="pagination-link" aria-label="Power BI Interview Bible">
+        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Power BI Interview Bible</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

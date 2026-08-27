@@ -30,919 +30,6 @@
     ]
   },
   {
-    "objectID": "sql/sql-02.html",
-    "href": "sql/sql-02.html",
-    "title": "9  SQL Bible",
-    "section": "",
-    "text": "10 Sprint 2 — Aggregations",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#group-by-having-aggregate-functions",
-    "href": "sql/sql-02.html#group-by-having-aggregate-functions",
-    "title": "9  SQL Bible",
-    "section": "10.1 GROUP BY • HAVING • Aggregate Functions",
-    "text": "10.1 GROUP BY • HAVING • Aggregate Functions\nCongratulations.\nYou already know how to retrieve data.\nNow you’ll learn how analysts summarise business performance, which is exactly what hiring managers expect from a Junior Data Analyst.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#recruiter-psychology",
-    "href": "sql/sql-02.html#recruiter-psychology",
-    "title": "9  SQL Bible",
-    "section": "14.1 Recruiter Psychology",
-    "text": "14.1 Recruiter Psychology\nInterviewers often begin with COUNT() because it’s simple but essential.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task",
-    "href": "sql/sql-02.html#business-task",
-    "title": "9  SQL Bible",
-    "section": "14.2 Business Task",
-    "text": "14.2 Business Task\nHow many orders exist?",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution",
-    "href": "sql/sql-02.html#sql-solution",
-    "title": "9  SQL Bible",
-    "section": "14.3 SQL Solution",
-    "text": "14.3 SQL Solution\nSELECT COUNT(*) AS total_orders\nFROM orders;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2",
-    "href": "sql/sql-02.html#explain-it-b2",
-    "title": "9  SQL Bible",
-    "section": "14.4 Explain It (B2)",
-    "text": "14.4 Explain It (B2)\n\nCOUNT returns the number of rows.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#memory-hook",
-    "href": "sql/sql-02.html#memory-hook",
-    "title": "9  SQL Bible",
-    "section": "14.5 Memory Hook",
-    "text": "14.5 Memory Hook\nCOUNT counts records.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#common-mistake",
-    "href": "sql/sql-02.html#common-mistake",
-    "title": "9  SQL Bible",
-    "section": "14.6 Common Mistake",
-    "text": "14.6 Common Mistake\nUsing COUNT(amount) instead of COUNT(*).",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-1",
-    "href": "sql/sql-02.html#business-task-1",
-    "title": "9  SQL Bible",
-    "section": "15.1 Business Task",
-    "text": "15.1 Business Task\nCount customers living in London.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-1",
-    "href": "sql/sql-02.html#sql-solution-1",
-    "title": "9  SQL Bible",
-    "section": "15.2 SQL Solution",
-    "text": "15.2 SQL Solution\nSELECT COUNT(*) AS london_customers\nFROM customers\nWHERE city = 'London';",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-1",
-    "href": "sql/sql-02.html#explain-it-b2-1",
-    "title": "9  SQL Bible",
-    "section": "15.3 Explain It (B2)",
-    "text": "15.3 Explain It (B2)\n\nFirst I filter London customers, then I count them.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#recruiter-psychology-1",
-    "href": "sql/sql-02.html#recruiter-psychology-1",
-    "title": "9  SQL Bible",
-    "section": "16.1 Recruiter Psychology",
-    "text": "16.1 Recruiter Psychology\nRevenue questions appear constantly.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-2",
-    "href": "sql/sql-02.html#business-task-2",
-    "title": "9  SQL Bible",
-    "section": "16.2 Business Task",
-    "text": "16.2 Business Task\nCalculate total sales.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-2",
-    "href": "sql/sql-02.html#sql-solution-2",
-    "title": "9  SQL Bible",
-    "section": "16.3 SQL Solution",
-    "text": "16.3 SQL Solution\nSELECT SUM(amount) AS total_revenue\nFROM orders;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-2",
-    "href": "sql/sql-02.html#explain-it-b2-2",
-    "title": "9  SQL Bible",
-    "section": "16.4 Explain It (B2)",
-    "text": "16.4 Explain It (B2)\n\nSUM adds every order amount together.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#memory-hook-1",
-    "href": "sql/sql-02.html#memory-hook-1",
-    "title": "9  SQL Bible",
-    "section": "16.5 Memory Hook",
-    "text": "16.5 Memory Hook\nSUM builds money.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-3",
-    "href": "sql/sql-02.html#business-task-3",
-    "title": "9  SQL Bible",
-    "section": "17.1 Business Task",
-    "text": "17.1 Business Task\nFind the average order value.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-3",
-    "href": "sql/sql-02.html#sql-solution-3",
-    "title": "9  SQL Bible",
-    "section": "17.2 SQL Solution",
-    "text": "17.2 SQL Solution\nSELECT AVG(amount) AS average_order\nFROM orders;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-3",
-    "href": "sql/sql-02.html#explain-it-b2-3",
-    "title": "9  SQL Bible",
-    "section": "17.3 Explain It (B2)",
-    "text": "17.3 Explain It (B2)\n\nAVG calculates the typical order value.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#common-mistake-1",
-    "href": "sql/sql-02.html#common-mistake-1",
-    "title": "9  SQL Bible",
-    "section": "17.4 Common Mistake",
-    "text": "17.4 Common Mistake\nConfusing average with total.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-4",
-    "href": "sql/sql-02.html#business-task-4",
-    "title": "9  SQL Bible",
-    "section": "18.1 Business Task",
-    "text": "18.1 Business Task\nFind the highest order.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-4",
-    "href": "sql/sql-02.html#sql-solution-4",
-    "title": "9  SQL Bible",
-    "section": "18.2 SQL Solution",
-    "text": "18.2 SQL Solution\nSELECT MAX(amount) AS largest_order\nFROM orders;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-4",
-    "href": "sql/sql-02.html#explain-it-b2-4",
-    "title": "9  SQL Bible",
-    "section": "18.3 Explain It (B2)",
-    "text": "18.3 Explain It (B2)\n\nMAX returns the highest value.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-5",
-    "href": "sql/sql-02.html#sql-solution-5",
-    "title": "9  SQL Bible",
-    "section": "19.1 SQL Solution",
-    "text": "19.1 SQL Solution\nSELECT MIN(amount) AS smallest_order\nFROM orders;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-5",
-    "href": "sql/sql-02.html#explain-it-b2-5",
-    "title": "9  SQL Bible",
-    "section": "19.2 Explain It (B2)",
-    "text": "19.2 Explain It (B2)\n\nMIN finds the lowest value.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#recruiter-psychology-2",
-    "href": "sql/sql-02.html#recruiter-psychology-2",
-    "title": "9  SQL Bible",
-    "section": "21.1 Recruiter Psychology",
-    "text": "21.1 Recruiter Psychology\nThis is one of the most common interview questions.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-5",
-    "href": "sql/sql-02.html#business-task-5",
-    "title": "9  SQL Bible",
-    "section": "21.2 Business Task",
-    "text": "21.2 Business Task\nCalculate revenue for each customer.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-6",
-    "href": "sql/sql-02.html#sql-solution-6",
-    "title": "9  SQL Bible",
-    "section": "21.3 SQL Solution",
-    "text": "21.3 SQL Solution\nSELECT customer_id,\n       SUM(amount) AS revenue\nFROM orders\nGROUP BY customer_id;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-6",
-    "href": "sql/sql-02.html#explain-it-b2-6",
-    "title": "9  SQL Bible",
-    "section": "21.4 Explain It (B2)",
-    "text": "21.4 Explain It (B2)\n\nI group orders by customer and calculate total revenue.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#common-mistake-2",
-    "href": "sql/sql-02.html#common-mistake-2",
-    "title": "9  SQL Bible",
-    "section": "21.5 Common Mistake",
-    "text": "21.5 Common Mistake\nForgetting GROUP BY.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-6",
-    "href": "sql/sql-02.html#business-task-6",
-    "title": "9  SQL Bible",
-    "section": "22.1 Business Task",
-    "text": "22.1 Business Task\nCount completed and cancelled orders.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-7",
-    "href": "sql/sql-02.html#sql-solution-7",
-    "title": "9  SQL Bible",
-    "section": "22.2 SQL Solution",
-    "text": "22.2 SQL Solution\nSELECT status,\n       COUNT(*) AS orders\nFROM orders\nGROUP BY status;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-7",
-    "href": "sql/sql-02.html#explain-it-b2-7",
-    "title": "9  SQL Bible",
-    "section": "22.3 Explain It (B2)",
-    "text": "22.3 Explain It (B2)\n\nEvery status becomes one group.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-7",
-    "href": "sql/sql-02.html#business-task-7",
-    "title": "9  SQL Bible",
-    "section": "23.1 Business Task",
-    "text": "23.1 Business Task\nCount customers in each city.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-8",
-    "href": "sql/sql-02.html#sql-solution-8",
-    "title": "9  SQL Bible",
-    "section": "23.2 SQL Solution",
-    "text": "23.2 SQL Solution\nSELECT city,\n       COUNT(*) AS customers\nFROM customers\nGROUP BY city;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-8",
-    "href": "sql/sql-02.html#explain-it-b2-8",
-    "title": "9  SQL Bible",
-    "section": "23.3 Explain It (B2)",
-    "text": "23.3 Explain It (B2)\n\nEach city becomes one group.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-8",
-    "href": "sql/sql-02.html#business-task-8",
-    "title": "9  SQL Bible",
-    "section": "25.1 Business Task",
-    "text": "25.1 Business Task\nCalculate average order value by city.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-9",
-    "href": "sql/sql-02.html#sql-solution-9",
-    "title": "9  SQL Bible",
-    "section": "25.2 SQL Solution",
-    "text": "25.2 SQL Solution\nSELECT city,\n       AVG(amount) AS average_revenue\nFROM customers\nJOIN orders USING(customer_id)\nGROUP BY city;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-9",
-    "href": "sql/sql-02.html#explain-it-b2-9",
-    "title": "9  SQL Bible",
-    "section": "25.3 Explain It (B2)",
-    "text": "25.3 Explain It (B2)\n\nI join customers and orders, group by city and calculate the average.\n\nDon’t worry about JOIN syntax yet.\nSprint 3 explains it fully.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#recruiter-psychology-3",
-    "href": "sql/sql-02.html#recruiter-psychology-3",
-    "title": "9  SQL Bible",
-    "section": "27.1 Recruiter Psychology",
-    "text": "27.1 Recruiter Psychology\nWHERE vs HAVING is a classic interview trap.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-10",
-    "href": "sql/sql-02.html#sql-solution-10",
-    "title": "9  SQL Bible",
-    "section": "27.2 SQL Solution",
-    "text": "27.2 SQL Solution\nSELECT city,\n       COUNT(*) AS customers\nFROM customers\nGROUP BY city\nHAVING COUNT(*) &gt; 5;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-10",
-    "href": "sql/sql-02.html#explain-it-b2-10",
-    "title": "9  SQL Bible",
-    "section": "27.3 Explain It (B2)",
-    "text": "27.3 Explain It (B2)\n\nI first create city groups, then remove groups with five or fewer customers.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-9",
-    "href": "sql/sql-02.html#business-task-9",
-    "title": "9  SQL Bible",
-    "section": "28.1 Business Task",
-    "text": "28.1 Business Task\nFind customers whose total spending exceeds £500.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-11",
-    "href": "sql/sql-02.html#sql-solution-11",
-    "title": "9  SQL Bible",
-    "section": "28.2 SQL Solution",
-    "text": "28.2 SQL Solution\nSELECT customer_id,\n       SUM(amount) AS revenue\nFROM orders\nGROUP BY customer_id\nHAVING SUM(amount) &gt; 500;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-11",
-    "href": "sql/sql-02.html#explain-it-b2-11",
-    "title": "9  SQL Bible",
-    "section": "28.3 Explain It (B2)",
-    "text": "28.3 Explain It (B2)\n\nHAVING filters the grouped results.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#business-task-10",
-    "href": "sql/sql-02.html#business-task-10",
-    "title": "9  SQL Bible",
-    "section": "30.1 Business Task",
-    "text": "30.1 Business Task\nShow cities ranked by revenue.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sql-solution-12",
-    "href": "sql/sql-02.html#sql-solution-12",
-    "title": "9  SQL Bible",
-    "section": "30.2 SQL Solution",
-    "text": "30.2 SQL Solution\nSELECT city,\n       SUM(amount) AS revenue\nFROM customers\nJOIN orders USING(customer_id)\nGROUP BY city\nORDER BY revenue DESC;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#explain-it-b2-12",
-    "href": "sql/sql-02.html#explain-it-b2-12",
-    "title": "9  SQL Bible",
-    "section": "30.3 Explain It (B2)",
-    "text": "30.3 Explain It (B2)\n\nI calculate revenue for every city and sort from highest to lowest.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#interviewer",
-    "href": "sql/sql-02.html#interviewer",
-    "title": "9  SQL Bible",
-    "section": "32.1 Interviewer",
-    "text": "32.1 Interviewer\nHow many customers do we have?\nPause.\nAnswer.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#interviewer-1",
-    "href": "sql/sql-02.html#interviewer-1",
-    "title": "9  SQL Bible",
-    "section": "32.2 Interviewer",
-    "text": "32.2 Interviewer\nWhich city has the highest revenue?\nPause.\nAnswer.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#interviewer-2",
-    "href": "sql/sql-02.html#interviewer-2",
-    "title": "9  SQL Bible",
-    "section": "32.3 Interviewer",
-    "text": "32.3 Interviewer\nWhich customers spent over £500?\nPause.\nAnswer.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#count",
-    "href": "sql/sql-02.html#count",
-    "title": "9  SQL Bible",
-    "section": "33.1 COUNT",
-    "text": "33.1 COUNT\nCOUNT(*)",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#sum",
-    "href": "sql/sql-02.html#sum",
-    "title": "9  SQL Bible",
-    "section": "33.2 SUM",
-    "text": "33.2 SUM\nSUM(amount)",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#avg",
-    "href": "sql/sql-02.html#avg",
-    "title": "9  SQL Bible",
-    "section": "33.3 AVG",
-    "text": "33.3 AVG\nAVG(amount)",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#group-by",
-    "href": "sql/sql-02.html#group-by",
-    "title": "9  SQL Bible",
-    "section": "33.4 GROUP BY",
-    "text": "33.4 GROUP BY\nGROUP BY customer_id",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-02.html#having-1",
-    "href": "sql/sql-02.html#having-1",
-    "title": "9  SQL Bible",
-    "section": "33.5 HAVING",
-    "text": "33.5 HAVING\nHAVING SUM(amount) &gt; 500",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html",
-    "href": "sql/sql-03.html",
-    "title": "10  SQL Bible",
-    "section": "",
-    "text": "11 Sprint 3 — JOINs, CTEs & Subqueries",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#the-language-of-relationships",
-    "href": "sql/sql-03.html#the-language-of-relationships",
-    "title": "10  SQL Bible",
-    "section": "11.1 The Language of Relationships",
-    "text": "11.1 The Language of Relationships\nWelcome to the most important chapter for Junior Data Analyst interviews.\nMost real business questions require combining information from multiple tables.\nInstead of memorising JOIN syntax, you’ll learn to think like an analyst.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#entity-relationship-overview",
-    "href": "sql/sql-03.html#entity-relationship-overview",
-    "title": "10  SQL Bible",
-    "section": "12.1 Entity Relationship Overview",
-    "text": "12.1 Entity Relationship Overview\n\n customers\n orders\n payments\n order_items\n products\n   \ncustomer_id order_id order_id product_id\n\nMemory Hook:\n\nCustomer → Order → Item → Product",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#recruiter-psychology",
-    "href": "sql/sql-03.html#recruiter-psychology",
-    "title": "10  SQL Bible",
-    "section": "15.1 Recruiter Psychology",
-    "text": "15.1 Recruiter Psychology\nThis is one of the most common interview questions.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#business-task",
-    "href": "sql/sql-03.html#business-task",
-    "title": "10  SQL Bible",
-    "section": "15.2 Business Task",
-    "text": "15.2 Business Task\nShow every order together with the customer’s name.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#sql-solution",
-    "href": "sql/sql-03.html#sql-solution",
-    "title": "10  SQL Bible",
-    "section": "15.3 SQL Solution",
-    "text": "15.3 SQL Solution\nSELECT c.first_name,\n       o.order_id,\n       o.amount\nFROM customers c\nINNER JOIN orders o\nON c.customer_id = o.customer_id;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#explain-it-b2",
-    "href": "sql/sql-03.html#explain-it-b2",
-    "title": "10  SQL Bible",
-    "section": "15.4 Explain It (B2)",
-    "text": "15.4 Explain It (B2)\n\nI connect customers and orders using customer_id and return customer names with their orders.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#memory-hook",
-    "href": "sql/sql-03.html#memory-hook",
-    "title": "10  SQL Bible",
-    "section": "15.5 Memory Hook",
-    "text": "15.5 Memory Hook\nINNER = Both must exist.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#business-task-1",
-    "href": "sql/sql-03.html#business-task-1",
-    "title": "10  SQL Bible",
-    "section": "17.1 Business Task",
-    "text": "17.1 Business Task\nShow every customer, even if they never ordered.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#sql",
-    "href": "sql/sql-03.html#sql",
-    "title": "10  SQL Bible",
-    "section": "17.2 SQL",
-    "text": "17.2 SQL\nSELECT c.first_name,\n       o.order_id\nFROM customers c\nLEFT JOIN orders o\nON c.customer_id = o.customer_id;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#explain-it-b2-1",
-    "href": "sql/sql-03.html#explain-it-b2-1",
-    "title": "10  SQL Bible",
-    "section": "17.3 Explain It (B2)",
-    "text": "17.3 Explain It (B2)\n\nEvery customer appears. Missing orders become NULL.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#memory-hook-1",
-    "href": "sql/sql-03.html#memory-hook-1",
-    "title": "10  SQL Bible",
-    "section": "17.4 Memory Hook",
-    "text": "17.4 Memory Hook\nLeft keeps everyone.\nThis phrase will appear throughout the book.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#sql-1",
-    "href": "sql/sql-03.html#sql-1",
-    "title": "10  SQL Bible",
-    "section": "20.1 SQL",
-    "text": "20.1 SQL\nSELECT c.first_name\nFROM customers c\nLEFT JOIN orders o\nON c.customer_id = o.customer_id\nWHERE o.order_id IS NULL;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#explain-it-b2-2",
-    "href": "sql/sql-03.html#explain-it-b2-2",
-    "title": "10  SQL Bible",
-    "section": "20.2 Explain It (B2)",
-    "text": "20.2 Explain It (B2)\n\nI keep every customer and filter those without matching orders.\n\nMemory Hook.\nNULL means “missing”.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#explain-it-b2-3",
-    "href": "sql/sql-03.html#explain-it-b2-3",
-    "title": "10  SQL Bible",
-    "section": "24.1 Explain It (B2)",
-    "text": "24.1 Explain It (B2)\n\nFirst I create a temporary table, then I filter it.\n\nMemory Hook.\nWITH creates a temporary workspace.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#explain-it-b2-4",
-    "href": "sql/sql-03.html#explain-it-b2-4",
-    "title": "10  SQL Bible",
-    "section": "27.1 Explain It (B2)",
-    "text": "27.1 Explain It (B2)\n\nFirst SQL calculates the average, then it compares every order against it.",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#inner-join",
-    "href": "sql/sql-03.html#inner-join",
-    "title": "10  SQL Bible",
-    "section": "33.1 INNER JOIN",
-    "text": "33.1 INNER JOIN\nINNER JOIN table\nON key = key;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#left-join",
-    "href": "sql/sql-03.html#left-join",
-    "title": "10  SQL Bible",
-    "section": "33.2 LEFT JOIN",
-    "text": "33.2 LEFT JOIN\nLEFT JOIN table\nON key = key;",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#cte",
-    "href": "sql/sql-03.html#cte",
-    "title": "10  SQL Bible",
-    "section": "33.3 CTE",
-    "text": "33.3 CTE\nWITH temp AS (...)\nSELECT ...",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "sql/sql-03.html#subquery",
-    "href": "sql/sql-03.html#subquery",
-    "title": "10  SQL Bible",
-    "section": "33.4 Subquery",
-    "text": "33.4 Subquery\nWHERE value &gt;\n(\nSELECT AVG(...)\n)",
-    "crumbs": [
-      "Part II — SQL Bible",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-03.html",
-    "href": "excel/excel-03.html",
-    "title": "14  Excel Interview Bible",
-    "section": "",
-    "text": "15 Sprint 3 — Manager’s Monday Morning Dashboard",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-03.html#pivot-tables-pivot-charts-slicers-timeline-power-query",
-    "href": "excel/excel-03.html#pivot-tables-pivot-charts-slicers-timeline-power-query",
-    "title": "14  Excel Interview Bible",
-    "section": "15.1 Pivot Tables • Pivot Charts • Slicers • Timeline • Power Query",
-    "text": "15.1 Pivot Tables • Pivot Charts • Slicers • Timeline • Power Query\nMonday.\n09:00.\nYour manager sends one message.\n\n“I need a sales dashboard in twenty minutes.”\n\nThis chapter teaches exactly that workflow.\nYou’ll build a complete business dashboard using the Evenec Retail Playground.\nMain files:\n\norders.csv\ncustomers.csv\nproducts.csv",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-03.html#recruiter-psychology",
-    "href": "excel/excel-03.html#recruiter-psychology",
-    "title": "14  Excel Interview Bible",
-    "section": "19.1 Recruiter Psychology",
-    "text": "19.1 Recruiter Psychology\nMany UK companies expect analysts to know basic Power Query.",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-03.html#business-task",
-    "href": "excel/excel-03.html#business-task",
-    "title": "14  Excel Interview Bible",
-    "section": "19.2 Business Task",
-    "text": "19.2 Business Task\nImport orders.csv.\n\n19.2.1 Steps\n\nData\nGet Data\nFrom Text/CSV\nSelect orders.csv\nLoad to Excel\n\n\n\n19.2.2 Explain It (B2)\n\nI imported the CSV using Power Query instead of copying data manually.\n\nMemory Hook.\nPower Query is the kitchen.\nIt prepares ingredients before cooking.",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-03.html#business-task-1",
-    "href": "excel/excel-03.html#business-task-1",
-    "title": "14  Excel Interview Bible",
-    "section": "21.1 Business Task",
-    "text": "21.1 Business Task\nRevenue by City.\n\n21.1.1 Steps\nInsert\n→ Pivot Table\nFields.\nRows:\n\ncity\n\nValues:\n\nSum of amount\n\n\n\n21.1.2 Result\n\n\n\nCity\nRevenue\n\n\n\n\nLondon\n£120,000\n\n\nManchester\n£87,000\n\n\n\n\n\n21.1.3 Explain It (B2)\n\nThe Pivot Table automatically groups cities and calculates total revenue.\n\nMemory Hook.\nPivot means summarise.",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-04.html",
-    "href": "excel/excel-04.html",
-    "title": "15  Excel Interview Bible",
-    "section": "",
-    "text": "16 Sprint 4 — Excel Assessment Centre",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
-    "objectID": "excel/excel-04.html#dashboards-business-cases-mock-interview-30-minute-challenge",
-    "href": "excel/excel-04.html#dashboards-business-cases-mock-interview-30-minute-challenge",
-    "title": "15  Excel Interview Bible",
-    "section": "16.1 Dashboards • Business Cases • Mock Interview • 30-Minute Challenge",
-    "text": "16.1 Dashboards • Business Cases • Mock Interview • 30-Minute Challenge\nWelcome to the final Excel sprint.\nEverything you’ve learned now comes together in one realistic hiring assessment.\nImagine you’re interviewing for a Junior Data Analyst role at a UK company.\nThe interviewer sends one message.\n\n“You have 30 minutes.”\n\nYour goal isn’t just to use Excel.\nYour goal is to make business decisions with data.",
-    "crumbs": [
-      "Part III — Excel Interview Bible",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Excel Interview Bible</span>"
-    ]
-  },
-  {
     "objectID": "hr/hr-01.html",
     "href": "hr/hr-01.html",
     "title": "4  HR Interview Mastery",
@@ -3088,6 +2175,842 @@
     ]
   },
   {
+    "objectID": "sql/sql-02.html",
+    "href": "sql/sql-02.html",
+    "title": "9  SQL Bible",
+    "section": "",
+    "text": "10 Sprint 2 — Aggregations",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#group-by-having-aggregate-functions",
+    "href": "sql/sql-02.html#group-by-having-aggregate-functions",
+    "title": "9  SQL Bible",
+    "section": "10.1 GROUP BY • HAVING • Aggregate Functions",
+    "text": "10.1 GROUP BY • HAVING • Aggregate Functions\nCongratulations.\nYou already know how to retrieve data.\nNow you’ll learn how analysts summarise business performance, which is exactly what hiring managers expect from a Junior Data Analyst.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#recruiter-psychology",
+    "href": "sql/sql-02.html#recruiter-psychology",
+    "title": "9  SQL Bible",
+    "section": "14.1 Recruiter Psychology",
+    "text": "14.1 Recruiter Psychology\nInterviewers often begin with COUNT() because it’s simple but essential.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task",
+    "href": "sql/sql-02.html#business-task",
+    "title": "9  SQL Bible",
+    "section": "14.2 Business Task",
+    "text": "14.2 Business Task\nHow many orders exist?",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution",
+    "href": "sql/sql-02.html#sql-solution",
+    "title": "9  SQL Bible",
+    "section": "14.3 SQL Solution",
+    "text": "14.3 SQL Solution\nSELECT COUNT(*) AS total_orders\nFROM orders;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2",
+    "href": "sql/sql-02.html#explain-it-b2",
+    "title": "9  SQL Bible",
+    "section": "14.4 Explain It (B2)",
+    "text": "14.4 Explain It (B2)\n\nCOUNT returns the number of rows.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#memory-hook",
+    "href": "sql/sql-02.html#memory-hook",
+    "title": "9  SQL Bible",
+    "section": "14.5 Memory Hook",
+    "text": "14.5 Memory Hook\nCOUNT counts records.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#common-mistake",
+    "href": "sql/sql-02.html#common-mistake",
+    "title": "9  SQL Bible",
+    "section": "14.6 Common Mistake",
+    "text": "14.6 Common Mistake\nUsing COUNT(amount) instead of COUNT(*).",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-1",
+    "href": "sql/sql-02.html#business-task-1",
+    "title": "9  SQL Bible",
+    "section": "15.1 Business Task",
+    "text": "15.1 Business Task\nCount customers living in London.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-1",
+    "href": "sql/sql-02.html#sql-solution-1",
+    "title": "9  SQL Bible",
+    "section": "15.2 SQL Solution",
+    "text": "15.2 SQL Solution\nSELECT COUNT(*) AS london_customers\nFROM customers\nWHERE city = 'London';",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-1",
+    "href": "sql/sql-02.html#explain-it-b2-1",
+    "title": "9  SQL Bible",
+    "section": "15.3 Explain It (B2)",
+    "text": "15.3 Explain It (B2)\n\nFirst I filter London customers, then I count them.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#recruiter-psychology-1",
+    "href": "sql/sql-02.html#recruiter-psychology-1",
+    "title": "9  SQL Bible",
+    "section": "16.1 Recruiter Psychology",
+    "text": "16.1 Recruiter Psychology\nRevenue questions appear constantly.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-2",
+    "href": "sql/sql-02.html#business-task-2",
+    "title": "9  SQL Bible",
+    "section": "16.2 Business Task",
+    "text": "16.2 Business Task\nCalculate total sales.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-2",
+    "href": "sql/sql-02.html#sql-solution-2",
+    "title": "9  SQL Bible",
+    "section": "16.3 SQL Solution",
+    "text": "16.3 SQL Solution\nSELECT SUM(amount) AS total_revenue\nFROM orders;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-2",
+    "href": "sql/sql-02.html#explain-it-b2-2",
+    "title": "9  SQL Bible",
+    "section": "16.4 Explain It (B2)",
+    "text": "16.4 Explain It (B2)\n\nSUM adds every order amount together.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#memory-hook-1",
+    "href": "sql/sql-02.html#memory-hook-1",
+    "title": "9  SQL Bible",
+    "section": "16.5 Memory Hook",
+    "text": "16.5 Memory Hook\nSUM builds money.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-3",
+    "href": "sql/sql-02.html#business-task-3",
+    "title": "9  SQL Bible",
+    "section": "17.1 Business Task",
+    "text": "17.1 Business Task\nFind the average order value.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-3",
+    "href": "sql/sql-02.html#sql-solution-3",
+    "title": "9  SQL Bible",
+    "section": "17.2 SQL Solution",
+    "text": "17.2 SQL Solution\nSELECT AVG(amount) AS average_order\nFROM orders;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-3",
+    "href": "sql/sql-02.html#explain-it-b2-3",
+    "title": "9  SQL Bible",
+    "section": "17.3 Explain It (B2)",
+    "text": "17.3 Explain It (B2)\n\nAVG calculates the typical order value.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#common-mistake-1",
+    "href": "sql/sql-02.html#common-mistake-1",
+    "title": "9  SQL Bible",
+    "section": "17.4 Common Mistake",
+    "text": "17.4 Common Mistake\nConfusing average with total.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-4",
+    "href": "sql/sql-02.html#business-task-4",
+    "title": "9  SQL Bible",
+    "section": "18.1 Business Task",
+    "text": "18.1 Business Task\nFind the highest order.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-4",
+    "href": "sql/sql-02.html#sql-solution-4",
+    "title": "9  SQL Bible",
+    "section": "18.2 SQL Solution",
+    "text": "18.2 SQL Solution\nSELECT MAX(amount) AS largest_order\nFROM orders;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-4",
+    "href": "sql/sql-02.html#explain-it-b2-4",
+    "title": "9  SQL Bible",
+    "section": "18.3 Explain It (B2)",
+    "text": "18.3 Explain It (B2)\n\nMAX returns the highest value.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-5",
+    "href": "sql/sql-02.html#sql-solution-5",
+    "title": "9  SQL Bible",
+    "section": "19.1 SQL Solution",
+    "text": "19.1 SQL Solution\nSELECT MIN(amount) AS smallest_order\nFROM orders;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-5",
+    "href": "sql/sql-02.html#explain-it-b2-5",
+    "title": "9  SQL Bible",
+    "section": "19.2 Explain It (B2)",
+    "text": "19.2 Explain It (B2)\n\nMIN finds the lowest value.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#recruiter-psychology-2",
+    "href": "sql/sql-02.html#recruiter-psychology-2",
+    "title": "9  SQL Bible",
+    "section": "21.1 Recruiter Psychology",
+    "text": "21.1 Recruiter Psychology\nThis is one of the most common interview questions.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-5",
+    "href": "sql/sql-02.html#business-task-5",
+    "title": "9  SQL Bible",
+    "section": "21.2 Business Task",
+    "text": "21.2 Business Task\nCalculate revenue for each customer.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-6",
+    "href": "sql/sql-02.html#sql-solution-6",
+    "title": "9  SQL Bible",
+    "section": "21.3 SQL Solution",
+    "text": "21.3 SQL Solution\nSELECT customer_id,\n       SUM(amount) AS revenue\nFROM orders\nGROUP BY customer_id;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-6",
+    "href": "sql/sql-02.html#explain-it-b2-6",
+    "title": "9  SQL Bible",
+    "section": "21.4 Explain It (B2)",
+    "text": "21.4 Explain It (B2)\n\nI group orders by customer and calculate total revenue.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#common-mistake-2",
+    "href": "sql/sql-02.html#common-mistake-2",
+    "title": "9  SQL Bible",
+    "section": "21.5 Common Mistake",
+    "text": "21.5 Common Mistake\nForgetting GROUP BY.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-6",
+    "href": "sql/sql-02.html#business-task-6",
+    "title": "9  SQL Bible",
+    "section": "22.1 Business Task",
+    "text": "22.1 Business Task\nCount completed and cancelled orders.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-7",
+    "href": "sql/sql-02.html#sql-solution-7",
+    "title": "9  SQL Bible",
+    "section": "22.2 SQL Solution",
+    "text": "22.2 SQL Solution\nSELECT status,\n       COUNT(*) AS orders\nFROM orders\nGROUP BY status;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-7",
+    "href": "sql/sql-02.html#explain-it-b2-7",
+    "title": "9  SQL Bible",
+    "section": "22.3 Explain It (B2)",
+    "text": "22.3 Explain It (B2)\n\nEvery status becomes one group.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-7",
+    "href": "sql/sql-02.html#business-task-7",
+    "title": "9  SQL Bible",
+    "section": "23.1 Business Task",
+    "text": "23.1 Business Task\nCount customers in each city.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-8",
+    "href": "sql/sql-02.html#sql-solution-8",
+    "title": "9  SQL Bible",
+    "section": "23.2 SQL Solution",
+    "text": "23.2 SQL Solution\nSELECT city,\n       COUNT(*) AS customers\nFROM customers\nGROUP BY city;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-8",
+    "href": "sql/sql-02.html#explain-it-b2-8",
+    "title": "9  SQL Bible",
+    "section": "23.3 Explain It (B2)",
+    "text": "23.3 Explain It (B2)\n\nEach city becomes one group.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-8",
+    "href": "sql/sql-02.html#business-task-8",
+    "title": "9  SQL Bible",
+    "section": "25.1 Business Task",
+    "text": "25.1 Business Task\nCalculate average order value by city.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-9",
+    "href": "sql/sql-02.html#sql-solution-9",
+    "title": "9  SQL Bible",
+    "section": "25.2 SQL Solution",
+    "text": "25.2 SQL Solution\nSELECT city,\n       AVG(amount) AS average_revenue\nFROM customers\nJOIN orders USING(customer_id)\nGROUP BY city;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-9",
+    "href": "sql/sql-02.html#explain-it-b2-9",
+    "title": "9  SQL Bible",
+    "section": "25.3 Explain It (B2)",
+    "text": "25.3 Explain It (B2)\n\nI join customers and orders, group by city and calculate the average.\n\nDon’t worry about JOIN syntax yet.\nSprint 3 explains it fully.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#recruiter-psychology-3",
+    "href": "sql/sql-02.html#recruiter-psychology-3",
+    "title": "9  SQL Bible",
+    "section": "27.1 Recruiter Psychology",
+    "text": "27.1 Recruiter Psychology\nWHERE vs HAVING is a classic interview trap.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-10",
+    "href": "sql/sql-02.html#sql-solution-10",
+    "title": "9  SQL Bible",
+    "section": "27.2 SQL Solution",
+    "text": "27.2 SQL Solution\nSELECT city,\n       COUNT(*) AS customers\nFROM customers\nGROUP BY city\nHAVING COUNT(*) &gt; 5;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-10",
+    "href": "sql/sql-02.html#explain-it-b2-10",
+    "title": "9  SQL Bible",
+    "section": "27.3 Explain It (B2)",
+    "text": "27.3 Explain It (B2)\n\nI first create city groups, then remove groups with five or fewer customers.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-9",
+    "href": "sql/sql-02.html#business-task-9",
+    "title": "9  SQL Bible",
+    "section": "28.1 Business Task",
+    "text": "28.1 Business Task\nFind customers whose total spending exceeds £500.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-11",
+    "href": "sql/sql-02.html#sql-solution-11",
+    "title": "9  SQL Bible",
+    "section": "28.2 SQL Solution",
+    "text": "28.2 SQL Solution\nSELECT customer_id,\n       SUM(amount) AS revenue\nFROM orders\nGROUP BY customer_id\nHAVING SUM(amount) &gt; 500;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-11",
+    "href": "sql/sql-02.html#explain-it-b2-11",
+    "title": "9  SQL Bible",
+    "section": "28.3 Explain It (B2)",
+    "text": "28.3 Explain It (B2)\n\nHAVING filters the grouped results.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#business-task-10",
+    "href": "sql/sql-02.html#business-task-10",
+    "title": "9  SQL Bible",
+    "section": "30.1 Business Task",
+    "text": "30.1 Business Task\nShow cities ranked by revenue.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sql-solution-12",
+    "href": "sql/sql-02.html#sql-solution-12",
+    "title": "9  SQL Bible",
+    "section": "30.2 SQL Solution",
+    "text": "30.2 SQL Solution\nSELECT city,\n       SUM(amount) AS revenue\nFROM customers\nJOIN orders USING(customer_id)\nGROUP BY city\nORDER BY revenue DESC;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#explain-it-b2-12",
+    "href": "sql/sql-02.html#explain-it-b2-12",
+    "title": "9  SQL Bible",
+    "section": "30.3 Explain It (B2)",
+    "text": "30.3 Explain It (B2)\n\nI calculate revenue for every city and sort from highest to lowest.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#interviewer",
+    "href": "sql/sql-02.html#interviewer",
+    "title": "9  SQL Bible",
+    "section": "32.1 Interviewer",
+    "text": "32.1 Interviewer\nHow many customers do we have?\nPause.\nAnswer.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#interviewer-1",
+    "href": "sql/sql-02.html#interviewer-1",
+    "title": "9  SQL Bible",
+    "section": "32.2 Interviewer",
+    "text": "32.2 Interviewer\nWhich city has the highest revenue?\nPause.\nAnswer.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#interviewer-2",
+    "href": "sql/sql-02.html#interviewer-2",
+    "title": "9  SQL Bible",
+    "section": "32.3 Interviewer",
+    "text": "32.3 Interviewer\nWhich customers spent over £500?\nPause.\nAnswer.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#count",
+    "href": "sql/sql-02.html#count",
+    "title": "9  SQL Bible",
+    "section": "33.1 COUNT",
+    "text": "33.1 COUNT\nCOUNT(*)",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#sum",
+    "href": "sql/sql-02.html#sum",
+    "title": "9  SQL Bible",
+    "section": "33.2 SUM",
+    "text": "33.2 SUM\nSUM(amount)",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#avg",
+    "href": "sql/sql-02.html#avg",
+    "title": "9  SQL Bible",
+    "section": "33.3 AVG",
+    "text": "33.3 AVG\nAVG(amount)",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#group-by",
+    "href": "sql/sql-02.html#group-by",
+    "title": "9  SQL Bible",
+    "section": "33.4 GROUP BY",
+    "text": "33.4 GROUP BY\nGROUP BY customer_id",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-02.html#having-1",
+    "href": "sql/sql-02.html#having-1",
+    "title": "9  SQL Bible",
+    "section": "33.5 HAVING",
+    "text": "33.5 HAVING\nHAVING SUM(amount) &gt; 500",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html",
+    "href": "sql/sql-03.html",
+    "title": "10  SQL Bible",
+    "section": "",
+    "text": "11 Sprint 3 — JOINs, CTEs & Subqueries",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#the-language-of-relationships",
+    "href": "sql/sql-03.html#the-language-of-relationships",
+    "title": "10  SQL Bible",
+    "section": "11.1 The Language of Relationships",
+    "text": "11.1 The Language of Relationships\nWelcome to the most important chapter for Junior Data Analyst interviews.\nMost real business questions require combining information from multiple tables.\nInstead of memorising JOIN syntax, you’ll learn to think like an analyst.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#entity-relationship-overview",
+    "href": "sql/sql-03.html#entity-relationship-overview",
+    "title": "10  SQL Bible",
+    "section": "12.1 Entity Relationship Overview",
+    "text": "12.1 Entity Relationship Overview\n\n customers\n orders\n payments\n order_items\n products\n   \ncustomer_id order_id order_id product_id\n\nMemory Hook:\n\nCustomer → Order → Item → Product",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#recruiter-psychology",
+    "href": "sql/sql-03.html#recruiter-psychology",
+    "title": "10  SQL Bible",
+    "section": "15.1 Recruiter Psychology",
+    "text": "15.1 Recruiter Psychology\nThis is one of the most common interview questions.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#business-task",
+    "href": "sql/sql-03.html#business-task",
+    "title": "10  SQL Bible",
+    "section": "15.2 Business Task",
+    "text": "15.2 Business Task\nShow every order together with the customer’s name.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#sql-solution",
+    "href": "sql/sql-03.html#sql-solution",
+    "title": "10  SQL Bible",
+    "section": "15.3 SQL Solution",
+    "text": "15.3 SQL Solution\nSELECT c.first_name,\n       o.order_id,\n       o.amount\nFROM customers c\nINNER JOIN orders o\nON c.customer_id = o.customer_id;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#explain-it-b2",
+    "href": "sql/sql-03.html#explain-it-b2",
+    "title": "10  SQL Bible",
+    "section": "15.4 Explain It (B2)",
+    "text": "15.4 Explain It (B2)\n\nI connect customers and orders using customer_id and return customer names with their orders.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#memory-hook",
+    "href": "sql/sql-03.html#memory-hook",
+    "title": "10  SQL Bible",
+    "section": "15.5 Memory Hook",
+    "text": "15.5 Memory Hook\nINNER = Both must exist.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#business-task-1",
+    "href": "sql/sql-03.html#business-task-1",
+    "title": "10  SQL Bible",
+    "section": "17.1 Business Task",
+    "text": "17.1 Business Task\nShow every customer, even if they never ordered.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#sql",
+    "href": "sql/sql-03.html#sql",
+    "title": "10  SQL Bible",
+    "section": "17.2 SQL",
+    "text": "17.2 SQL\nSELECT c.first_name,\n       o.order_id\nFROM customers c\nLEFT JOIN orders o\nON c.customer_id = o.customer_id;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#explain-it-b2-1",
+    "href": "sql/sql-03.html#explain-it-b2-1",
+    "title": "10  SQL Bible",
+    "section": "17.3 Explain It (B2)",
+    "text": "17.3 Explain It (B2)\n\nEvery customer appears. Missing orders become NULL.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#memory-hook-1",
+    "href": "sql/sql-03.html#memory-hook-1",
+    "title": "10  SQL Bible",
+    "section": "17.4 Memory Hook",
+    "text": "17.4 Memory Hook\nLeft keeps everyone.\nThis phrase will appear throughout the book.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#sql-1",
+    "href": "sql/sql-03.html#sql-1",
+    "title": "10  SQL Bible",
+    "section": "20.1 SQL",
+    "text": "20.1 SQL\nSELECT c.first_name\nFROM customers c\nLEFT JOIN orders o\nON c.customer_id = o.customer_id\nWHERE o.order_id IS NULL;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#explain-it-b2-2",
+    "href": "sql/sql-03.html#explain-it-b2-2",
+    "title": "10  SQL Bible",
+    "section": "20.2 Explain It (B2)",
+    "text": "20.2 Explain It (B2)\n\nI keep every customer and filter those without matching orders.\n\nMemory Hook.\nNULL means “missing”.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#explain-it-b2-3",
+    "href": "sql/sql-03.html#explain-it-b2-3",
+    "title": "10  SQL Bible",
+    "section": "24.1 Explain It (B2)",
+    "text": "24.1 Explain It (B2)\n\nFirst I create a temporary table, then I filter it.\n\nMemory Hook.\nWITH creates a temporary workspace.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#explain-it-b2-4",
+    "href": "sql/sql-03.html#explain-it-b2-4",
+    "title": "10  SQL Bible",
+    "section": "27.1 Explain It (B2)",
+    "text": "27.1 Explain It (B2)\n\nFirst SQL calculates the average, then it compares every order against it.",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#inner-join",
+    "href": "sql/sql-03.html#inner-join",
+    "title": "10  SQL Bible",
+    "section": "33.1 INNER JOIN",
+    "text": "33.1 INNER JOIN\nINNER JOIN table\nON key = key;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#left-join",
+    "href": "sql/sql-03.html#left-join",
+    "title": "10  SQL Bible",
+    "section": "33.2 LEFT JOIN",
+    "text": "33.2 LEFT JOIN\nLEFT JOIN table\nON key = key;",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#cte",
+    "href": "sql/sql-03.html#cte",
+    "title": "10  SQL Bible",
+    "section": "33.3 CTE",
+    "text": "33.3 CTE\nWITH temp AS (...)\nSELECT ...",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
+    "objectID": "sql/sql-03.html#subquery",
+    "href": "sql/sql-03.html#subquery",
+    "title": "10  SQL Bible",
+    "section": "33.4 Subquery",
+    "text": "33.4 Subquery\nWHERE value &gt;\n(\nSELECT AVG(...)\n)",
+    "crumbs": [
+      "Part II — SQL Bible",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SQL Bible</span>"
+    ]
+  },
+  {
     "objectID": "sql/sql-04.html",
     "href": "sql/sql-04.html",
     "title": "11  SQL Bible",
@@ -3459,6 +3382,347 @@
     "crumbs": [
       "Part III — Excel Interview Bible",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-03.html",
+    "href": "excel/excel-03.html",
+    "title": "14  Excel Interview Bible",
+    "section": "",
+    "text": "15 Sprint 3 — Manager’s Monday Morning Dashboard",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-03.html#pivot-tables-pivot-charts-slicers-timeline-power-query",
+    "href": "excel/excel-03.html#pivot-tables-pivot-charts-slicers-timeline-power-query",
+    "title": "14  Excel Interview Bible",
+    "section": "15.1 Pivot Tables • Pivot Charts • Slicers • Timeline • Power Query",
+    "text": "15.1 Pivot Tables • Pivot Charts • Slicers • Timeline • Power Query\nMonday.\n09:00.\nYour manager sends one message.\n\n“I need a sales dashboard in twenty minutes.”\n\nThis chapter teaches exactly that workflow.\nYou’ll build a complete business dashboard using the Evenec Retail Playground.\nMain files:\n\norders.csv\ncustomers.csv\nproducts.csv",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-03.html#recruiter-psychology",
+    "href": "excel/excel-03.html#recruiter-psychology",
+    "title": "14  Excel Interview Bible",
+    "section": "19.1 Recruiter Psychology",
+    "text": "19.1 Recruiter Psychology\nMany UK companies expect analysts to know basic Power Query.",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-03.html#business-task",
+    "href": "excel/excel-03.html#business-task",
+    "title": "14  Excel Interview Bible",
+    "section": "19.2 Business Task",
+    "text": "19.2 Business Task\nImport orders.csv.\n\n19.2.1 Steps\n\nData\nGet Data\nFrom Text/CSV\nSelect orders.csv\nLoad to Excel\n\n\n\n19.2.2 Explain It (B2)\n\nI imported the CSV using Power Query instead of copying data manually.\n\nMemory Hook.\nPower Query is the kitchen.\nIt prepares ingredients before cooking.",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-03.html#business-task-1",
+    "href": "excel/excel-03.html#business-task-1",
+    "title": "14  Excel Interview Bible",
+    "section": "21.1 Business Task",
+    "text": "21.1 Business Task\nRevenue by City.\n\n21.1.1 Steps\nInsert\n→ Pivot Table\nFields.\nRows:\n\ncity\n\nValues:\n\nSum of amount\n\n\n\n21.1.2 Result\n\n\n\nCity\nRevenue\n\n\n\n\nLondon\n£120,000\n\n\nManchester\n£87,000\n\n\n\n\n\n21.1.3 Explain It (B2)\n\nThe Pivot Table automatically groups cities and calculates total revenue.\n\nMemory Hook.\nPivot means summarise.",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-04.html",
+    "href": "excel/excel-04.html",
+    "title": "15  Excel Interview Bible",
+    "section": "",
+    "text": "16 Sprint 4 — Excel Assessment Centre",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "excel/excel-04.html#dashboards-business-cases-mock-interview-30-minute-challenge",
+    "href": "excel/excel-04.html#dashboards-business-cases-mock-interview-30-minute-challenge",
+    "title": "15  Excel Interview Bible",
+    "section": "16.1 Dashboards • Business Cases • Mock Interview • 30-Minute Challenge",
+    "text": "16.1 Dashboards • Business Cases • Mock Interview • 30-Minute Challenge\nWelcome to the final Excel sprint.\nEverything you’ve learned now comes together in one realistic hiring assessment.\nImagine you’re interviewing for a Junior Data Analyst role at a UK company.\nThe interviewer sends one message.\n\n“You have 30 minutes.”\n\nYour goal isn’t just to use Excel.\nYour goal is to make business decisions with data.",
+    "crumbs": [
+      "Part III — Excel Interview Bible",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Excel Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-01.html",
+    "href": "powerbi/powerbi-01.html",
+    "title": "16  Power BI Interview Bible",
+    "section": "",
+    "text": "17 Sprint 1 — Power BI Foundations",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-01.html#import-data-model-power-query-first-visuals",
+    "href": "powerbi/powerbi-01.html#import-data-model-power-query-first-visuals",
+    "title": "16  Power BI Interview Bible",
+    "section": "17.1 Import • Data Model • Power Query • First Visuals",
+    "text": "17.1 Import • Data Model • Power Query • First Visuals\nWelcome to the Power BI Interview Bible.\nThis isn’t a button-by-button tutorial.\nThis chapter prepares you for real Junior Data Analyst interviews in the UK.\nWe’ll continue working with the Evenec Retail Playground.\nMain files:\n\ncustomers.csv\norders.csv\nproducts.csv\npayments.csv\nemployees.csv",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-01.html#why-power-bi",
+    "href": "powerbi/powerbi-01.html#why-power-bi",
+    "title": "16  Power BI Interview Bible",
+    "section": "19.1 Why Power BI?",
+    "text": "19.1 Why Power BI?\nRecruiter Psychology.\nThey’re checking whether you understand business value.\nGood Answer (B2).\n\nPower BI allows companies to combine data from multiple sources and create interactive dashboards that update automatically.\n\nDon’t say.\n\nIt’s like Excel.\n\nPower BI is much bigger than Excel.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-01.html#power-query-basics",
+    "href": "powerbi/powerbi-01.html#power-query-basics",
+    "title": "16  Power BI Interview Bible",
+    "section": "22.1 Power Query Basics",
+    "text": "22.1 Power Query Basics\nTask.\nOpen customers.csv.\nChange.\n\nDate format\nText format\nRemove unnecessary columns\n\nWhy?\nCleaning should happen before analysis.\nMemory Hook.\nPrepare.\nThen analyse.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-02.html",
+    "href": "powerbi/powerbi-02.html",
+    "title": "17  Power BI Interview Bible",
+    "section": "",
+    "text": "18 Sprint 2 — Thinking in DAX",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-02.html#measures-calculate-filter-related-all",
+    "href": "powerbi/powerbi-02.html#measures-calculate-filter-related-all",
+    "title": "17  Power BI Interview Bible",
+    "section": "18.1 Measures • CALCULATE • FILTER • RELATED • ALL",
+    "text": "18.1 Measures • CALCULATE • FILTER • RELATED • ALL\nWelcome to Sprint 2.\nThis chapter teaches the biggest mindset shift in Power BI.\nDAX isn’t Excel.\nDAX thinks in context.\nWe’ll continue using the Evenec Retail Playground.\nMain files:\n\ncustomers.csv\norders.csv\nproducts.csv\npayments.csv\nemployees.csv",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-03.html",
+    "href": "powerbi/powerbi-03.html",
+    "title": "18  Power BI Interview Bible",
+    "section": "",
+    "text": "19 Sprint 3 — Executive Dashboard",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-03.html#kpi-cards-slicers-drill-through-tooltips-bookmarks",
+    "href": "powerbi/powerbi-03.html#kpi-cards-slicers-drill-through-tooltips-bookmarks",
+    "title": "18  Power BI Interview Bible",
+    "section": "19.1 KPI Cards • Slicers • Drill-through • Tooltips • Bookmarks",
+    "text": "19.1 KPI Cards • Slicers • Drill-through • Tooltips • Bookmarks\nMonday.\n09:00.\nThe Sales Director opens your dashboard.\nWithin ten seconds they should understand:\n\nHow much revenue we generated.\nWhich city performs best.\nWhich category needs attention.\nWhat changed this month.\n\nThat’s the purpose of executive dashboards.\nWe’ll build this report using the Evenec Retail Playground.\nMain files:\n\ncustomers.csv\norders.csv\nproducts.csv\npayments.csv",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html",
+    "href": "powerbi/powerbi-04.html",
+    "title": "19  Power BI Interview Bible",
+    "section": "",
+    "text": "20 Sprint 4 — Power BI Assessment Centre",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#minute-challenge-executive-presentation-mock-interview",
+    "href": "powerbi/powerbi-04.html#minute-challenge-executive-presentation-mock-interview",
+    "title": "19  Power BI Interview Bible",
+    "section": "20.1 45-Minute Challenge • Executive Presentation • Mock Interview",
+    "text": "20.1 45-Minute Challenge • Executive Presentation • Mock Interview\nCongratulations.\nYou’ve reached the final sprint.\nEverything you’ve learned now comes together in one realistic hiring assessment.\nImagine you’re interviewing for a Junior Data Analyst role in London.\nThe hiring manager sends one message.\n\n“You have forty-five minutes.”\n\nThis chapter simulates a real UK assessment.\nNo memorisation.\nNo perfect conditions.\nJust business decisions.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#revenue-overview",
+    "href": "powerbi/powerbi-04.html#revenue-overview",
+    "title": "19  Power BI Interview Bible",
+    "section": "27.1 Revenue Overview",
+    "text": "27.1 Revenue Overview\nBuild.\n\nTotal Revenue\nTotal Orders\nAverage Order\n\nInterview English.\n\nI started by creating executive KPIs because they provide an immediate overview.\n\nBusiness first.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#city-performance",
+    "href": "powerbi/powerbi-04.html#city-performance",
+    "title": "19  Power BI Interview Bible",
+    "section": "28.1 City Performance",
+    "text": "28.1 City Performance\nQuestion.\nWhich city deserves additional marketing budget?\nExpected Workflow.\n\nBar Chart\nSort descending\nExplain recommendation\n\nDon’t stop at numbers.\nGive advice.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#category-analysis",
+    "href": "powerbi/powerbi-04.html#category-analysis",
+    "title": "19  Power BI Interview Bible",
+    "section": "29.1 Category Analysis",
+    "text": "29.1 Category Analysis\nQuestion.\nWhich category needs attention?\nUse.\n\nBar Chart\nSlicer\nDrill-through\n\nBusiness Answer.\n\nThis category contributes less revenue and may require promotional support.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#monthly-trend",
+    "href": "powerbi/powerbi-04.html#monthly-trend",
+    "title": "19  Power BI Interview Bible",
+    "section": "30.1 Monthly Trend",
+    "text": "30.1 Monthly Trend\nQuestion.\nIs revenue becoming stronger or weaker?\nUse.\n\nLine Chart\nDate hierarchy\nMonth analysis\n\nExecutives love trends.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#interactive-experience",
+    "href": "powerbi/powerbi-04.html#interactive-experience",
+    "title": "19  Power BI Interview Bible",
+    "section": "31.1 Interactive Experience",
+    "text": "31.1 Interactive Experience\nRequired.\n\nCity slicer\nCategory slicer\nDate slicer\nSync Slicers\n\nThen test everything.\nNothing should break.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#drill-through-page",
+    "href": "powerbi/powerbi-04.html#drill-through-page",
+    "title": "19  Power BI Interview Bible",
+    "section": "32.1 Drill-through Page",
+    "text": "32.1 Drill-through Page\nCreate.\nCity Details.\nInclude.\n\nRevenue\nOrders\nCategory breakdown\n\nNow executives can investigate deeper.\nMemory Hook.\nOverview.\nThen detail.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#custom-tooltips",
+    "href": "powerbi/powerbi-04.html#custom-tooltips",
+    "title": "19  Power BI Interview Bible",
+    "section": "33.1 Custom Tooltips",
+    "text": "33.1 Custom Tooltips\nCreate a Tooltip Page.\nShow.\n\nRevenue\nOrders\nAverage Order\n\nNow hovering becomes informative.\nProfessional reports use this constantly.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#navigation",
+    "href": "powerbi/powerbi-04.html#navigation",
+    "title": "19  Power BI Interview Bible",
+    "section": "34.1 Navigation",
+    "text": "34.1 Navigation\nCreate.\nButtons.\n\nOverview\nSales\nCategories\n\nUse Bookmarks.\nNow the report feels like an application.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#question-1",
+    "href": "powerbi/powerbi-04.html#question-1",
+    "title": "19  Power BI Interview Bible",
+    "section": "35.1 Question 1",
+    "text": "35.1 Question 1\nWhy did you use Power Query?\nModel Answer.\n\nIt creates a repeatable cleaning process instead of manual editing.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#question-2",
+    "href": "powerbi/powerbi-04.html#question-2",
+    "title": "19  Power BI Interview Bible",
+    "section": "35.2 Question 2",
+    "text": "35.2 Question 2\nWhy build relationships instead of merging everything?\nModel Answer.\n\nA proper data model improves performance and makes reports easier to maintain.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#question-3",
+    "href": "powerbi/powerbi-04.html#question-3",
+    "title": "19  Power BI Interview Bible",
+    "section": "35.3 Question 3",
+    "text": "35.3 Question 3\nWhy create Measures instead of Calculated Columns?\nModel Answer.\n\nMeasures respond dynamically to filters, while calculated columns remain fixed after loading.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#question-4",
+    "href": "powerbi/powerbi-04.html#question-4",
+    "title": "19  Power BI Interview Bible",
+    "section": "35.4 Question 4",
+    "text": "35.4 Question 4\nWhy choose a Card visual?\nModel Answer.\n\nExecutives need immediate visibility of the most important KPIs.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#tell-me-about-this-dashboard.",
+    "href": "powerbi/powerbi-04.html#tell-me-about-this-dashboard.",
+    "title": "19  Power BI Interview Bible",
+    "section": "36.1 Tell me about this dashboard.",
+    "text": "36.1 Tell me about this dashboard.\nGood Answer (B2).\n\nThis dashboard helps managers monitor sales performance by city and category. It combines interactive filters with KPIs so decisions can be made quickly.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
+    ]
+  },
+  {
+    "objectID": "powerbi/powerbi-04.html#what-would-you-improve-next",
+    "href": "powerbi/powerbi-04.html#what-would-you-improve-next",
+    "title": "19  Power BI Interview Bible",
+    "section": "36.2 What would you improve next?",
+    "text": "36.2 What would you improve next?\nExample.\n\nI’d add year-over-year comparisons and customer retention metrics.\n\nRecruiters like improvement thinking.",
+    "crumbs": [
+      "Part IV — Power BI Interview Bible",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Power BI Interview Bible</span>"
     ]
   }
 ]

@@ -38,16 +38,29 @@ book:
         - excel/excel-02.md
         - excel/excel-03.md
         - excel/excel-04.md
+    
+    - part: "Part IV — Power BI Interview Bible"
+      chapters:
+        - powerbi/powerbi-01.md
+        - powerbi/powerbi-02.md
+        - powerbi/powerbi-03.md
+        - powerbi/powerbi-04.md
 
     - cheatsheets.md
     - changelog.md
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - ../../templates/evenec-theme/evenec.scss
     toc: true
     number-sections: true
 
   typst:
     toc: true
     number-sections: true
+    papersize: a4
+    margin:
+      x: 20mm
+      y: 22mm
