@@ -531,3 +531,13 @@ More importantly.
 You've practised thinking like a Data Analyst.
 
 Welcome to the Evenec Interview Bible.
+
+---
+
+<box align=center gap=3 padding={{top:4,bottom:2}}>
+  <AsyncImage query="Evenec logo blue teal checkmark" aspectRatio="3:1" maxWidth=180 maxHeight=60/>
+
+  **Built with the Evenec Publishing System**
+
+  First Edition · UK 2026
+</box>

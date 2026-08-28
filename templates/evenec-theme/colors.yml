@@ -1,10 +1,13 @@
-primary: "#0F4C81"
-secondary: "#00A6A6"
-accent: "#E67E22"
+# Evenec Brand Palette
 
-text: "#1F2937"
+primary: "#0F62FE"
+secondary: "#6B7280"
+success: "#16A34A"
+warning: "#EA580C"
+danger: "#DC2626"
+
 background: "#FFFFFF"
+surface: "#F8FAFC"
+text: "#111827"
 
-success: "#2E8B57"
-warning: "#D97706"
-danger: "#B91C1C"
+border: "#E5E7EB"

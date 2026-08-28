@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430">
+  <rect x="20" y="20" width="720" height="390" rx="18"
+        fill="white" stroke="#111827" stroke-width="2"/>
+
+  <text x="40" y="45" font-family="Segoe UI, Arial" font-size="20" fill="#111827">
+    Evenec Retail Executive Dashboard
+  </text>
+
+  <rect x="40" y="70" width="150" height="70" rx="10" fill="white" stroke="#111827"/>
+  <rect x="210" y="70" width="150" height="70" rx="10" fill="white" stroke="#111827"/>
+  <rect x="380" y="70" width="150" height="70" rx="10" fill="white" stroke="#111827"/>
+  <rect x="550" y="70" width="150" height="70" rx="10" fill="white" stroke="#111827"/>
+
+  <text x="95" y="98" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13">Revenue</text>
+  <text x="265" y="98" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13">Orders</text>
+  <text x="435" y="98" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13">Average</text>
+  <text x="625" y="98" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13">Top City</text>
+
+  <rect x="40" y="170" width="320" height="170" rx="10" fill="white" stroke="#111827"/>
+  <rect x="400" y="170" width="300" height="170" rx="10" fill="white" stroke="#111827"/>
+
+  <text x="200" y="192" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14">Revenue by City</text>
+  <text x="550" y="192" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14">Revenue by Category</text>
+
+  <rect x="40" y="360" width="660" height="28" rx="8" fill="white" stroke="#111827"/>
+  <text x="370" y="378" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13">Interactive Slicers</text>
+</svg>

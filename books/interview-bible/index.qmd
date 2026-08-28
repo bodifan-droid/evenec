@@ -1,28 +1,6 @@
-# evenec
+---
+title: "Data Analyst Interview Bible (UK 2026)"
+toc: false
+---
 
-# Data Analyst Interview Bible (UK 2026)
-
-## Part 1 — HR Interview Mastery
-
-**First Edition**
-
-**Authors**
-
-- Bohdan Shevchuk
-- ChatGPT (OpenAI)
-
-## Part 2 — SQL Bible
-
-This section prepares you for SQL interviews in UK companies using one consistent business dataset: **Evenec Retail**.
-
-Topics include:
-
-- SELECT & WHERE
-- GROUP BY & HAVING
-- JOINs
-- CTEs
-- Window Functions
-- Business Cases
-- Full Mock Interview
-
-CC BY 4.0
+![](assets/covers/cover-v1.png){width=100%}

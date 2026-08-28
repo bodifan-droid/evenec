@@ -7,14 +7,21 @@ project:
 
 book:
   title: "Data Analyst Interview Bible (UK 2026)"
+  favicon: assets/logo/evenec-icon.svg
   subtitle: "UK Interview Edition"
   author:
     - "Bohdan Shevchuk"
     - "ChatGPT (OpenAI)"
   date: "First Edition"
 
+  sidebar:
+    style: docked
+    search: true
+    logo: assets/logo/evenec-logo.png
+
   chapters:
     - index.qmd
+    - manifesto.md
     - copyright.md
     - foreword.md
 
@@ -51,15 +58,18 @@ book:
 
 format:
   html:
+    include-after-body:
+      - templates/footer.html
     theme:
       - cosmo
-      - ../../templates/evenec-theme/evenec.scss
     toc: true
-    number-sections: true
+    toc-depth: 2
+    number-sections: false
 
   typst:
     toc: true
-    number-sections: true
+    toc-depth: 2
+    number-sections: false
     papersize: a4
     margin:
       x: 20mm
