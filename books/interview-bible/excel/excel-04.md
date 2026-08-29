@@ -548,6 +548,16 @@ Target.
 
 Explain every decision aloud in English.
 
+## Dashboard Layout
+
+A great dashboard isn't just about charts — it's about where each element lives.
+
+![](assets/diagrams/dashboard-layout.svg){#fig:dashboard-layout width=100%}
+
+*Figure 4.1 — Professional Dashboard Layout Blueprint.*
+
+A good layout guides the user's eyes from KPIs to trends and finally to detailed analysis.
+
 ---
 
 # Excel Bible Complete
