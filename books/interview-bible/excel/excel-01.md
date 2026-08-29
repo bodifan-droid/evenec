@@ -45,6 +45,26 @@ Memory Hook.
 
 > Excel explains data.
 
+## Formula Decision Tree
+
+Interviewers often ask which Excel function you would choose for a specific business task.
+
+Instead of memorising formulas, learn to recognise the type of problem first.
+
+![](assets/diagrams/formula-tree.svg){#fig:formula-tree width=100%}
+
+*Figure 1.1 — Excel Formula Decision Tree.*
+
+### Interview Anchor
+
+**Find → Lookup.**
+
+**Sum → SUMIFS.**
+
+**Count → COUNTIFS.**
+
+**Decide → IF.**
+
 ---
 
 # Interview Question 1

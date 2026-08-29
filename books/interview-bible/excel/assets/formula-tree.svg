@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="788"
+     viewBox="0 0 1400 788">
+
+<defs>
+
+<style>
+.title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:700;fill:#1E3A8A;}
+.subtitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#12C6B2;}
+.boxTitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#1E3A8A;}
+.small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:17px;fill:#1E3A8A;}
+</style>
+
+<marker id="arrow"
+markerWidth="12"
+markerHeight="12"
+refX="10"
+refY="6"
+orient="auto">
+<path d="M0,0 L12,6 L0,12 Z"
+fill="#12C6B2"/>
+</marker>
+
+</defs>
+
+<rect width="1400"
+height="788"
+rx="28"
+fill="white"/>
+
+<text x="60"
+y="70"
+class="subtitle">EXCEL-01</text>
+
+<text x="60"
+y="120"
+class="title">Formula Decision Tree</text>
+
+<!-- Root -->
+
+<g transform="translate(520,150)">
+
+<rect width="360"
+height="90"
+rx="20"
+fill="white"
+stroke="#12C6B2"
+stroke-width="3"/>
+
+<text x="180"
+y="38"
+text-anchor="middle"
+class="boxTitle">What do you need?</text>
+
+<text x="180"
+y="64"
+text-anchor="middle"
+class="small">Choose the right Excel function.</text>
+
+</g>
+
+<!-- Branches -->
+
+<line x1="700"
+y1="240"
+x2="250"
+y2="340"
+stroke="#12C6B2"
+stroke-width="3"
+marker-end="url(#arrow)"/>
+
+<line x1="700"
+y1="240"
+x2="550"
+y2="340"
+stroke="#12C6B2"
+stroke-width="3"
+marker-end="url(#arrow)"/>
+
+<line x1="700"
+y1="240"
+x2="850"
+y2="340"
+stroke="#12C6B2"
+stroke-width="3"
+marker-end="url(#arrow)"/>
+
+<line x1="700"
+y1="240"
+x2="1150"
+y2="340"
+stroke="#12C6B2"
+stroke-width="3"
+marker-end="url(#arrow)"/>
+
+<!-- XLOOKUP -->
+
+<g transform="translate(110,340)">
+<rect width="240"
+height="120"
+rx="20"
+fill="white"
+stroke="#D6DCE8"
+stroke-width="2"/>
+<text x="120"
+y="42"
+text-anchor="middle"
+class="boxTitle">XLOOKUP</text>
+<text x="120"
+y="72"
+text-anchor="middle"
+class="small">Find a value</text>
+<text x="120"
+y="94"
+text-anchor="middle"
+class="small">in another table.</text>
+</g>
+
+<!-- INDEX MATCH -->
+
+<g transform="translate(430,340)">
+<rect width="240"
+height="120"
+rx="20"
+fill="white"
+stroke="#D6DCE8"
+stroke-width="2"/>
+<text x="120"
+y="42"
+text-anchor="middle"
+class="boxTitle">INDEX + MATCH</text>
+<text x="120"
+y="72"
+text-anchor="middle"
+class="small">Flexible lookup</text>
+<text x="120"
+y="94"
+text-anchor="middle"
+class="small">for advanced cases.</text>
+</g>
+
+<!-- SUMIFS -->
+
+<g transform="translate(750,340)">
+<rect width="240"
+height="120"
+rx="20"
+fill="white"
+stroke="#D6DCE8"
+stroke-width="2"/>
+<text x="120"
+y="42"
+text-anchor="middle"
+class="boxTitle">SUMIFS</text>
+<text x="120"
+y="72"
+text-anchor="middle"
+class="small">Sum values</text>
+<text x="120"
+y="94"
+text-anchor="middle"
+class="small">using conditions.</text>
+</g>
+
+<!-- COUNTIFS -->
+
+<g transform="translate(1070,340)">
+<rect width="240"
+height="120"
+rx="20"
+fill="white"
+stroke="#D6DCE8"
+stroke-width="2"/>
+<text x="120"
+y="42"
+text-anchor="middle"
+class="boxTitle">COUNTIFS</text>
+<text x="120"
+y="72"
+text-anchor="middle"
+class="small">Count rows</text>
+<text x="120"
+y="94"
+text-anchor="middle"
+class="small">matching conditions.</text>
+</g>
+
+<!-- IF -->
+
+<line x1="700"
+y1="460"
+x2="700"
+y2="560"
+stroke="#12C6B2"
+stroke-width="3"
+marker-end="url(#arrow)"/>
+
+<g transform="translate(580,560)">
+<rect width="240"
+height="120"
+rx="20"
+fill="white"
+stroke="#D6DCE8"
+stroke-width="2"/>
+<text x="120"
+y="42"
+text-anchor="middle"
+class="boxTitle">IF</text>
+<text x="120"
+y="72"
+text-anchor="middle"
+class="small">Return one result</text>
+<text x="120"
+y="94"
+text-anchor="middle"
+class="small">or another.</text>
+</g>
+
+</svg>
