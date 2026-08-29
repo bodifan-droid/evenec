@@ -1,0 +1,298 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="760"
+     viewBox="0 0 1400 760">
+
+  <defs>
+
+    <style>
+      .title{
+        font-family:Inter,Segoe UI,Arial,sans-serif;
+        font-size:42px;
+        font-weight:700;
+        fill:#1E3A8A;
+      }
+
+      .subtitle{
+        font-family:Inter,Segoe UI,Arial,sans-serif;
+        font-size:22px;
+        font-weight:700;
+        fill:#12C6B2;
+      }
+
+      .cardTitle{
+        font-family:Inter,Segoe UI,Arial,sans-serif;
+        font-size:24px;
+        font-weight:700;
+        fill:#1E3A8A;
+      }
+
+      .label{
+        font-family:Inter,Segoe UI,Arial,sans-serif;
+        font-size:18px;
+        fill:#1E3A8A;
+      }
+
+      .small{
+        font-family:Inter,Segoe UI,Arial,sans-serif;
+        font-size:16px;
+        fill:#1E3A8A;
+      }
+    </style>
+
+    <clipPath id="leftClip">
+      <circle cx="72" cy="65" r="48"/>
+    </clipPath>
+
+    <clipPath id="rightClip">
+      <circle cx="128" cy="65" r="48"/>
+    </clipPath>
+
+  </defs>
+
+  <rect width="1400" height="760" rx="28" fill="white"/>
+
+  <text x="60" y="70" class="subtitle">SQL-02</text>
+  <text x="60" y="120" class="title">JOIN Types</text>
+
+  <g transform="translate(55,180)">
+
+    <!-- ===== INNER ===== -->
+
+    <g transform="translate(0,0)">
+
+      <rect width="290" height="470" rx="20"
+            fill="white"
+            stroke="#D6DCE8"
+            stroke-width="2"/>
+
+      <text x="145" y="45"
+            text-anchor="middle"
+            class="cardTitle">INNER JOIN</text>
+
+      <g transform="translate(45,75)">
+
+        <circle cx="72" cy="65" r="48"
+                fill="white"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <circle cx="128" cy="65" r="48"
+                fill="white"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <g clip-path="url(#leftClip)">
+          <circle cx="128" cy="65" r="48" fill="#12C6B2"/>
+        </g>
+
+      </g>
+
+      <text x="145" y="215"
+            text-anchor="middle"
+            class="label">Only matching rows</text>
+
+      <text x="145" y="255"
+            text-anchor="middle"
+            class="small">Returns records that</text>
+
+      <text x="145" y="280"
+            text-anchor="middle"
+            class="small">exist in both tables.</text>
+
+      <text x="145" y="350"
+            text-anchor="middle"
+            class="label">Best for:</text>
+
+      <text x="145" y="380"
+            text-anchor="middle"
+            class="small">Finding customers</text>
+
+      <text x="145" y="405"
+            text-anchor="middle"
+            class="small">who placed orders.</text>
+
+    </g>
+
+    <!-- ===== LEFT ===== -->
+
+    <g transform="translate(330,0)">
+
+      <rect width="290" height="470" rx="20"
+            fill="white"
+            stroke="#D6DCE8"
+            stroke-width="2"/>
+
+      <text x="145" y="45"
+            text-anchor="middle"
+            class="cardTitle">LEFT JOIN</text>
+
+      <g transform="translate(45,75)">
+
+        <circle cx="72" cy="65" r="48"
+                fill="#12C6B2"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <circle cx="128" cy="65" r="48"
+                fill="white"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <g clip-path="url(#leftClip)">
+          <circle cx="128" cy="65" r="48" fill="#12C6B2"/>
+        </g>
+
+      </g>
+
+      <text x="145" y="215"
+            text-anchor="middle"
+            class="label">All left rows</text>
+
+      <text x="145" y="240"
+            text-anchor="middle"
+            class="label">+ matching right</text>
+
+      <text x="145" y="285"
+            text-anchor="middle"
+            class="small">Keeps every record</text>
+
+      <text x="145" y="310"
+            text-anchor="middle"
+            class="small">from the left table.</text>
+
+      <text x="145" y="350"
+            text-anchor="middle"
+            class="label">Best for:</text>
+
+      <text x="145" y="380"
+            text-anchor="middle"
+            class="small">Finding customers</text>
+
+      <text x="145" y="405"
+            text-anchor="middle"
+            class="small">without orders.</text>
+
+    </g>
+
+    <!-- ===== RIGHT ===== -->
+
+    <g transform="translate(660,0)">
+
+      <rect width="290" height="470" rx="20"
+            fill="white"
+            stroke="#D6DCE8"
+            stroke-width="2"/>
+
+      <text x="145" y="45"
+            text-anchor="middle"
+            class="cardTitle">RIGHT JOIN</text>
+
+      <g transform="translate(45,75)">
+
+        <circle cx="72" cy="65" r="48"
+                fill="white"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <circle cx="128" cy="65" r="48"
+                fill="#12C6B2"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <g clip-path="url(#rightClip)">
+          <circle cx="72" cy="65" r="48" fill="#12C6B2"/>
+        </g>
+
+      </g>
+
+      <text x="145" y="215"
+            text-anchor="middle"
+            class="label">All right rows</text>
+
+      <text x="145" y="240"
+            text-anchor="middle"
+            class="label">+ matching left</text>
+
+      <text x="145" y="285"
+            text-anchor="middle"
+            class="small">Keeps every record</text>
+
+      <text x="145" y="310"
+            text-anchor="middle"
+            class="small">from the right table.</text>
+
+      <text x="145" y="350"
+            text-anchor="middle"
+            class="label">Best for:</text>
+
+      <text x="145" y="380"
+            text-anchor="middle"
+            class="small">Less common in</text>
+
+      <text x="145" y="405"
+            text-anchor="middle"
+            class="small">real interviews.</text>
+
+    </g>
+
+    <!-- ===== FULL ===== -->
+
+    <g transform="translate(990,0)">
+
+      <rect width="290" height="470" rx="20"
+            fill="white"
+            stroke="#D6DCE8"
+            stroke-width="2"/>
+
+      <text x="145" y="45"
+            text-anchor="middle"
+            class="cardTitle">FULL OUTER JOIN</text>
+
+      <g transform="translate(45,75)">
+
+        <circle cx="72" cy="65" r="48"
+                fill="#12C6B2"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+        <circle cx="128" cy="65" r="48"
+                fill="#12C6B2"
+                stroke="#1E3A8A"
+                stroke-width="2"/>
+
+      </g>
+
+      <text x="145" y="215"
+            text-anchor="middle"
+            class="label">Everything from both</text>
+
+      <text x="145" y="240"
+            text-anchor="middle"
+            class="label">tables</text>
+
+      <text x="145" y="285"
+            text-anchor="middle"
+            class="small">Returns matches and</text>
+
+      <text x="145" y="310"
+            text-anchor="middle"
+            class="small">non-matching rows.</text>
+
+      <text x="145" y="350"
+            text-anchor="middle"
+            class="label">Best for:</text>
+
+      <text x="145" y="380"
+            text-anchor="middle"
+            class="small">Comparing two</text>
+
+      <text x="145" y="405"
+            text-anchor="middle"
+            class="small">complete datasets.</text>
+
+    </g>
+
+  </g>
+
+</svg>

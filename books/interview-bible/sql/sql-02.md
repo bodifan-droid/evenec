@@ -355,6 +355,23 @@ Don't worry about JOIN syntax yet.
 
 Sprint 3 explains it fully.
 
+## Visual Guide to SQL JOINs
+
+The four most common JOIN types return different sets of rows. During interviews, recruiters often expect you to explain not only the syntax but also **which rows are included**.
+
+![](assets/diagrams/sql-joins.svg){#fig:sql-joins width=100%}
+
+*Figure 2.1 — SQL JOIN Types.*
+
+### Interview Anchor
+
+Remember the JOINs in this order:
+
+- **INNER** → Only matches.
+- **LEFT** → Keep everything on the left.
+- **RIGHT** → Keep everything on the right.
+- **FULL** → Keep everything.
+
 ---
 
 # HAVING
