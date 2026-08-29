@@ -10,7 +10,7 @@ This isn't a button-by-button tutorial.
 
 This chapter prepares you for **real Junior Data Analyst interviews in the UK**.
 
-We'll continue working with the **Evenec Retail Playground**.
+We'll continue working with the Evenec Retail Playground dataset throughout the Power BI Bible.
 
 Main files:
 
@@ -42,6 +42,20 @@ Memory Hook.
 > Excel explores.
 
 > Power BI monitors.
+
+## Power BI Interview Framework
+
+When explaining your work during an interview, follow this sequence.
+
+![](assets/diagrams/powerbi-workflow.svg){#fig:powerbi-workflow width=100%}
+
+*Figure 1.0 — Power BI Interview Workflow.*
+
+Remember this order:
+
+**Import → Model → Measure → Visualise → Explain**
+
+Recruiters usually care more about your workflow than remembering every menu click.
 
 ---
 
@@ -178,37 +192,18 @@ SQL recreates them every query.
 
 # Star Schema
 
-Most companies use a Star Schema.
+Most companies use a Star Schema because it keeps reports fast, organised and easier to maintain.
 
-<svg viewBox="0 0 640 320" width="100%" height="320" xmlns="http://www.w3.org/2000/svg">
-  <rect x="250" y="120" width="140" height="70" rx="12" fill="none" stroke="currentColor" stroke-width="2"/>
-  <text x="320" y="160" text-anchor="middle" font-size="16">Orders</text>
 
-  <rect x="40" y="40" width="140" height="60" rx="10" fill="none" stroke="currentColor"/>
-  <text x="110" y="75" text-anchor="middle" font-size="14">Customers</text>
+## Relationship Map
 
-  <rect x="460" y="40" width="140" height="60" rx="10" fill="none" stroke="currentColor"/>
-  <text x="530" y="75" text-anchor="middle" font-size="14">Products</text>
+Power BI works best when your tables are connected correctly.
 
-  <rect x="40" y="220" width="140" height="60" rx="10" fill="none" stroke="currentColor"/>
-  <text x="110" y="255" text-anchor="middle" font-size="14">Payments</text>
+![](assets/diagrams/relationship-map.svg){#fig:relationship-map width=100%}
 
-  <rect x="460" y="220" width="140" height="60" rx="10" fill="none" stroke="currentColor"/>
-  <text x="530" y="255" text-anchor="middle" font-size="14">Employees</text>
+*Figure 1.1 — Evenec Retail Data Model Relationships.*
 
-  <line x1="180" y1="70" x2="250" y2="140" stroke="currentColor" stroke-width="2"/>
-  <line x1="460" y1="70" x2="390" y2="140" stroke="currentColor" stroke-width="2"/>
-  <line x1="180" y1="250" x2="250" y2="180" stroke="currentColor" stroke-width="2"/>
-  <line x1="460" y1="250" x2="390" y2="180" stroke="currentColor" stroke-width="2"/>
-</svg>
-
-Notice.
-
-One fact table.
-
-Several dimensions.
-
-Exactly like professional BI systems.
+Notice how one customer can place many orders, while each order connects to products through `order_items`.
 
 ---
 
@@ -273,21 +268,13 @@ Exactly like Excel.
 
 # Dashboard Layout
 
-<svg viewBox="0 0 700 150" width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="35" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="190" y="35" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="360" y="35" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="530" y="35" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
+A good Power BI dashboard should guide the user's attention from KPIs to business insights.
 
-  <text x="95" y="62" text-anchor="middle" font-size="13">Revenue</text>
-  <text x="265" y="62" text-anchor="middle" font-size="13">Orders</text>
-  <text x="435" y="62" text-anchor="middle" font-size="13">Average</text>
-  <text x="605" y="62" text-anchor="middle" font-size="13">Top City</text>
-</svg>
+![](assets/diagrams/dashboard-layout.svg){#fig:powerbi-dashboard-layout width=100%}
 
-Keep plenty of white space.
+*Figure 1.2 — Professional Dashboard Layout.*
 
-Professional dashboards breathe.
+Notice how KPI cards appear first, followed by the main visual, supporting charts and interactive filters.
 
 ---
 

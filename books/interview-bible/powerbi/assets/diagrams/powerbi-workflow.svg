@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="788"
+     viewBox="0 0 1400 788">
+
+  <defs>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:700;fill:#1E3A8A;}
+      .subtitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;fill:#475569;}
+      .stepTitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;font-weight:700;fill:#1E3A8A;}
+      .stepText{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#475569;}
+      .footer{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#64748B;}
+    </style>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000022"/>
+    </filter>
+
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#12C6B2"/>
+    </marker>
+
+    <linearGradient id="tealGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#12C6B2"/>
+      <stop offset="100%" stop-color="#0EA5A4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="788" rx="28" fill="#F8FAFC"/>
+
+  <!-- Header -->
+  <text x="50" y="60" class="title">Power BI Interview Workflow</text>
+  <text x="50" y="92" class="subtitle">How to explain your solution like a professional analyst</text>
+  <line x1="50" y1="112" x2="1350" y2="112" stroke="#12C6B2" stroke-width="3"/>
+
+  <!-- Connection Line -->
+  <line x1="140" y1="350" x2="1260" y2="350"
+        stroke="#12C6B2"
+        stroke-width="5"
+        marker-end="url(#arrow)"/>
+
+  <!-- Step 1 -->
+  <g filter="url(#shadow)" transform="translate(60,230)">
+    <rect width="180" height="190" rx="20" fill="white"/>
+    <circle cx="90" cy="40" r="24" fill="url(#tealGrad)"/>
+    <text x="90" y="47" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">1</text>
+
+    <!-- Import icon -->
+    <path d="M90 68 L90 95 M78 84 L90 96 L102 84"
+          fill="none" stroke="#12C6B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="70" y="98" width="40" height="16" rx="4" fill="none" stroke="#12C6B2" stroke-width="3"/>
+
+    <text x="90" y="136" text-anchor="middle" class="stepTitle">Import</text>
+    <text x="90" y="158" text-anchor="middle" class="stepText">Connect CSV</text>
+    <text x="90" y="178" text-anchor="middle" class="stepText">or SQL data</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g filter="url(#shadow)" transform="translate(310,230)">
+    <rect width="180" height="190" rx="20" fill="white"/>
+    <circle cx="90" cy="40" r="24" fill="url(#tealGrad)"/>
+    <text x="90" y="47" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">2</text>
+
+    <!-- Model icon -->
+    <circle cx="65" cy="88" r="10" fill="none" stroke="#12C6B2" stroke-width="3"/>
+    <circle cx="115" cy="88" r="10" fill="none" stroke="#12C6B2" stroke-width="3"/>
+    <circle cx="90" cy="120" r="10" fill="none" stroke="#12C6B2" stroke-width="3"/>
+    <line x1="74" y1="92" x2="106" y2="92" stroke="#12C6B2" stroke-width="3"/>
+    <line x1="70" y1="96" x2="84" y2="112" stroke="#12C6B2" stroke-width="3"/>
+    <line x1="110" y1="96" x2="96" y2="112" stroke="#12C6B2" stroke-width="3"/>
+
+    <text x="90" y="150" text-anchor="middle" class="stepTitle">Model</text>
+    <text x="90" y="172" text-anchor="middle" class="stepText">Build</text>
+    <text x="90" y="190" text-anchor="middle" class="stepText">relationships</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g filter="url(#shadow)" transform="translate(560,230)">
+    <rect width="180" height="190" rx="20" fill="white"/>
+    <circle cx="90" cy="40" r="24" fill="url(#tealGrad)"/>
+    <text x="90" y="47" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">3</text>
+
+    <!-- Measure icon -->
+    <text x="90" y="110" text-anchor="middle" font-family="Inter" font-size="32" font-weight="700" fill="#12C6B2">∑</text>
+
+    <text x="90" y="145" text-anchor="middle" class="stepTitle">Measure</text>
+    <text x="90" y="167" text-anchor="middle" class="stepText">Create</text>
+    <text x="90" y="185" text-anchor="middle" class="stepText">DAX measures</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g filter="url(#shadow)" transform="translate(810,230)">
+    <rect width="180" height="190" rx="20" fill="white"/>
+    <circle cx="90" cy="40" r="24" fill="url(#tealGrad)"/>
+    <text x="90" y="47" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">4</text>
+
+    <!-- Visual icon -->
+    <rect x="58" y="95" width="18" height="35" rx="4" fill="#12C6B2"/>
+    <rect x="82" y="78" width="18" height="52" rx="4" fill="#12C6B2"/>
+    <rect x="106" y="60" width="18" height="70" rx="4" fill="#12C6B2"/>
+
+    <text x="90" y="150" text-anchor="middle" class="stepTitle">Visualise</text>
+    <text x="90" y="172" text-anchor="middle" class="stepText">Choose the</text>
+    <text x="90" y="190" text-anchor="middle" class="stepText">right chart</text>
+  </g>
+
+  <!-- Step 5 -->
+  <g filter="url(#shadow)" transform="translate(1060,230)">
+    <rect width="180" height="190" rx="20" fill="white"/>
+    <circle cx="90" cy="40" r="24" fill="url(#tealGrad)"/>
+    <text x="90" y="47" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">5</text>
+
+    <!-- Explain icon -->
+    <path d="M60 78 H120 V116 H88 L74 130 V116 H60 Z"
+          fill="none" stroke="#12C6B2" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="72" y1="90" x2="108" y2="90" stroke="#12C6B2" stroke-width="3"/>
+    <line x1="72" y1="102" x2="98" y2="102" stroke="#12C6B2" stroke-width="3"/>
+
+    <text x="90" y="150" text-anchor="middle" class="stepTitle">Explain</text>
+    <text x="90" y="172" text-anchor="middle" class="stepText">Turn data into</text>
+    <text x="90" y="190" text-anchor="middle" class="stepText">business insight</text>
+  </g>
+
+  <!-- Interview Tip -->
+  <g filter="url(#shadow)" transform="translate(210,520)">
+    <rect width="980" height="140" rx="20" fill="white"/>
+    <circle cx="55" cy="50" r="22" fill="#ECFEFB"/>
+    <text x="55" y="58" text-anchor="middle" font-family="Inter" font-size="20" font-weight="700" fill="#12C6B2">✓</text>
+
+    <text x="95" y="42" font-family="Inter" font-size="24" font-weight="700" fill="#1E3A8A">
+      Interview Tip
+    </text>
+
+    <text x="95" y="72" class="stepText">
+      Recruiters rarely expect perfect Power BI reports on the first attempt.
+    </text>
+    <text x="95" y="96" class="stepText">
+      They want to hear your workflow: how you imported, modelled, measured,
+    </text>
+    <text x="95" y="120" class="stepText">
+      visualised and explained the business result.
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="50" y1="720" x2="1350" y2="720" stroke="#12C6B2" stroke-width="3"/>
+  <text x="50" y="752" class="footer">
+    Remember: Workflow beats memorising buttons.
+  </text>
+
+</svg>
