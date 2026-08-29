@@ -39,36 +39,6 @@ By the end of this sprint you'll have a dashboard showing:
 This looks much closer to a real business report than a classroom exercise.
 
 ---
-
-# Dashboard Preview
-
-Imagine this layout.
-
-<svg viewBox="0 0 720 420" width="100%" height="420" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="20" width="680" height="380" rx="16" fill="none" stroke="currentColor" stroke-width="2"/>
-
-  <rect x="40" y="50" width="140" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="200" y="50" width="140" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="360" y="50" width="140" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="520" y="50" width="140" height="70" rx="10" fill="none" stroke="currentColor"/>
-
-  <text x="110" y="78" text-anchor="middle" font-size="14">Revenue</text>
-  <text x="270" y="78" text-anchor="middle" font-size="14">Orders</text>
-  <text x="430" y="78" text-anchor="middle" font-size="14">Avg Order</text>
-  <text x="590" y="78" text-anchor="middle" font-size="14">Top City</text>
-
-  <rect x="40" y="150" width="300" height="180" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="380" y="150" width="280" height="180" rx="10" fill="none" stroke="currentColor"/>
-
-  <text x="190" y="170" text-anchor="middle" font-size="14">Revenue by City</text>
-  <text x="520" y="170" text-anchor="middle" font-size="14">Category Sales</text>
-
-  <rect x="40" y="350" width="620" height="30" rx="8" fill="none" stroke="currentColor"/>
-  <text x="350" y="369" text-anchor="middle" font-size="13">Timeline + Slicers</text>
-</svg>
-
-Keep this mental picture while building.
-
 ## Dashboard Building Workflow
 
 A professional Excel dashboard follows a repeatable process. Instead of jumping straight into charts, analysts prepare the data, build Pivot Tables, add interactive filters and finally present business insights.
@@ -353,24 +323,6 @@ Create four KPI boxes.
 Arrange them across the top.
 
 Exactly like executive dashboards.
-
----
-
-# KPI Layout
-
-<svg viewBox="0 0 700 140" width="100%" height="140" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="30" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="190" y="30" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="360" y="30" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="530" y="30" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-
-  <text x="95" y="58" text-anchor="middle" font-size="13">Revenue</text>
-  <text x="265" y="58" text-anchor="middle" font-size="13">Orders</text>
-  <text x="435" y="58" text-anchor="middle" font-size="13">Average</text>
-  <text x="605" y="58" text-anchor="middle" font-size="13">Top City</text>
-</svg>
-
-Notice how little information creates a strong executive view.
 
 ---
 
