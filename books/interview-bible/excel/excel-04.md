@@ -130,29 +130,21 @@ How valuable is a typical customer purchase?
 
 ---
 
-# KPI Layout
+# Dashboard Layout
 
-Your dashboard should begin with four cards.
+Your dashboard should begin with four KPI cards followed by the main business visuals.
 
-<svg viewBox="0 0 720 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="40" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="190" y="40" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="360" y="40" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="530" y="40" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
+![](assets/diagrams/dashboard-layout.svg){#fig:dashboard-layout width=100%}
 
-  <text x="95" y="68" text-anchor="middle" font-size="13">Revenue</text>
-  <text x="265" y="68" text-anchor="middle" font-size="13">Orders</text>
-  <text x="435" y="68" text-anchor="middle" font-size="13">Average</text>
-  <text x="605" y="68" text-anchor="middle" font-size="13">Top City</text>
-</svg>
+*Figure 4.1 — Professional Dashboard Layout Blueprint.*
 
-Keep the design simple.
+Follow this reading order:
 
-Executives scan.
-
-They don't read.
-
----
+1. KPI cards
+2. Primary chart
+3. Breakdown chart
+4. Trend analysis
+5. Detail panel
 
 # Task 4 — Revenue by City
 
@@ -547,16 +539,6 @@ Target.
 **30 minutes**
 
 Explain every decision aloud in English.
-
-## Dashboard Layout
-
-A great dashboard isn't just about charts — it's about where each element lives.
-
-![](assets/diagrams/dashboard-layout.svg){#fig:dashboard-layout width=100%}
-
-*Figure 4.1 — Professional Dashboard Layout Blueprint.*
-
-A good layout guides the user's eyes from KPIs to trends and finally to detailed analysis.
 
 ---
 

@@ -56,10 +56,6 @@ Notice how KPI cards, charts and filters work together to answer business questi
 
 A professional Excel dashboard follows a repeatable process. Instead of jumping straight into charts, analysts prepare the data, build Pivot Tables, add interactive filters and finally present business insights.
 
-## Dashboard Building Workflow
-
-A professional Excel dashboard follows a repeatable process. Instead of jumping straight into charts, analysts prepare the data, build Pivot Tables, add interactive filters and finally present business insights.
-
 ![](assets/diagrams/pivot-workflow.svg){#fig:pivot-workflow width=100%}
 
 *Figure 3.1 — Pivot Table Workflow.*
