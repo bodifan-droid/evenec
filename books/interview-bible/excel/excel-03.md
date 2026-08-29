@@ -38,12 +38,29 @@ By the end of this sprint you'll have a dashboard showing:
 
 This looks much closer to a real business report than a classroom exercise.
 
----
+***
+
+## Dashboard Building Workflow
+
+A professional Excel dashboard follows a repeatable process. Instead of jumping straight into charts, analysts prepare the data, build Pivot Tables, add interactive filters and finally present business insights.
+
 ## Dashboard Building Workflow
 
 A professional Excel dashboard follows a repeatable process. Instead of jumping straight into charts, analysts prepare the data, build Pivot Tables, add interactive filters and finally present business insights.
 
 ![](assets/diagrams/pivot-workflow.svg){#fig:pivot-workflow width=100%}
+
+*Figure 3.1 — Pivot Table Workflow.*
+
+### Interview Anchor
+
+**Import → Pivot → Visualise → Filter → Explain**
+
+Recruiters often care more about your workflow than remembering every menu click.
+
+---
+
+# Download the Real Dashboard
 
 *Figure 3.1 — Pivot Table Workflow.*
 
