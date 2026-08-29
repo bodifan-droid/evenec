@@ -40,6 +40,18 @@ This looks much closer to a real business report than a classroom exercise.
 
 ***
 
+## Dashboard Preview
+
+This is the kind of executive dashboard you'll be able to build by the end of this sprint.
+
+![](assets/diagrams/executive-dashboard-preview.svg){#fig:executive-dashboard width=100%}
+
+*Figure 3.0 — Evenec Retail Executive Dashboard Preview.*
+
+Notice how KPI cards, charts and filters work together to answer business questions quickly.
+
+***
+
 ## Dashboard Building Workflow
 
 A professional Excel dashboard follows a repeatable process. Instead of jumping straight into charts, analysts prepare the data, build Pivot Tables, add interactive filters and finally present business insights.

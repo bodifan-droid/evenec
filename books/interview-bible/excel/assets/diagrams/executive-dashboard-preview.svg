@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="788"
+     viewBox="0 0 1400 788">
+
+  <defs>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:700;fill:#1E3A8A;}
+      .subtitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:600;fill:#475569;}
+      .kpiTitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:700;fill:#1E3A8A;}
+      .kpiValue{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:28px;font-weight:700;fill:#12C6B2;}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#475569;}
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:17px;font-weight:700;fill:#1E3A8A;}
+      .axis{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#64748B;}
+    </style>
+
+    <linearGradient id="tealGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#12C6B2"/>
+      <stop offset="100%" stop-color="#0EA5A4"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5"
+                    flood-color="#00000022"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="788" rx="28" fill="#F8FAFC"/>
+
+<!-- Header -->
+<text x="50" y="60"
+      font-family="Inter"
+      font-size="44"
+      font-weight="700"
+      fill="#1E3A8A">
+  Evenec Retail — Executive Dashboard
+</text>
+
+<text x="50" y="94"
+      font-family="Inter"
+      font-size="22"
+      font-weight="500"
+      fill="#475569">
+  Real-time sales performance at a glance
+</text>
+
+<line x1="50" y1="112" x2="1350" y2="112"
+      stroke="#12C6B2"
+      stroke-width="3"/>
+
+  <!-- KPI CARDS -->
+
+  <g filter="url(#shadow)">
+    <g transform="translate(30,120)">
+      <rect width="330" height="120" rx="18" fill="white"/>
+      <text x="26" y="34" class="kpiTitle">Total Revenue</text>
+      <text x="26" y="78" class="kpiValue">£1,234,567</text>
+      <text x="26" y="103" class="small">↑ 12.5% vs last month</text>
+      <circle cx="275" cy="60" r="34" fill="#ECFEFB"/>
+      <path d="M255 72 L270 58 L282 68 L296 46"
+            fill="none"
+            stroke="#12C6B2"
+            stroke-width="4"/>
+    </g>
+
+    <g transform="translate(380,120)">
+      <rect width="330" height="120" rx="18" fill="white"/>
+      <text x="26" y="34" class="kpiTitle">Total Orders</text>
+      <text x="26" y="78" class="kpiValue">12,345</text>
+      <text x="26" y="103" class="small">↑ 8.2%</text>
+      <circle cx="275" cy="60" r="34" fill="#ECFEFB"/>
+      <path d="M255 46 H280 L286 74 H262 Z"
+            fill="none"
+            stroke="#12C6B2"
+            stroke-width="3"/>
+    </g>
+
+    <g transform="translate(730,120)">
+      <rect width="330" height="120" rx="18" fill="white"/>
+      <text x="26" y="34" class="kpiTitle">Average Order Value</text>
+      <text x="26" y="78" class="kpiValue">£100.02</text>
+      <text x="26" y="103" class="small">↑ 4.7%</text>
+      <circle cx="275" cy="60" r="34" fill="#ECFEFB"/>
+      <rect x="255" y="46" width="38" height="24"
+            rx="5"
+            fill="none"
+            stroke="#12C6B2"
+            stroke-width="3"/>
+    </g>
+
+    <g transform="translate(1080,120)">
+      <rect width="290" height="120" rx="18" fill="white"/>
+      <text x="26" y="34" class="kpiTitle">Top Performing City</text>
+      <text x="26" y="78" class="kpiValue">London</text>
+      <text x="26" y="103" class="small">£456k this month</text>
+      <circle cx="236" cy="60" r="34" fill="#ECFEFB"/>
+      <path d="M236 42 C222 42 216 52 216 62 C216 74 236 90 236 90 C236 90 256 74 256 62 C256 52 250 42 236 42 Z"
+            fill="none"
+            stroke="#12C6B2"
+            stroke-width="3"/>
+      <circle cx="236" cy="58" r="5" fill="#12C6B2"/>
+    </g>
+  </g>
+
+  <!-- FILTER PANEL -->
+
+  <g filter="url(#shadow)">
+    <g transform="translate(30,260)">
+      <rect width="240" height="455" rx="18" fill="white"/>
+      <text x="22" y="36" class="label">Filters</text>
+
+      <g transform="translate(22,70)">
+        <text y="0" class="small">City</text>
+        <rect y="10" width="196" height="36" rx="8"
+              fill="white"
+              stroke="#CBD5E1"/>
+        <text x="10" y="32" class="small">All</text>
+
+        <text y="78" class="small">Category</text>
+        <rect y="88" width="196" height="36" rx="8"
+              fill="white"
+              stroke="#CBD5E1"/>
+        <text x="10" y="110" class="small">All</text>
+
+        <text y="156" class="small">Segment</text>
+        <rect y="166" width="196" height="36" rx="8"
+              fill="white"
+              stroke="#CBD5E1"/>
+        <text x="10" y="188" class="small">All</text>
+
+        <text y="234" class="small">Channel</text>
+        <rect y="244" width="196" height="36" rx="8"
+              fill="white"
+              stroke="#CBD5E1"/>
+        <text x="10" y="266" class="small">All</text>
+
+        <text y="312" class="small">Order Date</text>
+        <rect y="322" width="196" height="40" rx="8"
+              fill="white"
+              stroke="#CBD5E1"/>
+        <text x="10" y="347" class="small">2024</text>
+
+        <line x1="10" y1="385" x2="186" y2="385"
+              stroke="#1E3A8A"
+              stroke-width="4"/>
+        <circle cx="22" cy="385" r="10"
+                fill="white"
+                stroke="#1E3A8A"
+                stroke-width="3"/>
+        <circle cx="174" cy="385" r="10"
+                fill="white"
+                stroke="#1E3A8A"
+                stroke-width="3"/>
+      </g>
+
+      <line x1="22" y1="395" x2="218" y2="395"
+            stroke="#E5E7EB"/>
+
+      <text x="22" y="430" class="small">↻ Data refreshed</text>
+      <text x="22" y="448" class="small">12 May 2024 09:00</text>
+    </g>
+  </g>
+
+  <!-- REVENUE BY CITY -->
+
+  <g filter="url(#shadow)">
+    <g transform="translate(290,260)">
+      <rect width="610" height="250" rx="18" fill="white"/>
+      <text x="24" y="34" class="label">Revenue by City</text>
+
+      <line x1="58" y1="54" x2="58" y2="210"
+            stroke="#CBD5E1"/>
+      <line x1="58" y1="210" x2="570" y2="210"
+            stroke="#CBD5E1"/>
+
+      <g fill="url(#tealGrad)">
+        <rect x="90" y="70" width="42" height="140" rx="6"/>
+        <rect x="170" y="95" width="42" height="115" rx="6"/>
+        <rect x="250" y="118" width="42" height="92" rx="6"/>
+        <rect x="330" y="145" width="42" height="65" rx="6"/>
+        <rect x="410" y="165" width="42" height="45" rx="6"/>
+        <rect x="490" y="178" width="42" height="32" rx="6"/>
+      </g>
+
+      <g class="axis">
+        <text x="82" y="228">London</text>
+        <text x="152" y="228">Manchester</text>
+        <text x="242" y="228">Birmingham</text>
+        <text x="330" y="228">Leeds</text>
+        <text x="410" y="228">Glasgow</text>
+        <text x="492" y="228">Bristol</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- DONUT -->
+
+  <g filter="url(#shadow)">
+    <g transform="translate(920,260)">
+      <rect width="450" height="250" rx="18" fill="white"/>
+      <text x="24" y="34" class="label">Revenue by Category</text>
+
+      <g transform="translate(170,126)">
+        <circle r="78"
+                fill="none"
+                stroke="#1E3A8A"
+                stroke-width="34"
+                stroke-dasharray="155 335"
+                transform="rotate(-90)"/>
+        <circle r="78"
+                fill="none"
+                stroke="#2563EB"
+                stroke-width="34"
+                stroke-dasharray="120 370"
+                stroke-dashoffset="-155"
+                transform="rotate(-90)"/>
+        <circle r="78"
+                fill="none"
+                stroke="#12C6B2"
+                stroke-width="34"
+                stroke-dasharray="80 410"
+                stroke-dashoffset="-275"
+                transform="rotate(-90)"/>
+        <circle r="78"
+                fill="none"
+                stroke="#5EEAD4"
+                stroke-width="34"
+                stroke-dasharray="45 445"
+                stroke-dashoffset="-355"
+                transform="rotate(-90)"/>
+        <circle r="46" fill="white"/>
+      </g>
+
+      <g class="small">
+        <rect x="315" y="60" width="16" height="16" rx="4" fill="#1E3A8A"/>
+        <text x="340" y="73">Electronics</text>
+
+        <rect x="315" y="92" width="16" height="16" rx="4" fill="#2563EB"/>
+        <text x="340" y="105">Home</text>
+
+        <rect x="315" y="124" width="16" height="16" rx="4" fill="#12C6B2"/>
+        <text x="340" y="137">Clothing</text>
+
+        <rect x="315" y="156" width="16" height="16" rx="4" fill="#5EEAD4"/>
+        <text x="340" y="169">Beauty</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- TREND -->
+
+  <g filter="url(#shadow)">
+    <g transform="translate(290,530)">
+      <rect width="610" height="185" rx="18" fill="white"/>
+      <text x="24" y="34" class="label">Revenue Trend</text>
+
+      <line x1="52" y1="50" x2="52" y2="148"
+            stroke="#CBD5E1"/>
+      <line x1="52" y1="148" x2="570" y2="148"
+            stroke="#CBD5E1"/>
+
+      <polyline fill="none"
+                stroke="#12C6B2"
+                stroke-width="4"
+                points="70,120 110,88 150,82 190,90 230,58 270,92 310,80 350,60 390,90 430,72 470,104 510,84"/>
+
+      <g fill="#12C6B2">
+        <circle cx="70" cy="120" r="5"/>
+        <circle cx="110" cy="88" r="5"/>
+        <circle cx="150" cy="82" r="5"/>
+        <circle cx="190" cy="90" r="5"/>
+        <circle cx="230" cy="58" r="5"/>
+        <circle cx="270" cy="92" r="5"/>
+        <circle cx="310" cy="80" r="5"/>
+        <circle cx="350" cy="60" r="5"/>
+        <circle cx="390" cy="90" r="5"/>
+        <circle cx="430" cy="72" r="5"/>
+        <circle cx="470" cy="104" r="5"/>
+        <circle cx="510" cy="84" r="5"/>
+      </g>
+
+      <g class="axis">
+        <text x="60" y="168">Jan</text>
+        <text x="100" y="168">Feb</text>
+        <text x="140" y="168">Mar</text>
+        <text x="180" y="168">Apr</text>
+        <text x="220" y="168">May</text>
+        <text x="260" y="168">Jun</text>
+        <text x="300" y="168">Jul</text>
+        <text x="340" y="168">Aug</text>
+        <text x="380" y="168">Sep</text>
+        <text x="420" y="168">Oct</text>
+        <text x="460" y="168">Nov</text>
+        <text x="500" y="168">Dec</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- PRODUCTS -->
+
+  <g filter="url(#shadow)">
+    <g transform="translate(920,530)">
+      <rect width="450" height="185" rx="18" fill="white"/>
+      <text x="24" y="34" class="label">Top 5 Products by Revenue</text>
+
+      <g class="small">
+        <text x="24" y="68">Product A</text>
+        <rect x="120" y="55" width="220" height="18" rx="9" fill="url(#tealGrad)"/>
+        <text x="355" y="69">£98k</text>
+
+        <text x="24" y="98">Product B</text>
+        <rect x="120" y="85" width="180" height="18" rx="9" fill="url(#tealGrad)"/>
+        <text x="315" y="99">£76k</text>
+
+        <text x="24" y="128">Product C</text>
+        <rect x="120" y="115" width="150" height="18" rx="9" fill="url(#tealGrad)"/>
+        <text x="285" y="129">£64k</text>
+
+        <text x="24" y="158">Product D</text>
+        <rect x="120" y="145" width="120" height="18" rx="9" fill="url(#tealGrad)"/>
+        <text x="255" y="159">£52k</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <line x1="30" y1="740" x2="1370" y2="740"
+        stroke="#12C6B2"
+        stroke-width="3"/>
+
+  <text x="40" y="770" class="small">Use filters and timeline to explore performance by city, category and time period.</text>
+  <text x="920" y="770" class="small">Source: Evenec Retail Playground • Currency: GBP (£)</text>
+
+</svg>
