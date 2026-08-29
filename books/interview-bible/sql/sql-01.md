@@ -86,6 +86,56 @@ This simple relationship helps you understand joins later.
 
 ---
 
+# How SQL Really Executes a Query
+
+One of the most common interview questions is:
+
+> "Does SQL execute `SELECT` first?"
+
+The correct answer is **no**.
+
+Although we write `SELECT` at the beginning of the query, SQL processes it in a different order behind the scenes.
+
+This execution order helps explain why some queries work — and why others return unexpected results.
+
+## SQL Execution Order
+
+![](assets/diagrams/sql-execution-order.svg){#fig:sql-order width=100%}
+
+*Figure 1.1 — SQL Execution Order.*
+
+### Remember this order
+
+| Step     | What happens                              |
+| -------- | ----------------------------------------- |
+| FROM     | Choose the table(s).                      |
+| WHERE    | Filter individual rows.                   |
+| GROUP BY | Create groups.                            |
+| HAVING   | Filter those groups.                      |
+| SELECT   | Choose which columns to return.           |
+| ORDER BY | Sort the results.                         |
+| LIMIT    | Return only the requested number of rows. |
+
+## Interview Tip
+
+If a recruiter asks:
+
+> "Explain what this query does."
+
+A strong answer is:
+
+> "SQL first finds the data in `FROM`, filters it with `WHERE`, creates groups if needed, selects the required columns, sorts the results, and finally applies `LIMIT`."
+
+This explanation sounds much more professional than simply reading the query line by line.
+
+### Memory Hook
+
+**Find → Filter → Group → Select → Sort → Stop**
+
+Think of SQL as following this journey every time it runs a query.
+
+---
+
 # Question 1 — Show Every Customer
 
 ## Recruiter Psychology
