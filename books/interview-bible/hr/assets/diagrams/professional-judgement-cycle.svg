@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="788"
+     viewBox="0 0 1400 788">
+
+  <defs>
+
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:700;fill:#1E3A8A;}
+      .subtitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#12C6B2;}
+      .step{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#1E3A8A;}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:17px;fill:#1E3A8A;}
+      .num{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:700;fill:white;}
+    </style>
+
+    <marker id="arrow"
+            markerWidth="12"
+            markerHeight="12"
+            refX="10"
+            refY="6"
+            orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#12C6B2"/>
+    </marker>
+
+  </defs>
+
+  <rect width="1400" height="788" rx="28" fill="white"/>
+
+  <text x="60" y="70" class="subtitle">HR-03</text>
+  <text x="60" y="120" class="title">Professional Judgement Cycle</text>
+
+  <path d="M700 220
+           C930 220 1080 370 1080 520
+           C1080 650 920 690 700 690
+           C480 690 320 650 320 520
+           C320 370 470 220 700 220"
+        fill="none"
+        stroke="#12C6B2"
+        stroke-width="4"
+        stroke-dasharray="10 10"/>
+
+  <g transform="translate(620,180)">
+    <circle cx="80" cy="40" r="26" fill="#12C6B2"/>
+    <text x="80" y="48" text-anchor="middle" class="num">1</text>
+    <rect x="0" y="80" width="160" height="90" rx="18"
+          fill="white" stroke="#D6DCE8" stroke-width="2"/>
+    <text x="80" y="115" text-anchor="middle" class="step">Reflect</text>
+    <text x="80" y="145" text-anchor="middle" class="small">Learn from</text>
+    <text x="80" y="165" text-anchor="middle" class="small">experience</text>
+  </g>
+
+  <g transform="translate(960,300)">
+    <circle cx="80" cy="40" r="26" fill="#12C6B2"/>
+    <text x="80" y="48" text-anchor="middle" class="num">2</text>
+    <rect x="0" y="80" width="160" height="90" rx="18"
+          fill="white" stroke="#D6DCE8" stroke-width="2"/>
+    <text x="80" y="115" text-anchor="middle" class="step">Adapt</text>
+    <text x="80" y="145" text-anchor="middle" class="small">Reorganise</text>
+    <text x="80" y="165" text-anchor="middle" class="small">quickly</text>
+  </g>
+
+  <g transform="translate(880,560)">
+    <circle cx="80" cy="40" r="26" fill="#12C6B2"/>
+    <text x="80" y="48" text-anchor="middle" class="num">3</text>
+    <rect x="0" y="80" width="160" height="90" rx="18"
+          fill="white" stroke="#D6DCE8" stroke-width="2"/>
+    <text x="80" y="115" text-anchor="middle" class="step">Communicate</text>
+    <text x="80" y="145" text-anchor="middle" class="small">Keep others</text>
+    <text x="80" y="165" text-anchor="middle" class="small">informed</text>
+  </g>
+
+  <g transform="translate(360,560)">
+    <circle cx="80" cy="40" r="26" fill="#12C6B2"/>
+    <text x="80" y="48" text-anchor="middle" class="num">4</text>
+    <rect x="0" y="80" width="160" height="90" rx="18"
+          fill="white" stroke="#D6DCE8" stroke-width="2"/>
+    <text x="80" y="115" text-anchor="middle" class="step">Decide</text>
+    <text x="80" y="145" text-anchor="middle" class="small">Balance</text>
+    <text x="80" y="165" text-anchor="middle" class="small">priorities</text>
+  </g>
+
+  <g transform="translate(280,300)">
+    <circle cx="80" cy="40" r="26" fill="#12C6B2"/>
+    <text x="80" y="48" text-anchor="middle" class="num">5</text>
+    <rect x="0" y="80" width="160" height="90" rx="18"
+          fill="white" stroke="#D6DCE8" stroke-width="2"/>
+    <text x="80" y="115" text-anchor="middle" class="step">Improve</text>
+    <text x="80" y="145" text-anchor="middle" class="small">Build better</text>
+    <text x="80" y="165" text-anchor="middle" class="small">habits</text>
+  </g>
+
+  <line x1="780" y1="250" x2="960" y2="340"
+        stroke="#12C6B2" stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <line x1="1040" y1="470" x2="960" y2="560"
+        stroke="#12C6B2" stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <line x1="800" y1="650" x2="520" y2="650"
+        stroke="#12C6B2" stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <line x1="360" y1="560" x2="360" y2="470"
+        stroke="#12C6B2" stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <line x1="440" y1="340" x2="620" y2="250"
+        stroke="#12C6B2" stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+</svg>

@@ -99,6 +99,28 @@ ROW_NUMBER never repeats.
 
 Unique numbering.
 
+## How Window Functions Work
+
+Window functions calculate values across related rows without collapsing the result into a single row.
+
+The process is simple:
+
+1. **PARTITION BY** creates groups.
+2. **ORDER BY** sorts each group.
+3. A window function assigns a value to every row.
+
+![](assets/diagrams/window-functions.svg){#fig:window-functions width=100%}
+
+*Figure 3.1 — Window Functions: PARTITION BY, ORDER BY and Ranking.*
+
+### Interview Anchor
+
+Remember this sequence:
+
+**Split → Sort → Number**
+
+If you can explain these three steps confidently, you'll answer most junior interview questions about window functions.
+
 ---
 
 # Question 34 — RANK()
