@@ -99,11 +99,11 @@ A strong answer is:
 
 This explanation sounds much more professional than simply reading the query line by line.
 
-### Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 **Find → Filter → Group → Select → Sort → Stop**
 
 Think of SQL as following this journey every time it runs a query.
+:::
 
 ---
 
@@ -128,9 +128,9 @@ FROM customers;
 
 > This query selects every column from the customers table.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 SELECT = Choose.
+:::
 
 ## Common Mistake
 
@@ -169,9 +169,9 @@ FROM customers;
 
 > Instead of returning every column, I only select the information I need.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 Only what matters.
+:::
 
 ## Common Mistake
 
@@ -202,9 +202,9 @@ WHERE city = 'London';
 
 > First I filter the rows where the city is London, then I return the required columns.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 WHERE filters rows.
+:::
 
 ## Common Mistake
 
@@ -245,9 +245,9 @@ WHERE amount > 100;
 
 > I filter orders where the amount is greater than £100.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 Greater than means bigger money.
+:::
 
 ## Common Mistake
 
@@ -280,11 +280,11 @@ WHERE amount > 200
 
 > Both conditions must be true.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 AND = Both.
 
 OR = Either.
+:::
 
 ## Common Mistake
 
@@ -312,9 +312,9 @@ WHERE city = 'London'
 
 > Either city matches.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 OR opens another door.
+:::
 
 ---
 
@@ -355,11 +355,11 @@ ORDER BY amount DESC;
 
 > I sort the amounts from highest to lowest.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 DESC = Biggest first.
 
 ASC = Smallest first.
+:::
 
 ## Common Mistake
 
@@ -414,11 +414,11 @@ LIMIT 5;
 
 > First I sort the orders, then I return only the top five.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 Sort.
 
 Then limit.
+:::
 
 ---
 
@@ -449,9 +449,9 @@ FROM customers;
 
 > DISTINCT removes duplicate values.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 DISTINCT means unique.
+:::
 
 ## Common Mistake
 
@@ -582,7 +582,7 @@ SELECT DISTINCT column;
 
 ---
 
-# Memory Hooks Summary
+::: {.callout-note title="Memory Hooks Summary"}
 
 | Concept  | Hook        |
 | -------- | ----------- |
@@ -591,6 +591,7 @@ SELECT DISTINCT column;
 | ORDER BY | Organise    |
 | LIMIT    | Stop early  |
 | DISTINCT | Unique      |
+:::
 
 ---
 

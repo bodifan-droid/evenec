@@ -76,11 +76,11 @@ Follow these rules.
 - Two main charts.
 - Interactive filters.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 One screen.
 
 One story.
+:::
 
 ---
 
@@ -234,11 +234,12 @@ Total Revenue.
 
 Now trends become visible.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
 
 Bars compare.
 
 Lines reveal change.
+:::
 
 ---
 
@@ -310,11 +311,11 @@ Add.
 
 Now users can investigate deeper.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Overview.
 
 Then detail.
+:::
 
 ---
 
@@ -502,13 +503,13 @@ Use this checklist before every interview assignment.
 | Bookmark      | Interactive navigation |
 | Drill-through | Detailed analysis      |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Filter.
 
 Explore.
 
 Explain.
+:::
 
 ---
 
@@ -564,7 +565,7 @@ This sounds natural for a B2-level interview.
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Concept       | Hook              |
 | ------------- | ----------------- |
@@ -574,6 +575,7 @@ This sounds natural for a B2-level interview.
 | Tooltip       | Hidden insight    |
 | Bookmark      | Interactive app   |
 | White Space   | Professional look |
+:::
 
 Congratulations.
 

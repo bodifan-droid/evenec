@@ -27,13 +27,13 @@ A typical workflow looks like this.
 - Power BI models it.
 - Dashboards communicate decisions.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 > SQL finds.
 
 > Excel explores.
 
 > Power BI monitors.
+:::
 
 ## Power BI Interview Framework
 
@@ -123,12 +123,11 @@ Why?
 
 Cleaning should happen before analysis.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Prepare.
 
 Then analyse.
-
+:::
 ---
 
 # Close & Apply
@@ -168,11 +167,11 @@ Think back to SQL.
 
 These are JOIN relationships.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Power BI remembers relationships.
 
 SQL recreates them every query.
+:::
 
 ---
 
@@ -230,11 +229,11 @@ You have business insight.
 | Table  | Details    |
 | Map    | Locations  |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 One question.
 
 One visual.
+:::
 
 ---
 
@@ -368,8 +367,7 @@ Answer.
 | Line Chart  | Trend         |
 | Slicer      | Filter        |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Import.
 
 Model.
@@ -377,6 +375,7 @@ Model.
 Visualise.
 
 Explain.
+:::
 
 ---
 
