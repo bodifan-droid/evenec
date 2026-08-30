@@ -8,21 +8,7 @@ Welcome to the Excel Interview Bible.
 
 Unlike traditional Excel courses, this chapter prepares you for **real Junior Data Analyst interviews in UK companies**.
 
-We'll use the **Evenec Retail Playground** throughout every exercise.
-
----
-
-# The Evenec Retail Dataset
-
-Open:
-
-`playground/evenec-retail/csv/customers.csv`
-
-This is your first working dataset.
-
-You are already familiar with it from SQL.
-
-Now we'll analyse it in Excel.
+Throughout this chapter you'll practise with realistic retail-style spreadsheets similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -75,7 +61,9 @@ Can you work confidently with raw spreadsheets?
 
 ## Task
 
-Open `customers.csv`.
+Open a spreadsheet containing customer records.
+
+Convert the data into an Excel Table.
 
 Convert it into an Excel Table.
 
@@ -278,7 +266,7 @@ Create a dropdown list for order status.
 
 Possible values.
 
-- Completed
+- Delivered
 - Pending
 - Cancelled
 
@@ -324,7 +312,7 @@ Memory Hook.
 
 Interviewer.
 
-> Convert this CSV into a Table.
+> Convert this spreadsheet into an Excel Table.
 
 Pause.
 
@@ -354,7 +342,7 @@ Answer.
 
 # Practice Challenge
 
-Using `customers.csv`.
+Using a spreadsheet containing customer data.
 
 Complete these tasks.
 
