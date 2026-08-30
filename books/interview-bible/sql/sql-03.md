@@ -12,14 +12,14 @@ Instead of memorising JOIN syntax, you'll learn to think like an analyst.
 
 ---
 
-# The Evenec Retail Relationship Map
+# Relationship Map
 
-Our dataset follows one business story.
+Think of a typical retail business.
 
-- Customers place Orders.
-- Orders contain Items.
-- Items reference Products.
-- Orders receive Payments.
+- Customers place orders.
+- Orders contain items.
+- Items reference products.
+- Orders receive payments.
 
 ## Entity Relationship Overview
 
@@ -53,6 +53,8 @@ Our dataset follows one business story.
 Memory Hook:
 
 > **Customer → Order → Item → Product**
+> 
+> Follow the relationship one step at a time.
 
 ---
 
@@ -271,13 +273,9 @@ What is my starting table?
 Then walk through relationships.
 
 Customer
-
-↓
-
+   ↓
 Order
-
-↓
-
+   ↓
 Payment
 
 Never jump randomly.
@@ -430,7 +428,7 @@ choose a CTE.
 
 ---
 
-# Business Case — Amazon Style
+# Business Case
 
 Imagine this question.
 
