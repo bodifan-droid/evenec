@@ -49,7 +49,7 @@ This is much closer to a real company dashboard than a classroom exercise.
 
 # Dashboard Preview
 
-![](assets/diagrams/executive-dashboard-preview.svg){width=100%}
+![](../excel/assets/diagrams/executive-dashboard-preview.svg){#fig:executive-dashboard-preview width=100%}
 
 Keep this layout in mind while building.
 
