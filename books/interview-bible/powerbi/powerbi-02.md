@@ -70,6 +70,16 @@ Interview Tip.
 
 Being able to explain these two concepts is more valuable than memorising dozens of functions.
 
+## How Filter Context Works
+
+One filter can update your entire report.
+
+![](assets/diagrams/filter-context.svg){#fig:filter-context width=100%}
+
+*Figure 2.1 — How Filter Context flows through a Power BI report.*
+
+Notice how a single slicer selection changes every connected visual automatically.
+
 ---
 
 # Interview Question 4
