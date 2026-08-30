@@ -14,7 +14,7 @@ Imagine you're interviewing for a **Junior Data Analyst** role in London.
 
 The hiring manager sends one message.
 
-> "You have forty-five minutes."
+> "You have 45 minutes."
 
 This chapter simulates a real UK assessment.
 
@@ -34,11 +34,11 @@ Time limit:
 
 Dataset:
 
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
-- employees.csv
+- Customer table
+- Order table
+- Product table
+- Payment table
+- Employee table
 
 Deliverables.
 
@@ -53,24 +53,18 @@ Exactly what many UK companies expect.
 
 # Before You Start
 
-Open.
+Before building your report, make sure your model is ready.
 
-**Evenec Retail Playground**
-
-Import the CSV files.
-
-Check.
+Check:
 
 - Relationships
 - Date formats
 - Measures
 - Slicers
 
-Memory Hook.
-
-Prepare.
-
-Then analyse.
+::: {.callout-note title="Memory Hook"}
+Prepare. Then analyse.
+:::
 
 ---
 
@@ -281,11 +275,12 @@ Include.
 
 Now executives can investigate deeper.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
 
 Overview.
 
 Then detail.
+:::
 
 ---
 
@@ -490,25 +485,13 @@ Treat this checklist like a pilot before takeoff.
 
 ---
 
-# Companion Files
+# Independent Practice
 
-Practice using the Evenec Retail Playground.
+::: {.callout-tip title="Practice Like a Real Candidate"}
 
-::: {.callout-tip title="Practice with Real Data"}
+Rebuild this assessment from scratch using any realistic business dataset or a practice dataset provided by your interviewer.
 
-Rebuild this assessment using the complete Evenec Retail Playground.
-
-Included resources:
-
-- `evenec_retail.db`
-- `customers.csv`
-- `orders.csv`
-- `products.csv`
-- `payments.csv`
-- `employees.csv`
-- `evenec_retail_dashboard.xlsx`
-
-Try completing the full assessment before opening your previous solutions.
+Challenge yourself to complete the full assessment before reviewing your previous work.
 :::
 
 ---
@@ -532,19 +515,6 @@ One business problem.
 Solved across multiple tools.
 
 ---
-
-# Congratulations
-
-You've completed.
-
-- HR Interview Mastery
-- SQL Bible
-- Excel Bible
-- Power BI Bible
-
-More importantly.
-
-You've practised thinking like a Data Analyst.
 
 # Congratulations
 

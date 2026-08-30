@@ -19,14 +19,7 @@ Within ten seconds they should understand:
 
 That's the purpose of executive dashboards.
 
-We'll build this report using the **Evenec Retail Playground**.
-
-Main files:
-
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
+We'll build this report using realistic customer, order, product and payment tables similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -117,15 +110,17 @@ Arrange them across the top.
 
 ---
 
-## How CALCULATE Changes Context
+## Quick Reminder — CALCULATE Changes Context
 
-This is the biggest "aha moment" in DAX.
+Remember:
 
-Instead of calculating using the current report state, **CALCULATE()** creates a new filter context before returning the result.
+**Row → Filter → CALCULATE**
+
+This concept powers dynamic KPI cards throughout this dashboard.
 
 ![](assets/diagrams/dax-context.svg){#fig:dax-context width=100%}
 
-*Figure 2.2 — Row Context, Filter Context and Context Transition.*
+*Figure 3.2 — Row Context, Filter Context and Context Transition.*
 
 ### Interview Anchor
 
@@ -159,6 +154,8 @@ RETURN
 ```
 
 TOPN(1) returns the city with the highest revenue.
+
+The KPI updates automatically whenever report filters change.
 
 Business Meaning.
 
@@ -517,7 +514,7 @@ Explain.
 
 # End-of-Sprint Challenge
 
-Build a complete Executive Dashboard.
+Using realistic business tables, build a complete Executive Dashboard.
 
 Requirements.
 
@@ -571,7 +568,7 @@ This sounds natural for a B2-level interview.
 
 | Concept       | Hook              |
 | ------------- | ----------------- |
-| Card          | Immediate insight |
+| Card          | Executive snapshot|
 | Slicer        | Remote control    |
 | Drill-through | Go deeper         |
 | Tooltip       | Hidden insight    |
