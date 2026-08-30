@@ -30,9 +30,7 @@ Window functions calculate values **without destroying individual rows**.
 
 Memory Hook.
 
-> GROUP BY collapses.
-
-> WINDOW looks through.
+> GROUP BY collapses rows. Window functions look through them.
 
 ---
 
@@ -332,7 +330,7 @@ FROM orders;
 
 Explain.
 
-> The total grows after every row.
+> The cumulative total increases with each row.
 
 Memory Hook.
 
@@ -545,7 +543,7 @@ Answer.
 
 ---
 
-Find completed orders.
+Find delivered orders.
 
 Pause.
 
