@@ -270,7 +270,7 @@ Exactly like Excel.
 
 A good Power BI dashboard should guide the user's attention from KPIs to business insights.
 
-![](assets/diagrams/dashboard-layout.svg){#fig:powerbi-dashboard-layout width=100%}
+![](../excel/assets/diagrams/dashboard-layout.svg){#fig:powerbi-dashboard-layout width=100%}
 
 *Figure 1.2 — Professional Dashboard Layout.*
 
