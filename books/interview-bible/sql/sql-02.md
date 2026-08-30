@@ -45,9 +45,7 @@ Example:
 | Manchester | 18     |
 | Leeds      | 9      |
 
-Rows disappear.
-
-Groups remain.
+Individual rows become summaries.
 
 ---
 
@@ -260,7 +258,7 @@ Forgetting `GROUP BY`.
 
 ## Business Task
 
-Count completed and cancelled orders.
+Count orders by status.
 
 ## SQL Solution
 
@@ -351,9 +349,7 @@ GROUP BY city;
 
 > I join customers and orders, group by city and calculate the average.
 
-Don't worry about JOIN syntax yet.
-
-Sprint 3 explains it fully.
+Don't worry if the JOIN syntax looks unfamiliar yet. We'll cover it in detail in Sprint 3.
 
 ## Visual Guide to SQL JOINs
 

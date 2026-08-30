@@ -8,36 +8,9 @@ Welcome to the SQL Bible.
 
 This book is designed for **Junior Data Analyst interviews in the UK**.
 
-Instead of learning isolated syntax, you'll solve realistic business problems using one consistent dataset.
+Instead of learning isolated syntax, you'll solve realistic business problems through practical SQL examples similar to those used in UK Data Analyst interviews.
 
----
-
-# Introducing the Evenec Retail Dataset
-
-Throughout the SQL Bible we'll work with one fictional company.
-
-> **Evenec Retail**
-
-An online retail business selling products across the UK.
-
-This makes interview practice much closer to real companies like Tesco, Amazon, Deliveroo or Wise.
-
-## Database Structure
-
-| Table       | Purpose                |
-| ----------- | ---------------------- |
-| customers   | Customer information   |
-| orders      | Orders placed          |
-| order_items | Products inside orders |
-| products    | Product catalogue      |
-| payments    | Payment information    |
-| employees   | Internal staff         |
-
----
-
-# Main Tables
-
-## customers
+Each sprint builds on familiar business scenarios so you can focus on understanding SQL rather than memorising syntax.
 
 | Column      | Type |
 | ----------- | ---- |
@@ -74,15 +47,13 @@ This makes interview practice much closer to real companies like Tesco, Amazon, 
 
 # Memory Map
 
-Throughout this book remember:
+Keep this simple relationship in mind throughout the SQL Bible.
 
-Customer places an Order.
+- A customer places an order.
+- An order contains items.
+- Each item references a product.
 
-Order contains Items.
-
-Items reference Products.
-
-This simple relationship helps you understand joins later.
+Understanding these relationships will make joins much easier later.
 
 ---
 
@@ -272,7 +243,7 @@ WHERE amount > 100;
 
 ## Explain It (B2)
 
-> I filter orders where the amount is greater than one hundred.
+> I filter orders where the amount is greater than £100.
 
 ## Memory Hook
 
@@ -302,7 +273,7 @@ SELECT order_id,
        status
 FROM orders
 WHERE amount > 200
-  AND status = 'Completed';
+  AND status = 'Delivered';
 ```
 
 ## Explain It (B2)
