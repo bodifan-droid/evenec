@@ -10,15 +10,7 @@ This isn't a button-by-button tutorial.
 
 This chapter prepares you for **real Junior Data Analyst interviews in the UK**.
 
-We'll continue working with the Evenec Retail Playground dataset throughout the Power BI Bible.
-
-Main files:
-
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
-- employees.csv
+Throughout the Power BI Bible you'll practise with realistic customer, order, product, payment and employee tables similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -91,13 +83,7 @@ Select.
 
 **Text/CSV**
 
-Import.
-
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
-- employees.csv
+Import your customer, order, product, payment and employee tables.
 
 Congratulations.
 
@@ -125,7 +111,7 @@ Business data rarely arrives perfectly clean.
 
 Task.
 
-Open `customers.csv`.
+Open a customer table.
 
 Change.
 
@@ -201,9 +187,9 @@ Power BI works best when your tables are connected correctly.
 
 ![](assets/diagrams/relationship-map.svg){#fig:relationship-map width=100%}
 
-*Figure 1.1 — Evenec Retail Data Model Relationships.*
+*Figure 1.1 — Star Schema Relationship Map.
 
-Notice how one customer can place many orders, while each order connects to products through `order_items`.
+Notice how one customer can place many orders, while each order connects to products through order items.
 
 ---
 
@@ -396,7 +382,7 @@ Explain.
 
 # End-of-Sprint Challenge
 
-Using the Evenec Retail Playground.
+Using customer, order, product, payment and employee tables.
 
 Complete these tasks.
 

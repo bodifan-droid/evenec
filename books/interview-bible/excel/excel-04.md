@@ -28,9 +28,9 @@ Time limit:
 
 Dataset:
 
-- customers.csv
-- orders.csv
-- products.csv
+- Customer table
+- Order table
+- Product table
 
 Deliverables.
 
@@ -45,22 +45,18 @@ Exactly what many UK companies expect.
 
 # Before You Start
 
-Open.
+Before you begin, make sure your workbook is ready.
 
-`evenec_retail_dataset.xlsx`
-
-or import the CSV files.
-
-Check.
+Check:
 
 - Tables
 - Dates
 - Filters
-- No missing formatting
+- Consistent formatting
 
 Memory Hook.
 
-Prepare before analysing.
+> Prepare before analysing.
 
 ---
 
@@ -112,7 +108,7 @@ or
 
 Interview English.
 
-> This KPI shows the total number of completed orders.
+> This KPI shows the total number of delivered orders.
 
 ---
 
@@ -417,9 +413,11 @@ Exactly how professionals work.
 
 # Rebuild the Dashboard Yourself
 
-Now open:
+Now recreate the dashboard from scratch using your own workbook.
 
-`playground/evenec-retail/evenec_retail_dashboard.xlsx`
+Don't just inspect the layout.
+
+Rebuild it yourself.
 
 Don't just inspect it.
 
