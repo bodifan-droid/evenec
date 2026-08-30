@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - release/v1.0
 
 permissions:
   contents: read
@@ -11,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -28,6 +29,11 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Check Quarto
+        run: |
+          cd books/interview-bible
+          quarto check
+
       - name: Render Book
         run: |
           cd books/interview-bible
@@ -39,12 +45,13 @@ jobs:
           path: books/interview-bible/_book
 
   deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    needs: build
 
     steps:
       - name: Deploy
