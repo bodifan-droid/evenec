@@ -91,6 +91,8 @@ One report.
 
 One opportunity.
 
+Imagine presenting this report five minutes before a board meeting.
+
 ---
 
 # Your Mission
@@ -111,40 +113,38 @@ Required.
 - Tooltips
 - Navigation
 
+Every feature should help someone make a faster decision.
+
 Everything should feel polished.
 
 ---
 
 # Dashboard Blueprint
 
-<svg viewBox="0 0 760 430" width="100%" height="430">
-  <rect x="20" y="20" width="720" height="390" rx="18" fill="none" stroke="currentColor" stroke-width="2"/>
+This is the target layout for your assessment.
 
-  <text x="40" y="45" font-size="20">Evenec Retail Executive Dashboard</text>
+![](assets/diagrams/executive-dashboard-preview.svg){#fig:executive-dashboard-preview width=100%}
 
-  <rect x="40" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="210" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="380" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="550" y="70" width="150" height="70" rx="10" fill="none" stroke="currentColor"/>
+*Figure 4.1 — Executive Dashboard Blueprint.*
 
-  <text x="115" y="98" text-anchor="middle" font-size="13">Revenue</text>
-  <text x="285" y="98" text-anchor="middle" font-size="13">Orders</text>
-  <text x="455" y="98" text-anchor="middle" font-size="13">Average</text>
-  <text x="625" y="98" text-anchor="middle" font-size="13">Top City</text>
-
-  <rect x="40" y="170" width="320" height="170" rx="10" fill="none" stroke="currentColor"/>
-  <rect x="400" y="170" width="300" height="170" rx="10" fill="none" stroke="currentColor"/>
-
-  <text x="200" y="192" text-anchor="middle" font-size="14">Revenue by City</text>
-  <text x="550" y="192" text-anchor="middle" font-size="14">Revenue by Category</text>
-
-  <rect x="40" y="360" width="660" height="28" rx="8" fill="none" stroke="currentColor"/>
-  <text x="370" y="378" text-anchor="middle" font-size="13">Interactive Filters & Navigation</text>
-</svg>
+Notice how executives see KPIs first, trends second and detailed analysis last.
 
 Keep this structure while building.
 
 ---
+
+## Assessment Mindset
+
+Don't try to build a beautiful dashboard first.
+
+Follow this order:
+
+1. Model
+2. Measures
+3. Visuals
+4. Business insight
+
+A working dashboard with a clear recommendation is worth more than a perfect-looking report that doesn't answer business questions.
 
 # The 45-Minute Timer
 
@@ -163,6 +163,8 @@ Follow this sequence.
 Notice.
 
 Professionals work against the clock.
+
+If time runs out, prioritise working KPIs and one clear recommendation over additional formatting.
 
 ---
 
@@ -197,6 +199,8 @@ Expected Workflow.
 - Bar Chart
 - Sort descending
 - Explain recommendation
+
+Avoid saying "London has the highest revenue." Instead explain why that matters.
 
 Don't stop at numbers.
 
@@ -239,6 +243,8 @@ Use.
 - Month analysis
 
 Executives love trends.
+
+Trends explain whether today's numbers are improving or declining.
 
 ---
 
@@ -401,6 +407,8 @@ Say.
 
 > Good morning. This dashboard gives a quick overview of our sales performance. Revenue remains strongest in London, while Electronics continues to be our best-performing category. The slicers allow managers to explore different time periods and cities without changing the report. Based on these results, I'd recommend increasing marketing investment in our strongest regions while investigating weaker categories.
 
+Aim for a calm pace rather than speaking quickly.
+
 This sounds natural for B2 English.
 
 ---
@@ -450,11 +458,18 @@ Avoid.
 
 ❌ Reading formulas instead of explaining decisions.
 
+❌ Too many visuals answering the same question.
+
 Remember.
+
+::: {.callout-tip title="Final Interview Mindset"}
 
 Companies hire communicators.
 
 Not formula collectors.
+
+Every chart should answer a business question, and every recommendation should explain what happens next.
+:::
 
 ---
 
@@ -481,18 +496,19 @@ Practice using the Evenec Retail Playground.
 
 ::: {.callout-tip title="Practice with Real Data"}
 
-Open the companion files and recreate this assessment from scratch.
+Rebuild this assessment using the complete Evenec Retail Playground.
 
-Included resources.
+Included resources:
 
 - `evenec_retail.db`
 - `customers.csv`
 - `orders.csv`
 - `products.csv`
+- `payments.csv`
+- `employees.csv`
 - `evenec_retail_dashboard.xlsx`
 
-Complete the full challenge before checking your previous work.
-
+Try completing the full assessment before opening your previous solutions.
 :::
 
 ---
@@ -530,6 +546,30 @@ More importantly.
 
 You've practised thinking like a Data Analyst.
 
+# Congratulations
+
+You've completed:
+
+- HR Interview Mastery
+- SQL Bible
+- Excel Bible
+- Power BI Bible
+
+More importantly, you've practised thinking like a Data Analyst.
+
+You've learned how to:
+
+- answer behavioural questions confidently;
+- write SQL that solves business problems;
+- build professional Excel reports;
+- create executive Power BI dashboards.
+
+Remember:
+
+Companies don't hire people because they memorise formulas.
+
+They hire people who turn data into decisions.
+
 Welcome to the Evenec Interview Bible.
 
 ---
@@ -537,7 +577,7 @@ Welcome to the Evenec Interview Bible.
 <box align=center gap=3 padding={{top:4,bottom:2}}>
   <AsyncImage query="Evenec logo blue teal checkmark" aspectRatio="3:1" maxWidth=180 maxHeight=60/>
 
-  **Built with the Evenec Publishing System**
+  **Published by Evenec**
 
   First Edition · UK 2026
 </box>

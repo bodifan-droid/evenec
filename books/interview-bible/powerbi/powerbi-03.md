@@ -49,9 +49,22 @@ This is much closer to a real company dashboard than a classroom exercise.
 
 # Dashboard Preview
 
-![](../excel/assets/diagrams/executive-dashboard-preview.svg){#fig:executive-dashboard-preview width=100%}
+![](assets/diagrams/executive-dashboard-preview.svg){#fig:executive-dashboard-preview width=100%}
+
+*Figure 3.1 — Executive Dashboard Preview.*
 
 Keep this layout in mind while building.
+
+### Executive Reading Order
+
+A good dashboard guides the user's eyes naturally.
+
+1. KPI Cards
+2. Revenue Trend
+3. Category Performance
+4. Detailed Analysis
+
+Executives scan before they investigate.
 
 ---
 
@@ -102,6 +115,26 @@ Create four Card visuals.
 
 Arrange them across the top.
 
+---
+
+## How CALCULATE Changes Context
+
+This is the biggest "aha moment" in DAX.
+
+Instead of calculating using the current report state, **CALCULATE()** creates a new filter context before returning the result.
+
+![](assets/diagrams/dax-context.svg){#fig:dax-context width=100%}
+
+*Figure 2.2 — Row Context, Filter Context and Context Transition.*
+
+### Interview Anchor
+
+Remember this sequence:
+
+**Row → Filter → CALCULATE**
+
+If you can explain these three ideas clearly, you'll answer many Junior Power BI interview questions with confidence.
+
 Exactly like executive dashboards.
 
 ---
@@ -116,15 +149,16 @@ VAR CityTable =
     SUMMARIZE(
         Customers,
         Customers[city],
-        "Revenue",[Total Revenue]
+        "Revenue", [Total Revenue]
     )
-
 RETURN
-MAXX(
-    TOPN(1,CityTable,[Revenue]),
-    Customers[city]
-)
+    MAXX(
+        TOPN(1, CityTable, [Revenue]),
+        Customers[city]
+    )
 ```
+
+TOPN(1) returns the city with the highest revenue.
 
 Business Meaning.
 
@@ -226,6 +260,12 @@ Exactly what executives expect.
 Interview English.
 
 > Slicers allow users to explore the data without changing the report itself.
+
+### Recruiter Tip
+
+Don't overload a report with too many slicers.
+
+Three well-chosen filters usually provide a better user experience than ten.
 
 ---
 
@@ -512,6 +552,18 @@ Say.
 > I created an executive dashboard that shows revenue, order volume and customer performance. The KPI cards provide an immediate overview, while the slicers allow users to explore different cities and categories. I also added drill-through pages and custom tooltips to help managers investigate specific business questions without creating additional reports.
 
 This sounds natural for a B2-level interview.
+
+> [!TIP]
+>
+> **From Analyst to Storyteller**
+>
+> Your dashboard should answer three questions before anyone asks them:
+>
+> - What happened?
+> - Why did it happen?
+> - What should we do next?
+>
+> That's what turns a dashboard into a business decision.
 
 ---
 

@@ -247,6 +247,26 @@ This is why CALCULATE appears in almost every real project.
 
 ---
 
+## How CALCULATE Changes Context
+
+This is the biggest "aha moment" in DAX.
+
+Instead of calculating using the current report state, **CALCULATE()** creates a new filter context before returning the result.
+
+![](assets/diagrams/dax-context.svg){#fig:dax-context width=100%}
+
+*Figure 2.2 — Row Context, Filter Context and Context Transition.*
+
+### Interview Anchor
+
+Remember this sequence:
+
+**Row → Filter → CALCULATE**
+
+If you can explain these three ideas clearly, you'll answer many Junior Power BI interview questions with confidence.
+
+---
+
 # FILTER
 
 Sometimes conditions become more complex.

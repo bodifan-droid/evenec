@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="788"
+     viewBox="0 0 1400 788">
+
+  <defs>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:700;fill:#1E3A8A;}
+      .subtitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;fill:#475569;}
+      .panelTitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#1E3A8A;}
+      .body{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px;fill:#475569;}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;fill:#64748B;}
+    </style>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000022"/>
+    </filter>
+
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#12C6B2"/>
+    </marker>
+
+    <linearGradient id="tealGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#12C6B2"/>
+      <stop offset="100%" stop-color="#0EA5A4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="788" rx="28" fill="#F8FAFC"/>
+
+  <!-- Header -->
+  <text x="50" y="60" class="title">DAX Context Explained</text>
+  <text x="50" y="92" class="subtitle">The three ideas behind most Power BI interview questions.</text>
+  <line x1="50" y1="112" x2="1350" y2="112" stroke="#12C6B2" stroke-width="3"/>
+
+  <!-- Connecting arrows -->
+  <line x1="425" y1="370" x2="490" y2="370" stroke="#12C6B2" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="875" y1="370" x2="940" y2="370" stroke="#12C6B2" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <!-- Panel 1 -->
+  <g filter="url(#shadow)" transform="translate(40,170)">
+    <rect width="380" height="500" rx="24" fill="white"/>
+    <circle cx="48" cy="42" r="20" fill="url(#tealGrad)"/>
+    <text x="48" y="49" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">1</text>
+
+    <text x="80" y="48" class="panelTitle">Row Context</text>
+    <text x="30" y="84" class="body">DAX evaluates one row at a time.</text>
+
+    <!-- Table -->
+    <rect x="30" y="120" width="320" height="210" rx="14" fill="#F8FAFC"/>
+    <line x1="30" y1="162" x2="350" y2="162" stroke="#CBD5E1"/>
+    <line x1="110" y1="120" x2="110" y2="330" stroke="#CBD5E1"/>
+    <line x1="240" y1="120" x2="240" y2="330" stroke="#CBD5E1"/>
+
+    <text x="55" y="145" class="small">ID</text>
+    <text x="145" y="145" class="small">City</text>
+    <text x="270" y="145" class="small">Revenue</text>
+
+    <rect x="32" y="164" width="316" height="42" rx="8" fill="#ECFEFB"/>
+    <text x="55" y="190" class="body">101</text>
+    <text x="140" y="190" class="body">London</text>
+    <text x="260" y="190" class="body">£120</text>
+
+    <text x="30" y="368" class="body">Example</text>
+
+    <rect x="30" y="390" width="320" height="72" rx="12" fill="#F8FAFC"/>
+    <text x="48" y="418" class="small">Calculated Column</text>
+    <text x="48" y="444" font-family="Inter" font-size="18" font-weight="700" fill="#1E3A8A">Revenue × 1.2</text>
+
+    <text x="30" y="490" class="small">Think: "This one row."</text>
+  </g>
+
+  <!-- Panel 2 -->
+  <g filter="url(#shadow)" transform="translate(490,170)">
+    <rect width="380" height="500" rx="24" fill="white"/>
+    <circle cx="48" cy="42" r="20" fill="url(#tealGrad)"/>
+    <text x="48" y="49" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">2</text>
+
+    <text x="80" y="48" class="panelTitle">Filter Context</text>
+    <text x="30" y="84" class="body">The report applies filters before calculating.</text>
+
+    <!-- Slicer -->
+    <rect x="30" y="120" width="140" height="170" rx="14" fill="#F8FAFC"/>
+    <text x="46" y="145" class="small">City</text>
+
+    <rect x="42" y="160" width="116" height="34" rx="8" fill="#ECFEFB" stroke="#12C6B2"/>
+    <text x="60" y="182" class="small">✓ London</text>
+
+    <rect x="42" y="204" width="116" height="30" rx="8" fill="white" stroke="#CBD5E1"/>
+    <text x="60" y="223" class="small">Leeds</text>
+
+    <rect x="42" y="242" width="116" height="30" rx="8" fill="white" stroke="#CBD5E1"/>
+    <text x="60" y="261" class="small">Bristol</text>
+
+    <!-- Arrow -->
+    <line x1="180" y1="205" x2="220" y2="205" stroke="#12C6B2" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <!-- KPI -->
+    <rect x="230" y="150" width="120" height="90" rx="12" fill="#ECFEFB"/>
+    <text x="245" y="176" class="small">Revenue</text>
+    <text x="245" y="208" font-family="Inter" font-size="28" font-weight="700" fill="#12C6B2">£456k</text>
+
+    <text x="30" y="340" class="body">Everything updates together</text>
+
+    <rect x="30" y="364" width="320" height="90" rx="12" fill="#F8FAFC"/>
+    <text x="48" y="392" class="small">One selection changes</text>
+    <text x="48" y="420" class="body">KPIs, charts and tables</text>
+
+    <text x="30" y="490" class="small">Think: "The report changes."</text>
+  </g>
+
+  <!-- Panel 3 -->
+  <g filter="url(#shadow)" transform="translate(940,170)">
+    <rect width="380" height="500" rx="24" fill="white"/>
+    <circle cx="48" cy="42" r="20" fill="url(#tealGrad)"/>
+    <text x="48" y="49" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="white">3</text>
+
+    <text x="80" y="48" class="panelTitle">Context Transition</text>
+    <text x="30" y="84" class="body">CALCULATE converts row context into filter context.</text>
+
+    <rect x="30" y="120" width="320" height="240" rx="14" fill="#F8FAFC"/>
+
+    <text x="46" y="150" class="small">Measure</text>
+
+    <rect x="46" y="170" width="260" height="58" rx="10" fill="white" stroke="#12C6B2"/>
+    <text x="60" y="205" font-family="Inter" font-size="18" font-weight="700" fill="#1E3A8A">CALCULATE(Revenue)</text>
+
+    <line x1="176" y1="228" x2="176" y2="270" stroke="#12C6B2" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="46" y="280" width="260" height="52" rx="10" fill="#ECFEFB"/>
+    <text x="60" y="312" class="body">Filter: City = London</text>
+
+    <text x="30" y="396" class="body">Result</text>
+
+    <rect x="30" y="420" width="320" height="42" rx="10" fill="#ECFEFB"/>
+    <text x="48" y="446" class="body">Revenue is calculated only for London.</text>
+
+    <text x="30" y="490" class="small">Think: "CALCULATE changes the context."</text>
+  </g>
+
+  <!-- Bottom Summary -->
+  <g filter="url(#shadow)" transform="translate(250,690)">
+    <rect width="900" height="56" rx="16" fill="white"/>
+    <text x="450" y="36" text-anchor="middle"
+          font-family="Inter" font-size="20" font-weight="700" fill="#1E3A8A">
+      Row → Filter → CALCULATE = Context Transition
+    </text>
+  </g>
+
+</svg>
