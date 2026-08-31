@@ -86,11 +86,11 @@ Import a sales data table using Power Query.
 
 > I imported the CSV using Power Query instead of copying data manually.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Power Query is the kitchen.
 
 It prepares ingredients before cooking.
+:::
 
 ---
 
@@ -148,9 +148,9 @@ Values:
 
 > The Pivot Table automatically groups cities and calculates total revenue.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Pivot Tables summarise data automatically.
+:::
 
 ---
 
@@ -260,9 +260,9 @@ Choose.
 
 Now one click changes the whole dashboard.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Slicers are remote controls.
+:::
 
 ---
 
@@ -355,11 +355,11 @@ Avoid.
 - duplicate charts
 - manual calculations
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 One question.
 
 One chart.
+:::
 
 ---
 
@@ -421,11 +421,11 @@ Use this checklist before every interview assignment.
 | Change Type    | Fix formats          |
 | Close & Load   | Return to Excel      |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Power Query prepares.
 
 Pivot Table explains.
+:::
 
 ---
 

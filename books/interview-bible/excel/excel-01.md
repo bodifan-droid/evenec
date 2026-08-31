@@ -25,11 +25,11 @@ A typical workflow looks like this.
 - Pivot Tables summarise it.
 - Charts communicate results.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
+SQL finds data.
 
-> SQL finds data.
-
-> Excel explains data.
+Excel explains data.
+:::
 
 ## Formula Decision Tree
 
@@ -81,9 +81,9 @@ Formulas become easier.
 
 Filters appear automatically.
 
-## Bogdan Notes
-
+::: {.callout-tip title="Bogdan Note"}
 During interviews, creating a Table quickly signals confidence with Excel fundamentals.
+:::
 
 ---
 
@@ -104,13 +104,13 @@ Show only customers from London.
 
 > I filtered the customer list to display only London records.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Filter hides.
 
 Delete removes.
 
 Never confuse them.
+:::
 
 ---
 
@@ -147,9 +147,9 @@ Solution.
 
 View → Freeze Panes.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Freeze protects headers.
+:::
 
 ---
 
@@ -302,9 +302,9 @@ Before analysing any spreadsheet, ask:
 - Correct currency?
 - Consistent spelling?
 
-Memory Hook.
-
-> Clean before analysing.
+::: {.callout-note title="Memory Hook"}
+Clean before analysing.
+:::
 
 ---
 
@@ -363,7 +363,7 @@ Explain every action aloud in English.
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Concept    | Hook              |
 | ---------- | ----------------- |
@@ -372,6 +372,7 @@ Explain every action aloud in English.
 | Sort       | Change order      |
 | Freeze     | Keep headers      |
 | Validation | Prevent mistakes  |
+:::
 
 Congratulations.
 

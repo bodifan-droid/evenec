@@ -20,11 +20,11 @@ Imagine this business question.
 
 This is exactly what lookup functions solve.
 
-Memory Hook.
-
-> IDs connect stories.
+::: {.callout-note title="Memory Hook"}
+IDs connect stories.
 
 Just like SQL JOIN.
+:::
 
 ---
 
@@ -50,13 +50,14 @@ Return a customer's city using customer_id.
 
 > XLOOKUP searches for the customer ID and returns the matching city.
 
-### Memory Hook
 
+::: {.callout-note title="Memory Hook"}
 Search.
 
 Match.
 
 Return.
+:::
 
 ### Common Mistake
 
@@ -122,9 +123,9 @@ Formula.
 =XLOOKUP(A2,Customers[customer_id],Customers[city],"Not Found")
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 User-friendly error messages make reports easier to understand.
+:::
 
 ---
 
@@ -148,11 +149,11 @@ Explain.
 
 INDEX returns the value.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 MATCH finds.
 
 INDEX retrieves.
+:::
 
 ---
 
@@ -224,13 +225,13 @@ Formula.
 =MID(B2,4,5)
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Start.
 
 Length.
 
 Extract.
+:::
 
 ---
 
@@ -350,9 +351,9 @@ Alternative.
 =B2&" "&C2
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Join words.
+:::
 
 ---
 
@@ -450,9 +451,9 @@ Interview English.
 
 > IFERROR makes reports easier to understand.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Hide technical errors.
+:::
 
 ---
 
@@ -530,7 +531,7 @@ Answer.
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Function | Hook          |
 | -------- | ------------- |
@@ -542,6 +543,7 @@ Answer.
 | MID      | Middle        |
 | TRIM     | Clean Spaces  |
 | TEXT     | Pretty Format |
+:::
 
 ---
 

@@ -50,11 +50,11 @@ Think of a typical retail business.
   <text x="500" y="240" font-size="14">product_id</text>
 </svg>
 
-Memory Hook:
-
-> **Customer → Order → Item → Product**
-> 
-> Follow the relationship one step at a time.
+::: {.callout-note title="Memory Hook"}
+**Customer → Order → Item → Product**
+ 
+Follow the relationship one step at a time.
+:::
 
 ---
 
@@ -128,9 +128,9 @@ ON c.customer_id = o.customer_id;
 
 > I connect customers and orders using customer_id and return customer names with their orders.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 INNER = Both must exist.
+:::
 
 ---
 
@@ -168,11 +168,12 @@ ON c.customer_id = o.customer_id;
 
 > Every customer appears. Missing orders become NULL.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 **Left keeps everyone.**
 
 This phrase will appear throughout the book.
+:::
+
 
 ---
 
@@ -225,9 +226,9 @@ WHERE o.order_id IS NULL;
 
 > I keep every customer and filter those without matching orders.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 NULL means "missing".
+:::
 
 ---
 
@@ -286,13 +287,13 @@ Never jump randomly.
 
 Interviewers love CTEs because they improve readability.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 > CTE = Temporary workspace.
 
 Instead of writing one giant query,
 
 build it in steps.
+:::
 
 ---
 
@@ -318,9 +319,9 @@ WHERE revenue > 500;
 
 > First I create a temporary table, then I filter it.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 WITH creates a temporary workspace.
+:::
 
 ---
 
@@ -350,9 +351,9 @@ A subquery is simply
 
 > a query inside another query.
 
-Memory Hook.
-
-> Box inside a box.
+::: {.callout-note title="Memory Hook"}
+Box inside a box.
+:::
 
 ---
 
@@ -512,7 +513,7 @@ SELECT AVG(...)
 
 ---
 
-# Memory Hooks Summary
+::: {.callout-note title="Memory Hooks Summary"}
 
 | Concept  | Hook                |
 | -------- | ------------------- |
@@ -521,6 +522,7 @@ SELECT AVG(...)
 | NULL     | Missing             |
 | CTE      | Temporary workspace |
 | Subquery | Box inside a box    |
+:::
 
 ---
 

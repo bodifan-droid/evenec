@@ -28,9 +28,9 @@ GROUP BY cannot answer this alone.
 
 Window functions calculate values **without destroying individual rows**.
 
-Memory Hook.
-
-> GROUP BY collapses rows. Window functions look through them.
+::: {.callout-note title="Memory Hook"}
+GROUP BY collapses rows. Window functions look through them.
+:::
 
 ---
 
@@ -81,9 +81,9 @@ FROM orders;
 
 > I sort orders by amount and assign a unique number to each row.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 ROW_NUMBER never repeats.
+:::
 
 ---
 
@@ -147,9 +147,9 @@ Notice.
 
 Rank skips numbers.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 RANK leaves gaps.
+:::
 
 ---
 
@@ -175,9 +175,9 @@ Result.
 
 No gaps.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Dense fills gaps.
+:::
 
 ---
 
@@ -213,9 +213,9 @@ SELECT customer_id,
 FROM customer_revenue;
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 PARTITION creates mini competitions.
+:::
 
 ---
 
@@ -286,9 +286,9 @@ SELECT order_date,
 FROM daily_sales;
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 LAG looks back.
+:::
 
 ---
 
@@ -304,9 +304,9 @@ SELECT order_date,
 FROM daily_sales;
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 LEAD looks ahead.
+:::
 
 ---
 
@@ -332,9 +332,9 @@ Explain.
 
 > The cumulative total increases with each row.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Running total keeps growing.
+:::
 
 ---
 

@@ -54,9 +54,9 @@ Check:
 - Filters
 - Consistent formatting
 
-Memory Hook.
-
-> Prepare before analysing.
+::: {.callout-note title="Memory Hook"}
+Prepare before analysing.
+:::
 
 ---
 
@@ -352,11 +352,11 @@ Model Answer
 
 > I check duplicates, missing values, date formats and incorrect text formatting.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Clean.
 
 Then analyse.
+:::
 
 ---
 
@@ -503,13 +503,13 @@ Remember these.
 | Slicer      | Interact      |
 | Timeline    | Time analysis |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Prepare.
 
 Summarise.
 
 Explain.
+:::
 
 ---
 

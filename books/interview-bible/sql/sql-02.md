@@ -59,9 +59,9 @@ Individual rows become summaries.
 | MIN()    | Smallest    |
 | MAX()    | Largest     |
 
-Memory Hook:
-
-> **Count • Sum • Average • Minimum • Maximum**
+::: {.callout-note title="Memory Hook"}
+**Count • Sum • Average • Minimum • Maximum**
+:::
 
 ---
 
@@ -86,9 +86,9 @@ FROM orders;
 
 > COUNT returns the number of rows.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 COUNT counts records.
+:::
 
 ## Common Mistake
 
@@ -137,9 +137,9 @@ FROM orders;
 
 > SUM adds every order amount together.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 SUM builds money.
+:::
 
 ---
 
@@ -219,9 +219,9 @@ GROUP BY creates:
 
 Rows become summaries.
 
-Memory Hook:
-
-> GROUP BY creates piles.
+::: {.callout-note title="Memory Hook"}
+GROUP BY creates piles.
+:::
 
 ---
 
@@ -323,9 +323,9 @@ FROM customers
 GROUP BY city;
 ```
 
-Memory Hook:
-
-> Every passenger needs a seat.
+::: {.callout-note title="Memory Hook"}
+Every passenger needs a seat.
+:::
 
 ---
 
@@ -376,11 +376,11 @@ WHERE filters rows.
 
 HAVING filters groups.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
+WHERE before GROUP.
 
-> WHERE before GROUP.
-
-> HAVING after GROUP.
+HAVING after GROUP.
+:::
 
 ---
 
@@ -555,7 +555,7 @@ HAVING SUM(amount) > 500
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Concept  | Hook          |
 | -------- | ------------- |
@@ -564,6 +564,7 @@ HAVING SUM(amount) > 500
 | AVG      | Typical value |
 | GROUP BY | Make piles    |
 | HAVING   | Filter groups |
+:::
 
 ---
 

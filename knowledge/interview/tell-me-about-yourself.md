@@ -33,11 +33,11 @@ Past → Present → Future
 
 > Now I'm looking for my first Junior Data Analyst role.
 
-## Bogdan Note
-
+::: {.callout-tip title="Bogdan Note"}
 Use this exact career transition.
 
 Business → Dental Lab → GoIT → Data Analyst.
+:::
 
 ## Common Mistake
 

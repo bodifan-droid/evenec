@@ -28,11 +28,11 @@ A typical workflow looks like this.
 - Dashboards communicate decisions.
 
 ::: {.callout-note title="Memory Hook"}
-> SQL finds.
+SQL finds.
 
-> Excel explores.
+Excel explores.
 
-> Power BI monitors.
+Power BI monitors.
 :::
 
 ## Power BI Interview Framework
