@@ -4,6 +4,8 @@ project:
   resources:
     - ../../assets/**
     - ../../templates/**
+    - data-analyst-interview-bible-uk-2026.pdf
+    - data-analyst-interview-bible-uk-2026.epub
 
 book:
   title: "Data Analyst Interview Bible (UK 2026)"
