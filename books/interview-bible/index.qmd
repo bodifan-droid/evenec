@@ -1,6 +1,138 @@
 ---
-title: "Data Analyst Interview Bible (UK 2026)"
+title: ""
+page-layout: full
 toc: false
 ---
 
-![](assets/covers/cover-v1.png){width=100%}
+<style>
+.hero-landing{
+  max-width:820px;
+  margin:0 auto;
+  padding:24px 24px 56px;
+  text-align:center;
+}
+
+.hero-cover{
+  width:100%;
+  max-width:560px;
+  border-radius:18px;
+  box-shadow:0 18px 40px rgba(0,0,0,.10);
+}
+
+.hero-title{
+  font-size:2.6rem;
+  font-weight:800;
+  color:#082B63;
+  margin-top:28px;
+  margin-bottom:8px;
+}
+
+.hero-subtitle{
+  font-size:1.2rem;
+  font-weight:600;
+  color:#0E8E84;
+  margin-bottom:22px;
+}
+
+.hero-description{
+  font-size:1.08rem;
+  line-height:1.7;
+  color:#334155;
+  max-width:700px;
+  margin:0 auto 34px;
+}
+
+.hero-buttons{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:18px;
+  margin-top:18px;
+}
+
+.hero-btn{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:8px;
+  padding:20px 18px;
+  text-decoration:none;
+  border:1.5px solid #E5E7EB;
+  border-radius:18px;
+  background:white;
+  transition:.22s ease;
+  min-height:110px;
+}
+
+.hero-btn:hover{
+  transform:translateY(-3px);
+  border-color:#12C6B2;
+  box-shadow:0 10px 24px rgba(18,198,178,.15);
+}
+
+.hero-btn .icon{
+  font-size:1.6rem;
+}
+
+.hero-btn .title{
+  color:#082B63;
+  font-weight:700;
+}
+
+.hero-btn .desc{
+  color:#64748B;
+  font-size:.92rem;
+}
+
+.hero-footer{
+  margin-top:46px;
+  padding-top:22px;
+  border-top:1px solid #E5E7EB;
+  color:#64748B;
+  font-size:.95rem;
+}
+</style>
+
+<div class="hero-landing">
+
+![](assets/cover-v1.png){.hero-cover}
+
+<div class="hero-title">Data Analyst Interview Bible</div>
+
+<div class="hero-subtitle">UK 2026 • First Edition</div>
+
+<div class="hero-description">
+
+Your complete interview preparation guide for Junior Data Analyst roles in the United Kingdom.
+
+</div>
+
+<div class="hero-buttons">
+
+<a class="hero-btn" href="contents.html">
+<div class="icon">📖</div>
+<div class="title">Read Online</div>
+<div class="desc">Interactive web version</div>
+</a>
+
+<a class="hero-btn" href="interview-bible.pdf">
+<div class="icon">⬇️</div>
+<div class="title">Download PDF</div>
+<div class="desc">Printable edition</div>
+</a>
+
+<a class="hero-btn" href="interview-bible.epub">
+<div class="icon">📱</div>
+<div class="title">Download EPUB</div>
+<div class="desc">For Kindle and e-readers</div>
+</a>
+
+</div>
+
+<div class="hero-footer">
+
+Built with Quarto • Published by **Evenec** • UK 2026
+
+</div>
+
+</div>
