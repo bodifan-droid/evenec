@@ -8,13 +8,7 @@ Welcome to Sprint 2.
 
 This chapter teaches the Excel functions that recruiters most often expect Junior Data Analysts to know.
 
-We'll continue using the **Evenec Retail Playground**.
-
-Main files:
-
-- `customers.csv`
-- `orders.csv`
-- `products.csv`
+Throughout this sprint you'll practise with realistic customer, order and product tables similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -26,11 +20,11 @@ Imagine this business question.
 
 This is exactly what lookup functions solve.
 
-Memory Hook.
-
-> IDs connect stories.
+::: {.callout-note title="Memory Hook"}
+IDs connect stories.
 
 Just like SQL JOIN.
+:::
 
 ---
 
@@ -44,7 +38,7 @@ This is currently one of the most valuable Excel functions.
 
 ### Business Task
 
-Return the customer's city using `customer_id`.
+Return a customer's city using customer_id.
 
 ### Formula
 
@@ -56,13 +50,14 @@ Return the customer's city using `customer_id`.
 
 > XLOOKUP searches for the customer ID and returns the matching city.
 
-### Memory Hook
 
+::: {.callout-note title="Memory Hook"}
 Search.
 
 Match.
 
 Return.
+:::
 
 ### Common Mistake
 
@@ -102,7 +97,7 @@ choose XLOOKUP.
 
 Business Task.
 
-Find product prices from `products.csv`.
+Find product prices from a product table.
 
 Formula.
 
@@ -128,9 +123,9 @@ Formula.
 =XLOOKUP(A2,Customers[customer_id],Customers[city],"Not Found")
 ```
 
-Memory Hook.
-
-Friendly errors improve reports.
+::: {.callout-note title="Memory Hook"}
+User-friendly error messages make reports easier to understand.
+:::
 
 ---
 
@@ -154,11 +149,11 @@ Explain.
 
 INDEX returns the value.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 MATCH finds.
 
 INDEX retrieves.
+:::
 
 ---
 
@@ -230,13 +225,13 @@ Formula.
 =MID(B2,4,5)
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Start.
 
 Length.
 
 Extract.
+:::
 
 ---
 
@@ -356,9 +351,9 @@ Alternative.
 =B2&" "&C2
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Join words.
+:::
 
 ---
 
@@ -397,7 +392,7 @@ Always clean before analysing.
 
 Customer Full Name
 
-Using `customers.csv`.
+Using a customer table.
 
 Create.
 
@@ -450,14 +445,15 @@ use
 ```excel
 =IFERROR(formula,"Missing")
 ```
+This replaces technical errors with a clear business-friendly message.
 
 Interview English.
 
 > IFERROR makes reports easier to understand.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Hide technical errors.
+:::
 
 ---
 
@@ -535,7 +531,7 @@ Answer.
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Function | Hook          |
 | -------- | ------------- |
@@ -547,12 +543,13 @@ Answer.
 | MID      | Middle        |
 | TRIM     | Clean Spaces  |
 | TEXT     | Pretty Format |
+:::
 
 ---
 
 # End-of-Sprint Challenge
 
-Using the Evenec Retail CSV files, complete these tasks without copying the answers.
+Using customer, order and product tables, complete these tasks without copying the answers.
 
 1. Lookup customer city.
 2. Lookup product price.

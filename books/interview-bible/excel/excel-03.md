@@ -14,13 +14,7 @@ Your manager sends one message.
 
 This chapter teaches exactly that workflow.
 
-You'll build a complete business dashboard using the **Evenec Retail Playground**.
-
-Main files:
-
-- orders.csv
-- customers.csv
-- products.csv
+You'll build a complete business dashboard using realistic customer, order and product tables similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -36,7 +30,7 @@ By the end of this sprint you'll have a dashboard showing:
 - Interactive Filters
 - Timeline
 
-This looks much closer to a real business report than a classroom exercise.
+This looks much closer to a real business dashboard than a classroom exercise.
 
 ***
 
@@ -46,9 +40,11 @@ This is the kind of executive dashboard you'll be able to build by the end of th
 
 ![](assets/diagrams/executive-dashboard-preview.svg){#fig:executive-dashboard width=100%}
 
-*Figure 3.0 — Evenec Retail Executive Dashboard Preview.*
+*Figure 3.0 — Executive Dashboard Preview.*
 
 Notice how KPI cards, charts and filters work together to answer business questions quickly.
+
+This layout represents the kind of executive dashboard commonly expected during Excel interview assignments.
 
 ***
 
@@ -68,42 +64,6 @@ Recruiters often care more about your workflow than remembering every menu click
 
 ---
 
-# Download the Real Dashboard
-
-*Figure 3.1 — Pivot Table Workflow.*
-
-### Interview Anchor
-
-**Import → Pivot → Visualise → Filter → Explain**
-
-Recruiters often care more about your workflow than remembering every menu click.
-
----
-
-# Download the Real Dashboard
-
-The dashboard in this chapter isn't just an illustration.
-
-Open the real workbook from the Evenec Retail Playground.
-
-> [!TIP]
-> **Evenec Retail Executive Dashboard**
->
-> Includes:
->
-> - KPI Cards
-> - Revenue Dashboard
-> - Pivot Charts
-> - Executive Layout
->
-> ![](../assets/qr/github-playground.svg){width=90px}
->
-> File:
->
-> `playground/evenec-retail/evenec_retail_dashboard.xlsx`
-
----
-
 # Step 1 — Import Data with Power Query
 
 ## Recruiter Psychology
@@ -112,25 +72,25 @@ Many UK companies expect analysts to know basic Power Query.
 
 ## Business Task
 
-Import `orders.csv`.
+Import a sales data table using Power Query.
 
 ### Steps
 
 1. Data
 2. Get Data
 3. From Text/CSV
-4. Select `orders.csv`
+4. Select your sales data source.
 5. Load to Excel
 
 ### Explain It (B2)
 
 > I imported the CSV using Power Query instead of copying data manually.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Power Query is the kitchen.
 
 It prepares ingredients before cooking.
+:::
 
 ---
 
@@ -188,9 +148,9 @@ Values:
 
 > The Pivot Table automatically groups cities and calculates total revenue.
 
-Memory Hook.
-
-Pivot means summarise.
+::: {.callout-note title="Memory Hook"}
+Pivot Tables summarise data automatically.
+:::
 
 ---
 
@@ -263,13 +223,7 @@ Keep charts clean.
 
 # Step 5 — Revenue by Category
 
-Use.
-
-products.csv
-
-and
-
-orders.csv.
+Use your product and sales tables.
 
 Create another Pivot Table.
 
@@ -306,9 +260,9 @@ Choose.
 
 Now one click changes the whole dashboard.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Slicers are remote controls.
+:::
 
 ---
 
@@ -387,7 +341,7 @@ Say.
 
 > "London generated the highest revenue this month, so I'd recommend focusing additional marketing spend there."
 
-Business language wins interviews.
+Business-focused language wins interviews.
 
 ---
 
@@ -401,11 +355,11 @@ Avoid.
 - duplicate charts
 - manual calculations
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 One question.
 
 One chart.
+:::
 
 ---
 
@@ -461,25 +415,23 @@ Use this checklist before every interview assignment.
 
 | Action         | Purpose              |
 | -------------- | -------------------- |
-| Import CSV     | Load data            |
+| Import Data    | Load data            |
 | Refresh        | Update automatically |
 | Remove Columns | Clean data           |
 | Change Type    | Fix formats          |
 | Close & Load   | Return to Excel      |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Power Query prepares.
 
 Pivot Table explains.
+:::
 
 ---
 
 # End-of-Sprint Challenge
 
-Using the Evenec Retail Playground.
-
-Build a complete dashboard.
+Using customer, order and product tables, build a complete dashboard.
 
 Requirements.
 

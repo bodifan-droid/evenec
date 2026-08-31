@@ -8,36 +8,9 @@ Welcome to the SQL Bible.
 
 This book is designed for **Junior Data Analyst interviews in the UK**.
 
-Instead of learning isolated syntax, you'll solve realistic business problems using one consistent dataset.
+Instead of learning isolated syntax, you'll solve realistic business problems through practical SQL examples similar to those used in UK Data Analyst interviews.
 
----
-
-# Introducing the Evenec Retail Dataset
-
-Throughout the SQL Bible we'll work with one fictional company.
-
-> **Evenec Retail**
-
-An online retail business selling products across the UK.
-
-This makes interview practice much closer to real companies like Tesco, Amazon, Deliveroo or Wise.
-
-## Database Structure
-
-| Table       | Purpose                |
-| ----------- | ---------------------- |
-| customers   | Customer information   |
-| orders      | Orders placed          |
-| order_items | Products inside orders |
-| products    | Product catalogue      |
-| payments    | Payment information    |
-| employees   | Internal staff         |
-
----
-
-# Main Tables
-
-## customers
+Each sprint builds on familiar business scenarios so you can focus on understanding SQL rather than memorising syntax.
 
 | Column      | Type |
 | ----------- | ---- |
@@ -74,15 +47,13 @@ This makes interview practice much closer to real companies like Tesco, Amazon, 
 
 # Memory Map
 
-Throughout this book remember:
+Keep this simple relationship in mind throughout the SQL Bible.
 
-Customer places an Order.
+- A customer places an order.
+- An order contains items.
+- Each item references a product.
 
-Order contains Items.
-
-Items reference Products.
-
-This simple relationship helps you understand joins later.
+Understanding these relationships will make joins much easier later.
 
 ---
 
@@ -128,11 +99,11 @@ A strong answer is:
 
 This explanation sounds much more professional than simply reading the query line by line.
 
-### Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 **Find → Filter → Group → Select → Sort → Stop**
 
 Think of SQL as following this journey every time it runs a query.
+:::
 
 ---
 
@@ -157,9 +128,9 @@ FROM customers;
 
 > This query selects every column from the customers table.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 SELECT = Choose.
+:::
 
 ## Common Mistake
 
@@ -198,9 +169,9 @@ FROM customers;
 
 > Instead of returning every column, I only select the information I need.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 Only what matters.
+:::
 
 ## Common Mistake
 
@@ -231,9 +202,9 @@ WHERE city = 'London';
 
 > First I filter the rows where the city is London, then I return the required columns.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 WHERE filters rows.
+:::
 
 ## Common Mistake
 
@@ -272,11 +243,11 @@ WHERE amount > 100;
 
 ## Explain It (B2)
 
-> I filter orders where the amount is greater than one hundred.
+> I filter orders where the amount is greater than £100.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 Greater than means bigger money.
+:::
 
 ## Common Mistake
 
@@ -302,18 +273,18 @@ SELECT order_id,
        status
 FROM orders
 WHERE amount > 200
-  AND status = 'Completed';
+  AND status = 'Delivered';
 ```
 
 ## Explain It (B2)
 
 > Both conditions must be true.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 AND = Both.
 
 OR = Either.
+:::
 
 ## Common Mistake
 
@@ -341,9 +312,9 @@ WHERE city = 'London'
 
 > Either city matches.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 OR opens another door.
+:::
 
 ---
 
@@ -384,11 +355,11 @@ ORDER BY amount DESC;
 
 > I sort the amounts from highest to lowest.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 DESC = Biggest first.
 
 ASC = Smallest first.
+:::
 
 ## Common Mistake
 
@@ -443,11 +414,11 @@ LIMIT 5;
 
 > First I sort the orders, then I return only the top five.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 Sort.
 
 Then limit.
+:::
 
 ---
 
@@ -478,9 +449,9 @@ FROM customers;
 
 > DISTINCT removes duplicate values.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 DISTINCT means unique.
+:::
 
 ## Common Mistake
 
@@ -611,7 +582,7 @@ SELECT DISTINCT column;
 
 ---
 
-# Memory Hooks Summary
+::: {.callout-note title="Memory Hooks Summary"}
 
 | Concept  | Hook        |
 | -------- | ----------- |
@@ -620,6 +591,7 @@ SELECT DISTINCT column;
 | ORDER BY | Organise    |
 | LIMIT    | Stop early  |
 | DISTINCT | Unique      |
+:::
 
 ---
 

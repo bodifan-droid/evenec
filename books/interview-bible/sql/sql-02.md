@@ -45,9 +45,7 @@ Example:
 | Manchester | 18     |
 | Leeds      | 9      |
 
-Rows disappear.
-
-Groups remain.
+Individual rows become summaries.
 
 ---
 
@@ -61,9 +59,9 @@ Groups remain.
 | MIN()    | Smallest    |
 | MAX()    | Largest     |
 
-Memory Hook:
-
-> **Count • Sum • Average • Minimum • Maximum**
+::: {.callout-note title="Memory Hook"}
+**Count • Sum • Average • Minimum • Maximum**
+:::
 
 ---
 
@@ -88,9 +86,9 @@ FROM orders;
 
 > COUNT returns the number of rows.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 COUNT counts records.
+:::
 
 ## Common Mistake
 
@@ -139,9 +137,9 @@ FROM orders;
 
 > SUM adds every order amount together.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 SUM builds money.
+:::
 
 ---
 
@@ -221,9 +219,9 @@ GROUP BY creates:
 
 Rows become summaries.
 
-Memory Hook:
-
-> GROUP BY creates piles.
+::: {.callout-note title="Memory Hook"}
+GROUP BY creates piles.
+:::
 
 ---
 
@@ -260,7 +258,7 @@ Forgetting `GROUP BY`.
 
 ## Business Task
 
-Count completed and cancelled orders.
+Count orders by status.
 
 ## SQL Solution
 
@@ -325,9 +323,9 @@ FROM customers
 GROUP BY city;
 ```
 
-Memory Hook:
-
-> Every passenger needs a seat.
+::: {.callout-note title="Memory Hook"}
+Every passenger needs a seat.
+:::
 
 ---
 
@@ -351,9 +349,7 @@ GROUP BY city;
 
 > I join customers and orders, group by city and calculate the average.
 
-Don't worry about JOIN syntax yet.
-
-Sprint 3 explains it fully.
+Don't worry if the JOIN syntax looks unfamiliar yet. We'll cover it in detail in Sprint 3.
 
 ## Visual Guide to SQL JOINs
 
@@ -380,11 +376,11 @@ WHERE filters rows.
 
 HAVING filters groups.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
+WHERE before GROUP.
 
-> WHERE before GROUP.
-
-> HAVING after GROUP.
+HAVING after GROUP.
+:::
 
 ---
 
@@ -559,7 +555,7 @@ HAVING SUM(amount) > 500
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Concept  | Hook          |
 | -------- | ------------- |
@@ -568,6 +564,7 @@ HAVING SUM(amount) > 500
 | AVG      | Typical value |
 | GROUP BY | Make piles    |
 | HAVING   | Filter groups |
+:::
 
 ---
 

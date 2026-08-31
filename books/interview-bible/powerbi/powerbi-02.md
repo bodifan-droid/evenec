@@ -12,15 +12,7 @@ DAX isn't Excel.
 
 DAX thinks in **context**.
 
-We'll continue using the **Evenec Retail Playground**.
-
-Main files:
-
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
-- employees.csv
+Throughout this sprint you'll practise with realistic customer, order, product, payment and employee tables similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -34,11 +26,11 @@ DAX asks.
 
 > "Which rows are currently visible?"
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Excel thinks in cells.
 
 DAX thinks in context.
+:::
 
 ---
 
@@ -119,11 +111,11 @@ Why a Measure?
 
 Because it updates automatically whenever filters change.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Measures breathe.
 
 Columns stay fixed.
+:::
 
 ---
 
@@ -176,11 +168,11 @@ Because you're counting records.
 
 Not values.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Rows.
 
 Not cells.
+:::
 
 ---
 
@@ -221,9 +213,9 @@ Notice.
 
 You're changing the context.
 
-Memory Hook.
-
-CALCULATE changes reality.
+::: {.callout-note title="Memory Hook"}
+CALCULATE changes context.
+:::
 
 ---
 
@@ -349,11 +341,11 @@ Use.
 RELATEDTABLE(Orders)
 ```
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 RELATED looks outward.
 
 RELATEDTABLE looks inward.
+:::
 
 ---
 
@@ -480,13 +472,13 @@ Avoid.
 
 ❌ Dividing manually.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Think.
 
 Context.
 
 Then formula.
+:::
 
 ---
 
@@ -542,7 +534,7 @@ Answer.
 
 # End-of-Sprint Challenge
 
-Using the Evenec Retail Playground.
+Using customer, order, product, payment and employee tables.
 
 Build these measures.
 
@@ -562,17 +554,18 @@ Then explain each measure aloud in English.
 
 ---
 
-# Memory Hooks
-
+::: {.callout-note title="Memory Hooks"}
 | Concept   | Hook            |
 | --------- | --------------- |
-| Measure   | Breathes        |
+| Measure   | Breathes with   |
+|           |  filters        |
 | Column    | Stored          |
 | CALCULATE | Changes reality |
 | FILTER    | More specific   |
 | RELATED   | SQL JOIN        |
 | ALL       | Remove filters  |
 | DIVIDE    | Stay safe       |
+:::
 
 Congratulations.
 

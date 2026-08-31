@@ -10,15 +10,7 @@ This isn't a button-by-button tutorial.
 
 This chapter prepares you for **real Junior Data Analyst interviews in the UK**.
 
-We'll continue working with the Evenec Retail Playground dataset throughout the Power BI Bible.
-
-Main files:
-
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
-- employees.csv
+Throughout the Power BI Bible you'll practise with realistic customer, order, product, payment and employee tables similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -35,13 +27,13 @@ A typical workflow looks like this.
 - Power BI models it.
 - Dashboards communicate decisions.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
+SQL finds.
 
-> SQL finds.
+Excel explores.
 
-> Excel explores.
-
-> Power BI monitors.
+Power BI monitors.
+:::
 
 ## Power BI Interview Framework
 
@@ -91,13 +83,7 @@ Select.
 
 **Text/CSV**
 
-Import.
-
-- customers.csv
-- orders.csv
-- products.csv
-- payments.csv
-- employees.csv
+Import your customer, order, product, payment and employee tables.
 
 Congratulations.
 
@@ -125,7 +111,7 @@ Business data rarely arrives perfectly clean.
 
 Task.
 
-Open `customers.csv`.
+Open a customer table.
 
 Change.
 
@@ -137,12 +123,11 @@ Why?
 
 Cleaning should happen before analysis.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Prepare.
 
 Then analyse.
-
+:::
 ---
 
 # Close & Apply
@@ -182,11 +167,11 @@ Think back to SQL.
 
 These are JOIN relationships.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Power BI remembers relationships.
 
 SQL recreates them every query.
+:::
 
 ---
 
@@ -201,9 +186,9 @@ Power BI works best when your tables are connected correctly.
 
 ![](assets/diagrams/relationship-map.svg){#fig:relationship-map width=100%}
 
-*Figure 1.1 — Evenec Retail Data Model Relationships.*
+*Figure 1.1 — Star Schema Relationship Map.
 
-Notice how one customer can place many orders, while each order connects to products through `order_items`.
+Notice how one customer can place many orders, while each order connects to products through order items.
 
 ---
 
@@ -244,11 +229,11 @@ You have business insight.
 | Table  | Details    |
 | Map    | Locations  |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 One question.
 
 One visual.
+:::
 
 ---
 
@@ -382,8 +367,7 @@ Answer.
 | Line Chart  | Trend         |
 | Slicer      | Filter        |
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Import.
 
 Model.
@@ -391,12 +375,13 @@ Model.
 Visualise.
 
 Explain.
+:::
 
 ---
 
 # End-of-Sprint Challenge
 
-Using the Evenec Retail Playground.
+Using customer, order, product, payment and employee tables.
 
 Complete these tasks.
 

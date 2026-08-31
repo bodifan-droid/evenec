@@ -33,7 +33,7 @@
       font-size="44"
       font-weight="700"
       fill="#1E3A8A">
-  Evenec Retail — Executive Dashboard
+  Retail — Executive Dashboard
 </text>
 
 <text x="50" y="94"
@@ -329,6 +329,6 @@
         stroke-width="3"/>
 
   <text x="40" y="770" class="small">Use filters and timeline to explore performance by city, category and time period.</text>
-  <text x="920" y="770" class="small">Source: Evenec Retail Playground • Currency: GBP (£)</text>
+  <text x="920" y="770" class="small">Source: Retail Playground • Currency: GBP (£)</text>
 
 </svg>

@@ -12,14 +12,14 @@ Instead of memorising JOIN syntax, you'll learn to think like an analyst.
 
 ---
 
-# The Evenec Retail Relationship Map
+# Relationship Map
 
-Our dataset follows one business story.
+Think of a typical retail business.
 
-- Customers place Orders.
-- Orders contain Items.
-- Items reference Products.
-- Orders receive Payments.
+- Customers place orders.
+- Orders contain items.
+- Items reference products.
+- Orders receive payments.
 
 ## Entity Relationship Overview
 
@@ -50,9 +50,11 @@ Our dataset follows one business story.
   <text x="500" y="240" font-size="14">product_id</text>
 </svg>
 
-Memory Hook:
-
-> **Customer → Order → Item → Product**
+::: {.callout-note title="Memory Hook"}
+**Customer → Order → Item → Product**
+ 
+Follow the relationship one step at a time.
+:::
 
 ---
 
@@ -126,9 +128,9 @@ ON c.customer_id = o.customer_id;
 
 > I connect customers and orders using customer_id and return customer names with their orders.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 INNER = Both must exist.
+:::
 
 ---
 
@@ -166,11 +168,12 @@ ON c.customer_id = o.customer_id;
 
 > Every customer appears. Missing orders become NULL.
 
-## Memory Hook
-
+::: {.callout-note title="Memory Hook"}
 **Left keeps everyone.**
 
 This phrase will appear throughout the book.
+:::
+
 
 ---
 
@@ -223,9 +226,9 @@ WHERE o.order_id IS NULL;
 
 > I keep every customer and filter those without matching orders.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 NULL means "missing".
+:::
 
 ---
 
@@ -271,13 +274,9 @@ What is my starting table?
 Then walk through relationships.
 
 Customer
-
-↓
-
+   ↓
 Order
-
-↓
-
+   ↓
 Payment
 
 Never jump randomly.
@@ -288,13 +287,13 @@ Never jump randomly.
 
 Interviewers love CTEs because they improve readability.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 > CTE = Temporary workspace.
 
 Instead of writing one giant query,
 
 build it in steps.
+:::
 
 ---
 
@@ -320,9 +319,9 @@ WHERE revenue > 500;
 
 > First I create a temporary table, then I filter it.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 WITH creates a temporary workspace.
+:::
 
 ---
 
@@ -352,9 +351,9 @@ A subquery is simply
 
 > a query inside another query.
 
-Memory Hook.
-
-> Box inside a box.
+::: {.callout-note title="Memory Hook"}
+Box inside a box.
+:::
 
 ---
 
@@ -430,7 +429,7 @@ choose a CTE.
 
 ---
 
-# Business Case — Amazon Style
+# Business Case
 
 Imagine this question.
 
@@ -514,7 +513,7 @@ SELECT AVG(...)
 
 ---
 
-# Memory Hooks Summary
+::: {.callout-note title="Memory Hooks Summary"}
 
 | Concept  | Hook                |
 | -------- | ------------------- |
@@ -523,6 +522,7 @@ SELECT AVG(...)
 | NULL     | Missing             |
 | CTE      | Temporary workspace |
 | Subquery | Box inside a box    |
+:::
 
 ---
 

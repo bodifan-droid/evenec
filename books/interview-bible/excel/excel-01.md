@@ -8,21 +8,7 @@ Welcome to the Excel Interview Bible.
 
 Unlike traditional Excel courses, this chapter prepares you for **real Junior Data Analyst interviews in UK companies**.
 
-We'll use the **Evenec Retail Playground** throughout every exercise.
-
----
-
-# The Evenec Retail Dataset
-
-Open:
-
-`playground/evenec-retail/csv/customers.csv`
-
-This is your first working dataset.
-
-You are already familiar with it from SQL.
-
-Now we'll analyse it in Excel.
+Throughout this chapter you'll practise with realistic retail-style spreadsheets similar to those used in UK Data Analyst interviews.
 
 ---
 
@@ -39,11 +25,11 @@ A typical workflow looks like this.
 - Pivot Tables summarise it.
 - Charts communicate results.
 
-Memory Hook.
+::: {.callout-note title="Memory Hook"}
+SQL finds data.
 
-> SQL finds data.
-
-> Excel explains data.
+Excel explains data.
+:::
 
 ## Formula Decision Tree
 
@@ -75,7 +61,9 @@ Can you work confidently with raw spreadsheets?
 
 ## Task
 
-Open `customers.csv`.
+Open a spreadsheet containing customer records.
+
+Convert the data into an Excel Table.
 
 Convert it into an Excel Table.
 
@@ -93,9 +81,9 @@ Formulas become easier.
 
 Filters appear automatically.
 
-## Bogdan Notes
-
+::: {.callout-tip title="Bogdan Note"}
 During interviews, creating a Table quickly signals confidence with Excel fundamentals.
+:::
 
 ---
 
@@ -116,13 +104,13 @@ Show only customers from London.
 
 > I filtered the customer list to display only London records.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Filter hides.
 
 Delete removes.
 
 Never confuse them.
+:::
 
 ---
 
@@ -159,9 +147,9 @@ Solution.
 
 View → Freeze Panes.
 
-Memory Hook.
-
+::: {.callout-note title="Memory Hook"}
 Freeze protects headers.
+:::
 
 ---
 
@@ -278,7 +266,7 @@ Create a dropdown list for order status.
 
 Possible values.
 
-- Completed
+- Delivered
 - Pending
 - Cancelled
 
@@ -314,9 +302,9 @@ Before analysing any spreadsheet, ask:
 - Correct currency?
 - Consistent spelling?
 
-Memory Hook.
-
-> Clean before analysing.
+::: {.callout-note title="Memory Hook"}
+Clean before analysing.
+:::
 
 ---
 
@@ -324,7 +312,7 @@ Memory Hook.
 
 Interviewer.
 
-> Convert this CSV into a Table.
+> Convert this spreadsheet into an Excel Table.
 
 Pause.
 
@@ -354,7 +342,7 @@ Answer.
 
 # Practice Challenge
 
-Using `customers.csv`.
+Using a spreadsheet containing customer data.
 
 Complete these tasks.
 
@@ -375,7 +363,7 @@ Explain every action aloud in English.
 
 ---
 
-# Memory Hooks
+::: {.callout-note title="Memory Hooks"}
 
 | Concept    | Hook              |
 | ---------- | ----------------- |
@@ -384,6 +372,7 @@ Explain every action aloud in English.
 | Sort       | Change order      |
 | Freeze     | Keep headers      |
 | Validation | Prevent mistakes  |
+:::
 
 Congratulations.
 

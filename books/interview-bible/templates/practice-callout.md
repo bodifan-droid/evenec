@@ -1,11 +1,13 @@
-{.callout-tip title="Practice with Real Data"}
+::: {.callout-tip title="Interview Practice"}
 
-Open the **Evenec Retail Playground** and run every query from this chapter on a real SQLite database.
+Don't just read the solution—write the query yourself first.
 
-<box gap=2 align=center>
-  <AsyncImage src="sandbox:/mnt/data/51eeb9f9-8b66-4fb9-b2b5-734e9608a02e.png" alt="QR placeholder" width=90 maxHeight=90/>
+After solving each exercise:
 
-  **Open on GitHub**
+1. Write the SQL query without looking.
+2. Explain what it does in simple English.
+3. Say why you used each clause (`SELECT`, `WHERE`, `ORDER BY`, etc.).
+4. Try to solve the same task in a second way if possible.
 
-  `playground/evenec-retail`
-</box>
+Interviewers often evaluate your explanation as much as your final query.
+:::
