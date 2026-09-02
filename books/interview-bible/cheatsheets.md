@@ -1,4 +1,4 @@
-# Data Analyst Interview Cheatsheets
+﻿# Data Analyst Interview Cheatsheets
 
 This section contains the fastest possible revision before an interview.
 

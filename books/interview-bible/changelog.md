@@ -1,4 +1,4 @@
-# Changelog
+﻿# Changelog
 
 ## v1.0.0 — First Edition (UK 2026)
 

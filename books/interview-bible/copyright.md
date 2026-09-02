@@ -1,4 +1,4 @@
-# Copyright
+﻿# Copyright
 
 **Data Analyst Interview Bible (UK 2026)**
 

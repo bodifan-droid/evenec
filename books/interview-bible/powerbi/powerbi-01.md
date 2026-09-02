@@ -1,4 +1,4 @@
-# Power BI Interview Bible
+﻿# Power BI Interview Bible
 
 # Sprint 1 — Power BI Foundations
 

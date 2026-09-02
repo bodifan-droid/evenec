@@ -1,4 +1,4 @@
-# Excel Interview Bible
+﻿# Excel Interview Bible
 
 # Sprint 2 — XLOOKUP, INDEX/MATCH & Text Functions
 

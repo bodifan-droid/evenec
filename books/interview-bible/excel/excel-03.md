@@ -1,4 +1,4 @@
-# Excel Interview Bible
+﻿# Excel Interview Bible
 
 # Sprint 3 — Manager's Monday Morning Dashboard
 

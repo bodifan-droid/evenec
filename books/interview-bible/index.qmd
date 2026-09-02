@@ -4,3 +4,12 @@ toc: false
 ---
 
 ![](assets/covers/cover-v1.png){width=100%}
+
+
+# Data Analyst Interview Bible
+
+UK 2026 • First Edition
+
+{{< include templates/download-options.md >}}
+
+Your complete interview preparation guide...

@@ -1,4 +1,4 @@
-# Foreword
+﻿# Foreword
 
 Most interview books teach answers.
 

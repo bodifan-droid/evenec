@@ -1,4 +1,4 @@
-# Power BI Interview Bible
+﻿# Power BI Interview Bible
 
 # Sprint 4 — Power BI Assessment Centre
 

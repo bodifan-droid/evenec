@@ -1,4 +1,4 @@
-{.callout-note title="Practice Break"}
+﻿{.callout-note title="Practice Break"}
 
 Take a short pause and answer the following questions aloud.
 

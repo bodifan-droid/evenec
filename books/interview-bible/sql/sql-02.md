@@ -1,4 +1,4 @@
-# SQL Bible
+﻿# SQL Bible
 
 # Sprint 2 — Aggregations
 

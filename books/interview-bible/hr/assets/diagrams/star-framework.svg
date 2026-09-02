@@ -1,118 +1,119 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200"
-     height="720"
-     viewBox="0 0 1200 720">
+     height="760"
+     viewBox="0 0 1200 760">
 
   <defs>
     <style>
-      .title{
-        font-family:Inter,Segoe UI,Arial,sans-serif;
-        font-size:42px;
-        font-weight:700;
-        fill:#1E3A8A;
-      }
-      .subtitle{
-        font-family:Inter,Segoe UI,Arial,sans-serif;
-        font-size:22px;
-        font-weight:600;
-        fill:#12C6B2;
-      }
-      .letter{
-        font-family:Inter,Segoe UI,Arial,sans-serif;
-        font-size:42px;
-        font-weight:700;
-        fill:#1E3A8A;
-      }
-      .cardTitle{
-        font-family:Inter,Segoe UI,Arial,sans-serif;
-        font-size:22px;
-        font-weight:700;
-        fill:#1E3A8A;
-      }
-      .body{
-        font-family:Inter,Segoe UI,Arial,sans-serif;
-        font-size:17px;
-        fill:#1E3A8A;
-      }
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:48px;font-weight:700;fill:#1E3A8A;}
+      .chapter{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#12C6B2;}
+      .cardTitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:700;fill:#1E3A8A;}
+      .body{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px;fill:#334155;}
+      .letter{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:34px;font-weight:700;fill:#1E3A8A;}
     </style>
 
-    <marker id="arrow"
-            markerWidth="12"
-            markerHeight="12"
-            refX="10"
-            refY="6"
-            orient="auto">
-      <path d="M0,0 L12,6 L0,12 Z" fill="#12C6B2"/>
+    <marker id="arrow" markerWidth="12" markerHeight="12"
+            refX="10" refY="6" orient="auto">
+      <path d="M0,0 L10,6 L0,12 Z" fill="#12C6B2"/>
     </marker>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="720" rx="28" fill="white"/>
+  <rect width="1200" height="760" rx="28" fill="#F8FAFC"/>
 
   <!-- Header -->
-  <text x="60" y="70" class="subtitle">HR-02</text>
-  <text x="60" y="120" class="title">STAR Framework</text>
+  <text x="55" y="65" class="chapter">HR-02</text>
+  <text x="55" y="112" class="title">STAR Framework</text>
 
-  <!-- Top circles -->
-  <g transform="translate(210,185)">
-    <circle cx="0" cy="0" r="36" fill="white" stroke="#12C6B2" stroke-width="3"/>
-    <text x="0" y="13" text-anchor="middle" class="letter">S</text>
+  <!-- Geometry -->
+  <!-- Card width = 190 -->
+  <!-- Card centres: 145, 385, 625, 865 -->
 
-    <circle cx="200" cy="0" r="36" fill="white" stroke="#12C6B2" stroke-width="3"/>
-    <text x="200" y="13" text-anchor="middle" class="letter">T</text>
+  <!-- Connecting arrows -->
+  <g stroke="#12C6B2"
+     stroke-width="4"
+     fill="none"
+     marker-end="url(#arrow)">
+    <line x1="181" y1="175" x2="329" y2="175"/>
+    <line x1="421" y1="175" x2="569" y2="175"/>
+    <line x1="661" y1="175" x2="809" y2="175"/>
+  </g>
 
-    <circle cx="400" cy="0" r="36" fill="white" stroke="#12C6B2" stroke-width="3"/>
-    <text x="400" y="13" text-anchor="middle" class="letter">A</text>
+  <!-- Vertical arrows -->
+  <g fill="#12C6B2">
+    <path d="M145 206 L160 206 L145 238 L130 206 Z"/>
+    <path d="M385 206 L400 206 L385 238 L370 206 Z"/>
+    <path d="M625 206 L640 206 L625 238 L610 206 Z"/>
+    <path d="M865 206 L880 206 L865 238 L850 206 Z"/>
+  </g>
 
-    <circle cx="600" cy="0" r="36" fill="white" stroke="#12C6B2" stroke-width="3"/>
-    <text x="600" y="13" text-anchor="middle" class="letter">R</text>
+  <!-- Circles -->
+  <g fill="#ECFEFB" stroke="#12C6B2" stroke-width="3">
+    <circle cx="145" cy="175" r="32"/>
+    <circle cx="385" cy="175" r="32"/>
+    <circle cx="625" cy="175" r="32"/>
+    <circle cx="865" cy="175" r="32"/>
+  </g>
 
-    <!-- Horizontal arrows -->
-    <line x1="40" y1="0" x2="160" y2="0" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
-    <line x1="240" y1="0" x2="360" y2="0" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
-    <line x1="440" y1="0" x2="560" y2="0" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
-
-    <!-- Vertical arrows -->
-    <line x1="0" y1="36" x2="0" y2="78" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
-    <line x1="200" y1="36" x2="200" y2="78" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
-    <line x1="400" y1="36" x2="400" y2="78" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
-    <line x1="600" y1="36" x2="600" y2="78" stroke="#12C6B2" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Letters -->
+  <g text-anchor="middle" dominant-baseline="middle" class="letter">
+    <text x="145" y="175">S</text>
+    <text x="385" y="175">T</text>
+    <text x="625" y="175">A</text>
+    <text x="865" y="175">R</text>
   </g>
 
   <!-- Cards -->
-  <g transform="translate(110,290)">
-
+  <g>
     <!-- Situation -->
-    <rect x="0" y="0" width="180" height="250" rx="18" fill="white" stroke="#D6DCE8" stroke-width="2"/>
-    <text x="90" y="42" text-anchor="middle" class="cardTitle">Situation</text>
-    <text x="30" y="86" class="body">Set the context.</text>
-    <text x="30" y="116" class="body">What was the</text>
-    <text x="30" y="146" class="body">situation?</text>
+    <g transform="translate(50,260)">
+      <rect x="4" y="4" width="190" height="270" rx="20"
+            fill="#0F172A" opacity="0.08"/>
+      <rect width="190" height="270" rx="20"
+            fill="white" stroke="#CBD5E1" stroke-width="2"/>
+      <text x="95" y="40" text-anchor="middle" class="cardTitle">Situation</text>
+      <text x="30" y="82" class="body">Set the context.</text>
+      <text x="30" y="114" class="body">What was the</text>
+      <text x="30" y="146" class="body">situation?</text>
+    </g>
 
     <!-- Task -->
-    <rect x="240" y="0" width="180" height="250" rx="18" fill="white" stroke="#D6DCE8" stroke-width="2"/>
-    <text x="330" y="42" text-anchor="middle" class="cardTitle">Task</text>
-    <text x="270" y="86" class="body">What was your</text>
-    <text x="270" y="116" class="body">responsibility?</text>
-    <text x="270" y="146" class="body">What needed</text>
-    <text x="270" y="176" class="body">to be done?</text>
+    <g transform="translate(290,260)">
+      <rect x="4" y="4" width="190" height="270" rx="20"
+            fill="#0F172A" opacity="0.08"/>
+      <rect width="190" height="270" rx="20"
+            fill="white" stroke="#CBD5E1" stroke-width="2"/>
+      <text x="95" y="40" text-anchor="middle" class="cardTitle">Task</text>
+      <text x="30" y="82" class="body">What was your</text>
+      <text x="30" y="114" class="body">responsibility?</text>
+      <text x="30" y="146" class="body">What needed</text>
+      <text x="30" y="178" class="body">to be done?</text>
+    </g>
 
     <!-- Action -->
-    <rect x="480" y="0" width="180" height="250" rx="18" fill="white" stroke="#D6DCE8" stroke-width="2"/>
-    <text x="570" y="42" text-anchor="middle" class="cardTitle">Action</text>
-    <text x="510" y="86" class="body">What actions</text>
-    <text x="510" y="116" class="body">did you take?</text>
-    <text x="510" y="146" class="body">What was your</text>
-    <text x="510" y="176" class="body">approach?</text>
+    <g transform="translate(530,260)">
+      <rect x="4" y="4" width="190" height="270" rx="20"
+            fill="#0F172A" opacity="0.08"/>
+      <rect width="190" height="270" rx="20"
+            fill="white" stroke="#CBD5E1" stroke-width="2"/>
+      <text x="95" y="40" text-anchor="middle" class="cardTitle">Action</text>
+      <text x="30" y="82" class="body">What actions</text>
+      <text x="30" y="114" class="body">did you take?</text>
+      <text x="30" y="146" class="body">What was your</text>
+      <text x="30" y="178" class="body">approach?</text>
+    </g>
 
     <!-- Result -->
-    <rect x="720" y="0" width="180" height="250" rx="18" fill="white" stroke="#D6DCE8" stroke-width="2"/>
-    <text x="810" y="42" text-anchor="middle" class="cardTitle">Result</text>
-    <text x="750" y="86" class="body">What was the</text>
-    <text x="750" y="116" class="body">outcome?</text>
-    <text x="750" y="146" class="body">What impact</text>
-    <text x="750" y="176" class="body">did you create?</text>
-
+    <g transform="translate(770,260)">
+      <rect x="4" y="4" width="190" height="270" rx="20"
+            fill="#0F172A" opacity="0.08"/>
+      <rect width="190" height="270" rx="20"
+            fill="white" stroke="#CBD5E1" stroke-width="2"/>
+      <text x="95" y="40" text-anchor="middle" class="cardTitle">Result</text>
+      <text x="30" y="82" class="body">What was the</text>
+      <text x="30" y="114" class="body">outcome?</text>
+      <text x="30" y="146" class="body">What impact</text>
+      <text x="30" y="178" class="body">did you create?</text>
+    </g>
   </g>
 
 </svg>

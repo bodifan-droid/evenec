@@ -13,10 +13,6 @@
       .footer{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#64748B;}
     </style>
 
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000022"/>
-    </filter>
-
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
       <path d="M0,0 L8,3 L0,6 Z" fill="#12C6B2"/>
     </marker>
@@ -30,7 +26,8 @@
   <line x1="50" y1="112" x2="1350" y2="112" stroke="#12C6B2" stroke-width="3"/>
 
   <!-- customers -->
-  <g filter="url(#shadow)" transform="translate(60,190)">
+  <g transform="translate(60,190)">
+    <rect x="4" y="4" width="240" height="210" rx="18" fill="#0F172A" opacity="0.08"/>
     <rect width="240" height="210" rx="18" fill="white"/>
     <text x="24" y="36" class="boxTitle">customers</text>
     <line x1="20" y1="48" x2="220" y2="48" stroke="#E5E7EB"/>
@@ -42,7 +39,8 @@
   </g>
 
   <!-- orders -->
-  <g filter="url(#shadow)" transform="translate(430,150)">
+  <g transform="translate(430,150)">
+    <rect x="4" y="4" width="270" height="290" rx="18" fill="#0F172A" opacity="0.08"/>
     <rect width="270" height="290" rx="18" fill="white"/>
     <text x="24" y="36" class="boxTitle">orders</text>
     <line x1="20" y1="48" x2="250" y2="48" stroke="#E5E7EB"/>
@@ -56,7 +54,8 @@
   </g>
 
   <!-- order_items -->
-  <g filter="url(#shadow)" transform="translate(830,150)">
+  <g transform="translate(830,150)">
+    <rect x="4" y="4" width="270" height="290" rx="18" fill="#0F172A" opacity="0.08"/>
     <rect width="270" height="290" rx="18" fill="white"/>
     <text x="24" y="36" class="boxTitle">order_items</text>
     <line x1="20" y1="48" x2="250" y2="48" stroke="#E5E7EB"/>
@@ -68,7 +67,8 @@
   </g>
 
   <!-- products -->
-  <g filter="url(#shadow)" transform="translate(1130,190)">
+  <g transform="translate(1130,190)">
+    <rect x="4" y="4" width="220" height="210" rx="18" fill="#0F172A" opacity="0.08"/>
     <rect width="220" height="210" rx="18" fill="white"/>
     <text x="24" y="36" class="boxTitle">products</text>
     <line x1="20" y1="48" x2="200" y2="48" stroke="#E5E7EB"/>
@@ -79,7 +79,8 @@
   </g>
 
   <!-- payments -->
-  <g filter="url(#shadow)" transform="translate(450,520)">
+  <g transform="translate(450,520)">
+    <rect x="4" y="4" width="210" height="150" rx="18" fill="#0F172A" opacity="0.08"/>
     <rect width="210" height="150" rx="18" fill="white"/>
     <text x="24" y="36" class="boxTitle">payments</text>
     <line x1="20" y1="48" x2="190" y2="48" stroke="#E5E7EB"/>
@@ -89,7 +90,8 @@
   </g>
 
   <!-- employees -->
-  <g filter="url(#shadow)" transform="translate(820,520)">
+  <g transform="translate(820,520)">
+    <rect x="4" y="4" width="210" height="150" rx="18" fill="#0F172A" opacity="0.08"/>
     <rect width="210" height="150" rx="18" fill="white"/>
     <text x="24" y="36" class="boxTitle">employees</text>
     <line x1="20" y1="48" x2="190" y2="48" stroke="#E5E7EB"/>
@@ -100,36 +102,27 @@
 
   <!-- Relationships -->
   <g stroke="#12C6B2" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <!-- customers -> orders -->
     <line x1="300" y1="295" x2="430" y2="295"/>
+
+    <!-- orders -> order_items -->
     <line x1="700" y1="295" x2="830" y2="295"/>
+
+    <!-- order_items -> products -->
     <line x1="1100" y1="295" x2="1130" y2="295"/>
+
+    <!-- orders -> payments -->
     <line x1="565" y1="440" x2="565" y2="520"/>
+
+    <!-- order_items -> employees -->
     <line x1="960" y1="440" x2="925" y2="520"/>
-  </g>
-
-  <!-- Cardinality -->
-  <g class="label">
-    <text x="320" y="280">1</text>
-    <text x="405" y="280">*</text>
-
-    <text x="720" y="280">1</text>
-    <text x="805" y="280">*</text>
-
-    <text x="1110" y="280">*</text>
-    <text x="1120" y="310">1</text>
-
-    <text x="548" y="500">1</text>
-    <text x="575" y="500">*</text>
-
-    <text x="930" y="500">1</text>
-    <text x="955" y="480">*</text>
   </g>
 
   <!-- Legend -->
   <g transform="translate(60,705)">
     <rect width="1280" height="48" rx="12" fill="white"/>
     <circle cx="24" cy="24" r="6" fill="#12C6B2"/>
-    <text x="40" y="30" class="footer">One-to-many relationships drive filter propagation in Power BI.</text>
+    <text x="40" y="30" class="footer">Relationships allow filters to flow between connected tables in Power BI.</text>
   </g>
 
 </svg>

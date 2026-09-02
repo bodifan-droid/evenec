@@ -1,4 +1,4 @@
-::: {.callout-tip title="Interview Practice"}
+﻿::: {.callout-tip title="Interview Practice"}
 
 Don't just read the solution—write the query yourself first.
 

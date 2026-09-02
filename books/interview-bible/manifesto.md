@@ -1,4 +1,4 @@
-# Evenec Manifesto
+﻿# Evenec Manifesto
 
 <p align="center">
   <img src="assets/logo/evenec-logo.png" width="170">

@@ -1,4 +1,4 @@
-# SQL Bible
+﻿# SQL Bible
 
 # Sprint 4 — Window Functions & Interview Finale
 

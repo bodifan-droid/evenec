@@ -1,4 +1,4 @@
-::: {.callout-tip title="Choose your preferred format"}
+﻿::: {.callout-tip title="Choose your preferred format"}
 
 Read online or download the book for offline reading.
 

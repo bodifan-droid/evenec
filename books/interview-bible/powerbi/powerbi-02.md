@@ -1,4 +1,4 @@
-# Power BI Interview Bible
+﻿# Power BI Interview Bible
 
 # Sprint 2 — Thinking in DAX
 
